@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#111"/>
+  <!-- side-view skateboard: deck with kicked tails, trucks, skate-orange wheels -->
+  <g transform="translate(0 -6)">
+  <path d="M6 27c2 5 5 7 10 7h32c5 0 8-2 10-7" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <path d="M19 34v5M45 34v5" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="19" cy="44" r="5.5" fill="#C2410C" stroke="#fff" stroke-width="2.5"/>
+  <circle cx="45" cy="44" r="5.5" fill="#C2410C" stroke="#fff" stroke-width="2.5"/>
+  </g>
+</svg>
