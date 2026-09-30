@@ -95,12 +95,21 @@ function Home() {
     if (id) setDetent("half");
   };
 
-  /** Moving the map never replaces the loaded national spot set. */
-  const moveTo = (lat: number, lng: number, level: number) => {
+  /**
+   * Center a point in the visible map. On md+ the docked panel (left 16 + 380 wide) covers the map,
+   * so aim half its width to the right. Moving the map never replaces the loaded national spot set.
+   */
+  const moveTo = (lat: number, lng: number, level?: number, animate = false) => {
     const map = mapRef.current;
+    const kakao = kakaoRef.current;
     if (!map) return;
-    map.setLevel(level);
-    map.setCenter(new kakaoRef.current.maps.LatLng(lat, lng));
+    if (level) map.setLevel(level);
+    const offset = window.matchMedia("(min-width: 768px)").matches ? 198 : 0;
+    const proj = map.getProjection();
+    const p = proj.containerPointFromCoords(new kakao.maps.LatLng(lat, lng));
+    const c = proj.coordsFromContainerPoint(new kakao.maps.Point(p.x - offset, p.y));
+    if (animate) map.panTo(c);
+    else map.setCenter(c);
   };
 
   /** Select from a list: bring the spot into view (zoom in if far out, else pan). */
@@ -109,7 +118,16 @@ function Home() {
     const map = mapRef.current;
     if (!map) return;
     if (map.getLevel() > LEVEL.spot) moveTo(s.lat, s.lng, LEVEL.spot);
-    else map.panTo(new kakaoRef.current.maps.LatLng(s.lat, s.lng));
+    else moveTo(s.lat, s.lng, undefined, true);
+  };
+
+  /** Desktop list hover/focus lifts the matching pin or cluster without rebuilding markers. */
+  const pinEls = useRef(new Map<string, { el: HTMLElement; o: any; z: number }>());
+  const highlight = (id: string, on: boolean) => {
+    const m = pinEls.current.get(id);
+    if (!m) return;
+    m.el.classList.toggle("is-hot", on);
+    m.o.setZIndex(on ? 200 : m.z);
   };
 
   const onReady = useCallback(
@@ -150,8 +168,9 @@ function Home() {
     const visible = result.spots.filter((s) => matches(s, kinds, favOnly, favIds));
     markers.current.forEach((m) => m.setMap(null));
     markers.current = [];
+    pinEls.current.clear();
 
-    const add = (lat: number, lng: number, html: string, label: string, onClick: () => void, tail = false, saved = false) => {
+    const add = (ids: string[], lat: number, lng: number, html: string, label: string, onClick: () => void, tail = false, saved = false) => {
       const el = document.createElement("button");
       el.type = "button";
       el.className = "kmarker";
@@ -171,6 +190,7 @@ function Home() {
         clickable: true,
       });
       markers.current.push(o);
+      for (const id of ids) pinEls.current.set(id, { el, o, z: tail ? 100 : 1 });
     };
     // selected pin inverts fill and ring and gains a tail
     // Kind colors (DESIGN.md Pins); mixed clusters use the mix of their kinds' colors.
@@ -204,12 +224,12 @@ function Home() {
       if (g.length === 1) {
         const s = g[0];
         const on = s.id === selected;
-        add(s.lat, s.lng, close ? emojiPin(spotEmoji(s.types), on, spotColor(s.types)) : pin(spotEmoji(s.types), on, spotColor(s.types)), s.name, () => select(s.id), on, favorites.spots.some((f) => f.id === s.id));
+        add([s.id], s.lat, s.lng, close ? emojiPin(spotEmoji(s.types), on, spotColor(s.types)) : pin(spotEmoji(s.types), on, spotColor(s.types)), s.name, () => select(s.id), on, favorites.spots.some((f) => f.id === s.id));
       } else {
         const lat = g.reduce((a, s) => a + s.lat, 0) / g.length;
         const lng = g.reduce((a, s) => a + s.lng, 0) / g.length;
         const samePlace = g.every((s) => distanceM(s, g[0]) < 5);
-        add(lat, lng, bubble(g.length, mixColor(g)), `스팟 ${g.length}개`, () => {
+        add(g.map((s) => s.id), lat, lng, bubble(g.length, mixColor(g)), `스팟 ${g.length}개`, () => {
           if (samePlace || map.getLevel() <= 1) {
             setSelected(null);
             setGroup(g);
@@ -235,6 +255,11 @@ function Home() {
         content: `<div style="width:22px;height:22px;border-radius:50%;background:#007aff;border:3px solid #fff;box-shadow:0 0 0 8px rgba(0,122,255,.18),0 1px 4px rgba(0,0,0,.3)" aria-label="내 위치"></div>`,
       });
   }, [me, mapReady]);
+
+  const zoom = (d: number) => {
+    const map = mapRef.current;
+    if (map) map.setLevel(Math.min(14, Math.max(1, map.getLevel() + d)), { animate: { duration: 250 } });
+  };
 
   async function myLocation() {
     setLoc({ busy: true, error: null });
@@ -285,13 +310,25 @@ function Home() {
 
       {/* floating chrome over the map */}
       <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between gap-2 px-3 pt-[max(12px,env(safe-area-inset-top))] md:left-[396px]">
-        <p className="glass pointer-events-auto rounded-full px-3 py-1.5 text-footnote font-bold tracking-tight shadow-float">
+        <p className="glass pointer-events-auto rounded-full px-3 py-1.5 text-footnote font-bold tracking-tight shadow-float md:invisible">
           SKATE<span className="ml-0.5 rounded-full bg-label px-1.5 py-0.5 text-white">SPOT</span>
         </p>
-        <div className="glass pointer-events-auto flex flex-col overflow-hidden rounded-xl shadow-float">
-          <button className="icon-btn rounded-none text-link" onClick={myLocation} disabled={loc.busy} aria-label="내 위치로 이동">
-            <Icon name="location" className={`h-5 w-5 ${loc.busy ? "animate-pulse" : ""} ${me ? "" : "opacity-80"}`} />
-          </button>
+        <div className="flex flex-col gap-2">
+          <div className="glass pointer-events-auto flex flex-col overflow-hidden rounded-xl shadow-float">
+            <button className="icon-btn rounded-none text-link" onClick={myLocation} disabled={loc.busy} aria-label="내 위치로 이동">
+              <Icon name="location" className={`h-5 w-5 ${loc.busy ? "animate-pulse" : ""} ${me ? "" : "opacity-80"}`} />
+            </button>
+          </div>
+          {/* phones pinch; desktop gets explicit zoom */}
+          <div className="glass pointer-events-auto hidden flex-col overflow-hidden rounded-xl shadow-float md:flex">
+            <button className="icon-btn rounded-none text-link hover:bg-fill" onClick={() => zoom(-1)} aria-label="확대">
+              <Icon name="plus" className="h-5 w-5" />
+            </button>
+            <span className="mx-2 h-px bg-separator" aria-hidden />
+            <button className="icon-btn rounded-none text-link hover:bg-fill" onClick={() => zoom(1)} aria-label="축소">
+              <Icon name="minus" className="h-5 w-5" />
+            </button>
+          </div>
         </div>
       </div>
 
@@ -300,6 +337,15 @@ function Home() {
         onDetent={setDetent}
         label="스팟 목록"
         header={
+          <>
+          <div className="hidden items-center gap-3 px-4 pb-2 pt-4 md:flex">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/icon.svg" alt="" className="h-9 w-9" />
+            <div className="leading-tight">
+              <p className="text-headline font-bold tracking-tight">SKATESPOT</p>
+              <p className="text-footnote text-label-2">한국 스트리트 스케이트 스팟 지도</p>
+            </div>
+          </div>
           <div className="flex items-center gap-2 px-4 pb-3 pt-1">
             <Link
               href="/search"
@@ -323,6 +369,7 @@ function Home() {
               )}
             </Link>
           </div>
+          </>
         }
       >
         {sel ? (
@@ -342,7 +389,7 @@ function Home() {
 
             {status === "ok" && (result?.total ?? 0) > 0 && (
               <div className="-mx-4 flex flex-col gap-2">
-                <div className="flex gap-2 overflow-x-auto px-4 [scrollbar-width:none]" role="group" aria-label="스팟 종류 필터">
+                <div className="flex gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:flex-wrap md:overflow-visible" role="group" aria-label="스팟 종류 필터">
                   <FilterChip on={!kinds.length} onClick={() => setKinds([])}>전체</FilterChip>
                   {SPOT_TYPES.map((t) => (
                     <FilterChip key={t.value} on={kinds.includes(t.value)} onClick={() => toggleKind(t.value)}>
@@ -413,10 +460,14 @@ function Home() {
                 {listed.map((s) => (
                   <li key={s.id}>
                     <button
-                      className="row press w-full text-left"
+                      className="row press w-full text-left hover:bg-black/[.03]"
                       onClick={() => {
                         focus(s);
                       }}
+                      onMouseEnter={() => highlight(s.id, true)}
+                      onMouseLeave={() => highlight(s.id, false)}
+                      onFocus={() => highlight(s.id, true)}
+                      onBlur={() => highlight(s.id, false)}
                     >
                       <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-bg text-[22px] leading-none" style={{ boxShadow: `inset 0 0 0 2px ${spotColor(s.types)}` }} aria-hidden>
                         {spotEmoji(s.types)}
@@ -477,7 +528,7 @@ function PlaceCard({ spot, me, onClose }: { spot: SpotPin; me: GeoResult | null;
       <FavoriteButton spotId={spot.id} />
       <SpotMeta types={spot.types} />
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`/api/photos/${spot.id}`} alt={`${spot.name} 사진`} loading="lazy" className="aspect-[4/3] w-full rounded-xl bg-fill object-cover" />
+      <img src={`/api/photos/${spot.id}`} alt={`${spot.name} 사진`} loading="lazy" className="aspect-[4/3] w-full rounded-xl bg-fill object-cover md:order-first" />
     </article>
   );
 }

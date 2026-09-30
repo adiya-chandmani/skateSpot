@@ -165,3 +165,9 @@ li + li > .row::before {
   outline: 3px solid var(--color-location);
   outline-offset: 2px;
 }
+.kmarker > div {
+  transition: transform 150ms var(--ease-sheet);
+}
+.kmarker.is-hot > div {
+  transform: scale(1.2);
+}

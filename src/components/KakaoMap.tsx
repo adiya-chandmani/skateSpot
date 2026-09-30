@@ -75,6 +75,12 @@ export default function KakaoMap({
   useEffect(() => {
     let cancelled = false;
     let ro: ResizeObserver | undefined;
+    // Kakao SDK picks touch-only or mouse-only listeners once, when its script loads. If the input
+    // type changes afterwards (DevTools device mode, 2-in-1 tablet) the map stops dragging, so reload;
+    // the home screen restores its view from sessionStorage.
+    const coarse = window.matchMedia("(pointer: coarse)");
+    const reload = () => window.location.reload();
+    coarse.addEventListener("change", reload);
     loadKakaoMaps()
       .then((kakao) => {
         if (cancelled || !el.current) return;
@@ -102,6 +108,7 @@ export default function KakaoMap({
     return () => {
       cancelled = true;
       ro?.disconnect();
+      coarse.removeEventListener("change", reload);
     };
   }, [attempt]);
 

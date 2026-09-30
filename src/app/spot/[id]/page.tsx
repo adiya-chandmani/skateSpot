@@ -89,10 +89,12 @@ export default function SpotPage() {
     return (
       <div className="min-h-dvh bg-bg-grouped" aria-busy>
         <BackButton onPhoto={false} />
-        <div className="aspect-[4/3] w-full animate-pulse bg-fill" />
-        <div className="mx-auto max-w-2xl space-y-3 p-4">
-          <div className="h-8 w-2/3 animate-pulse rounded-lg bg-fill" />
-          <div className="h-5 w-1/2 animate-pulse rounded-lg bg-fill" />
+        <div className="lg:mx-auto lg:grid lg:max-w-6xl lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:gap-10 lg:px-20 lg:pt-6">
+          <div className="aspect-[4/3] w-full animate-pulse bg-fill md:mx-auto md:mt-4 md:max-w-2xl md:rounded-2xl lg:mt-0" />
+          <div className="mx-auto w-full max-w-2xl space-y-3 p-4 lg:p-0">
+            <div className="h-8 w-2/3 animate-pulse rounded-lg bg-fill" />
+            <div className="h-5 w-1/2 animate-pulse rounded-lg bg-fill" />
+          </div>
         </div>
       </div>
     );
@@ -142,18 +144,20 @@ export default function SpotPage() {
   return (
     <div className="min-h-dvh bg-bg-grouped pb-[max(24px,env(safe-area-inset-bottom))]">
       <BackButton onPhoto={!hidden} />
+      {/* lg+: photo column stays in view on the left, details scroll on the right */}
+      <div className="lg:mx-auto lg:grid lg:max-w-6xl lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:items-start lg:gap-10 lg:px-20 lg:pt-6">
       {!hidden ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={`/api/photos/${spot.id}`}
           alt={`${spot.name} 사진`}
-          className="aspect-[4/3] max-h-[60dvh] w-full bg-fill object-cover md:mx-auto md:mt-4 md:max-w-2xl md:rounded-2xl"
+          className="aspect-[4/3] max-h-[60dvh] w-full bg-fill object-cover md:mx-auto md:mt-4 md:max-w-2xl md:rounded-2xl lg:sticky lg:top-6 lg:mt-0 lg:max-h-[calc(100dvh-48px)] lg:max-w-none"
         />
       ) : (
         <div className="h-[calc(64px+env(safe-area-inset-top))]" />
       )}
 
-      <article className="mx-auto flex max-w-2xl flex-col gap-5 px-4 pt-4">
+      <article className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 pt-4 lg:px-0 lg:pt-0">
         {hidden && (
           <p className="card text-subhead" role="status">
             운영 검토로 숨김 처리된 스팟입니다. 다른 사용자에게 보이지 않습니다. 정정 요청은{" "}
@@ -245,6 +249,7 @@ export default function SpotPage() {
           </p>
         </section>
       </article>
+      </div>
 
       {panel === "login" && <LoginModal onDone={() => setPanel("report")} onCancel={() => setPanel("none")} />}
     </div>

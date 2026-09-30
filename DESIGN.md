@@ -76,7 +76,8 @@ Glass (`rgba(255,255,255,.78)` + `backdrop-filter: blur(20px) saturate(180%)`) i
   - "이 지역 검색" pill at the top center.
   - Bottom sheet with three detents: peek 140 (search pill, Add, avatar), half 50%, full (top minus 56). Selecting a pin opens a place card inside the sheet at half.
 - **Pushed screens** (search, detail, forms, account): iOS nav bar with a back chevron and a large title, grouped inset lists on `--bg-grouped`, sticky bottom action where needed.
-- **Detail:** edge-to-edge hero photo, floating round glass back button, title2 name, meta chips, action tiles row, then grouped info sections.
+- **Desktop (md+):** the sheet docks as a floating left panel (16px inset, 380 wide) with a brand row (icon + SKATESPOT) on top; the floating logo pill hides. Filter chips wrap instead of scrolling. Map controls stack top-right: location, then zoom +/− (phones pinch instead). Selecting a spot centers it in the visible map to the right of the panel. Hovering or focusing a list row lifts its pin or cluster (scale 1.2, raised z). The place card shows the photo first.
+- **Detail:** edge-to-edge hero photo, floating round glass back button, title2 name, meta chips, action tiles row, then grouped info sections. At lg+ it becomes two columns: sticky photo left (7fr), details right (5fr), max 1152 wide.
 - **Forms:** grouped sections with footers, a segmented control for difficulty, toggle chips for types.
 
 The PRD's main menu (Map · Search · Add · Account) lives in the map sheet header: search pill, "+" button, avatar. Other screens return to the map with the back chevron.
