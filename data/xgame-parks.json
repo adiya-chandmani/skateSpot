@@ -1,0 +1,1768 @@
+{
+  "retrieved_at": "2026-09-30T04:05:12.749Z",
+  "scope": "전국 키워드·17개 시도 검색으로 수집한 전용 파크 목록. 완전한 전국 시설대장이나 현장 운영 확인 목록은 아님. 일반 인라인 트랙·빙상장·부대시설 제외.",
+  "spots": [
+    {
+      "key": "kakao:1561154866",
+      "name": "강릉스케이트보드파크",
+      "lat": 37.7625654435062,
+      "lng": 128.875657419394,
+      "address": "강원특별자치도 강릉시 정원로 56",
+      "sources": [
+        "http://place.map.kakao.com/1561154866"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Fmystore%2F40F21006636B490F992059600D726616",
+        "source": "https://place.map.kakao.com/1561154866",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:747287186",
+      "name": "하이인도어스케이트파크",
+      "lat": 37.3451127691487,
+      "lng": 127.984454958612,
+      "address": "강원특별자치도 원주시 행구로 267-25",
+      "sources": [
+        "http://place.map.kakao.com/747287186"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyMzA1MTlfMjYy/MDAxNjg0NDg1ODAzNzU3.SH0H-qlLKuM1az3R2U_mQMe2Vo-bxfR1B5O8dnuZj4Ig.CAP_O9Xfk0idD-2lSDHfc7TwMF4PWPynNyKNhmvhIAMg.JPEG.highisp/IMG_5563.jpg?type=w800",
+        "source": "https://m.blog.naver.com/highisp/223106567277",
+        "credit": "하이인도어스케이트파크 공식 블로그"
+      }
+    },
+    {
+      "key": "kakao:471461849",
+      "name": "원통생활체육공원 X게임장",
+      "lat": 38.1237092795275,
+      "lng": 128.196675780768,
+      "address": "강원특별자치도 인제군 북면 원통리 626",
+      "sources": [
+        "http://place.map.kakao.com/471461849",
+        "https://look360.kr/vr/wontongsportspark_sk8park/wontongsportspark_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:986500900",
+      "name": "춘천송암스포츠타운 X-게임장",
+      "lat": 37.8564494392347,
+      "lng": 127.68787615170297,
+      "address": "강원특별자치도 춘천시 스포츠타운길 133",
+      "sources": [
+        "http://place.map.kakao.com/986500900"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNDA1MTRfOTkg/MDAxNzE1NjYwMDUzNTAw.FbtdldMxpQQ_lP3d13eX3NvTArhbDz-1uXmtNGiVhmYg.JX-PVUDWz8e86BUir1i6ZxrUuCc2Fz0ah8KjhTpLFycg.JPEG/SE-dff9e4fe-f8d6-11ee-a67a-0d2a98e3bbec.jpg?type=w773",
+        "source": "https://m.blog.naver.com/tania0405/223446367594",
+        "credit": "현장 방문 기록 / tania0405",
+        "taken": "2024-05-14",
+        "note": "2024년 05월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:986995076",
+      "name": "대화X게임장",
+      "lat": 37.6694173549653,
+      "lng": 126.73727507091,
+      "address": "경기 고양시 일산서구 대화동 2314",
+      "sources": [
+        "http://place.map.kakao.com/986995076",
+        "https://look360.kr/vr/daehwaleportspark_sk8park/2018_daehwaleportspark_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:1831810274",
+      "name": "광명시어린이교통공원 엑스게임장",
+      "lat": 37.4458473203089,
+      "lng": 126.886069812981,
+      "address": "경기 광명시 소하동 1334",
+      "sources": [
+        "http://place.map.kakao.com/1831810274",
+        "https://look360.kr/vr/soha_sk8park/soha_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:586793859",
+      "name": "갈매 X게임장",
+      "lat": 37.64049313389626,
+      "lng": 127.12605325341046,
+      "address": "경기 구리시 갈매동 506-2",
+      "sources": [
+        "http://place.map.kakao.com/586793859"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyMjAyMDFfMjgy/MDAxNjQzNjYyMDI2MTc3.KNmyPdGcEvAhxoYpzQftrYx-nViYg6ShxBhth5BsWhUg.9kPCbVtaZ_YhyOUH83D7XtMEwZxQzOPXNWrrn2GaOCIg.JPEG.hbro123/IMG_9423.JPG?type=w800",
+        "source": "https://m.blog.naver.com/hbro123/222636189715",
+        "credit": "현장 방문 기록 / hbro123",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:713859551",
+      "name": "장기동스케이트파크",
+      "lat": 37.6396733857261,
+      "lng": 126.669890074457,
+      "address": "경기 김포시 장기동 1653",
+      "sources": [
+        "http://place.map.kakao.com/713859551",
+        "https://look360.kr/vr/janggidong_sk8aprk/janggidong_sk8aprk"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:1544567661",
+      "name": "별내 X게임장",
+      "lat": 37.660969440939,
+      "lng": 127.122944002377,
+      "address": "경기 남양주시 별내동 908",
+      "sources": [
+        "http://place.map.kakao.com/1544567661"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyMDA2MTlfMTA4/MDAxNTkyNTI1OTkwNTg5.RUdbPEPl_xFtWuz9U_cEe_vJ7P2SZZrwUlvNB-GqPq0g._DJ78oWwVqWMivvP7vsHDhKamPKD9ny6OWSo3mIx4Jgg.JPEG.jeungshil/1592525990000.jpg?type=w800",
+        "source": "https://m.blog.naver.com/bookelang/222005638890",
+        "credit": "현장 방문 기록 / bookelang",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:817130826",
+      "name": "해밀공원 X게임장",
+      "lat": 37.7117692264877,
+      "lng": 127.189010156458,
+      "address": "경기 남양주시 진접읍 금곡리 1085",
+      "sources": [
+        "http://place.map.kakao.com/817130826"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyMTA3MDdfNTEg/MDAxNjI1NjY4NzU0MDE4.fPQnimZM8f3JZpgeFc6PThrgo8yUrCysHiEu6MYg19Qg.jONAxiFZY8g4ySuX0MFJIxvOBix9l3rD6Nw6jiD7Zx8g.JPEG.ybsportsclub/20210616_094117.jpg?type=w800",
+        "source": "https://m.blog.naver.com/ybsportsclub/222424216870",
+        "credit": "현장 방문 기록 / ybsportsclub",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1404359929",
+      "name": "도담공원 스케이트파크",
+      "lat": 37.7192160591078,
+      "lng": 127.191615093806,
+      "address": "경기 남양주시 진접읍 금곡리 970",
+      "sources": [
+        "http://place.map.kakao.com/1404359929"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:35432047",
+      "name": "해그늘스케이트파크",
+      "lat": 37.5018459336395,
+      "lng": 126.747283924987,
+      "address": "경기 부천시 원미구 상동 21",
+      "sources": [
+        "http://place.map.kakao.com/35432047",
+        "https://look360.kr/vr/haegeuneul_sk8park/haegeuneul_sk8park",
+        "https://look360.kr/vr/sangdonglakepark_sk8park/sangdonglakepark_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:1423565532",
+      "name": "탄천X게임장",
+      "lat": 37.4156385260598,
+      "lng": 127.120711872765,
+      "address": "경기 성남시 분당구 야탑동 555",
+      "sources": [
+        "http://place.map.kakao.com/1423565532",
+        "https://look360.kr/vr/tancheon_skatepark/tancheon_skatepark"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://look360.kr/files/pano/1/1769/1/view_500.jpg",
+        "source": "https://look360.kr/vr/tancheon_skatepark/tancheon_skatepark",
+        "credit": "SK8SPOT / LOOK360",
+        "note": "현장 기록 사진. 현재 시설 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:946021675",
+      "name": "판교제3체육공원 X게임장",
+      "lat": 37.3897842426566,
+      "lng": 127.069741767491,
+      "address": "경기 성남시 분당구 운중동 921-6",
+      "sources": [
+        "http://place.map.kakao.com/946021675"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Flocal%2FkakaomapPhoto%2Freview%2Fcce9d50baeaea3e665b44a8c7a8e93c7d646bca9%3Foriginal",
+        "source": "https://place.map.kakao.com/946021675",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:776794544",
+      "name": "여기산공원 X게임장",
+      "lat": 37.2833196072356,
+      "lng": 126.98214936619,
+      "address": "경기 수원시 권선구 서둔동 256",
+      "sources": [
+        "http://place.map.kakao.com/776794544"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyMzExMTdfMTc4%2FMDAxNzAwMjAyNzM2NDU5.ppb80DKGxxdFgWJXAwjzURZMNRfFHLyO6se3QMeBAsQg.X-1SnF7CXzTPQvoDwWmr4zYXeTJMq1SwzyTfl3uD_8Ug.JPEG.espkorea%2F06.jpg%3Ftype%3Dw773",
+        "source": "https://place.map.kakao.com/776794544",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:17560128",
+      "name": "만석공원 X게임장",
+      "lat": 37.3020264964222,
+      "lng": 126.99942250235,
+      "address": "경기 수원시 장안구 송죽동 253-2",
+      "sources": [
+        "http://place.map.kakao.com/17560128",
+        "https://look360.kr/vr/manseokpark_sk8park/manseokpark_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNDA1MjBfMSAg/MDAxNzE2MTkxNzM2ODMw.GmwokuN1v6eOF2XEvpPofpxtgShVeIBu-ZHjtZeBtRwg.A3MZDAAYYx0UUgr-DfUK9S61zyLDQ31P1OSMKSCTX7Ug.JPEG/IMG_3224.JPG?type=w773",
+        "source": "https://m.blog.naver.com/teamkwak_/223452631675",
+        "credit": "현장 방문 기록 / teamkwak_",
+        "taken": "2024-05-20",
+        "note": "2024년 05월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:2113467072",
+      "name": "안산호수공원 X게임장",
+      "lat": 37.301828587306574,
+      "lng": 126.82990940808921,
+      "address": "경기 안산시 상록구 사동 1513",
+      "sources": [
+        "http://place.map.kakao.com/2113467072",
+        "https://look360.kr/vr/ansanlakepark_sk8park/ansanlakepark_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNjA4MDRfNzIg/MDAxNzg1NzcxNDQ4Mzgy.lgHUoJsdtgSLGsyQyDfBjECHzceI_coiSkV0AxYpO24g.S7GPrxTd9HCypXFDa-Hg8bCcCZE6pIjWRqi3S2NwSoUg.JPEG/SE-39b58aec-b10b-49cc-965e-61234ed42688.jpg?type=w966",
+        "source": "https://m.blog.naver.com/blog_supporter/224381389597",
+        "credit": "현장 방문 기록 / blog_supporter",
+        "taken": "2026-08-18",
+        "note": "2026년 08월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1488192689",
+      "name": "여주근린공원 X게임장",
+      "lat": 37.2930920493363,
+      "lng": 127.641890318094,
+      "address": "경기 여주시 여흥로160번길 21",
+      "sources": [
+        "http://place.map.kakao.com/1488192689",
+        "https://look360.kr/vr/yeojugeullinpark_sk8park/yeojugeullinpark_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNTA0MTFfMTIg/MDAxNzQ0MzU3MzI0MDk0.XPIWgXvOtZ3bxBhe9HKzltQZcoWU22U6PLKFAzVsLLgg.32O_pA2UiuwtHEuhoR6VxEsS6nNrTpYOgBfJpyhUmKkg.JPEG/13.jpg?type=w773",
+        "source": "https://m.blog.naver.com/yeojuhangul/223829921665",
+        "credit": "현장 방문 기록 / yeojuhangul",
+        "taken": "2025-04-11",
+        "note": "2025년 04월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:578928629",
+      "name": "죽미체육공원 엑스게임장",
+      "lat": 37.1786982600371,
+      "lng": 127.042183289645,
+      "address": "경기 오산시 금암동 508",
+      "sources": [
+        "http://place.map.kakao.com/578928629"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://cafeptthumb-phinf.pstatic.net/MjAyNTA1MTRfNjIg/MDAxNzQ3MTkwNzc1NTk2.KOVEXhSWGPcQPAShpF_dn5DJQ9zPKCV4YzX4wbUqhA8g.x1Ec3WmgHV4dnt2gBJ3mcGTxUaliTtYlFhqVwC78QNwg.JPEG/1-9.jpeg?type=w1600",
+        "source": "https://m.blog.naver.com/osan_si/223875565536",
+        "credit": "현장 방문 기록 / osan_si",
+        "taken": "2025-05-24",
+        "note": "2025년 05월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1294514517",
+      "name": "짱스케이트보드(ZZANG SKATEBOARD)",
+      "lat": 37.1901123521783,
+      "lng": 127.052375517814,
+      "address": "경기 오산시 외삼미로5번길 7",
+      "sources": [
+        "http://place.map.kakao.com/1294514517"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyNTExMDZfNTUg/MDAxNzYyNDE4Njc3ODMx.CQHEZaiyGBHJOriNf4_E5gGlCmFf3w6sE6qdxBvH1LMg.34jqO7AnczlGwUaPtEbIAWjJXblc86Kqn6WbuTPhmckg.JPEG/IMG%EF%BC%BF9520.jpg?type=w800",
+        "source": "https://m.blog.naver.com/leeyumi1019/224067066251",
+        "credit": "현장 방문 기록 / leeyumi1019",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:8003132",
+      "name": "죽전 엑스파크공원",
+      "lat": 37.32285652255577,
+      "lng": 127.11035164953424,
+      "address": "경기 용인시 기흥구 보정동 1180",
+      "sources": [
+        "http://place.map.kakao.com/8003132",
+        "https://www.yongin.go.kr/user/bbs/BD_selectBbs.do?q_bbsCode=1076&q_bbscttSn=20250315105225104"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNjAzMDVfNTkg/MDAxNzcyNjc5MTE4ODQ3.jN9IsJ463enagDamKp9ygDQLC9XW2o-hedoJ21fxOosg.BYR5nLzbRDDeDpV4fmVYkg666i3FI9tTTVEu0ul-EB0g.JPEG/SE-e424c015-ebde-43f4-b3c2-70d27519175e.jpg?type=w966",
+        "source": "https://m.blog.naver.com/isabel0802/224205153603",
+        "credit": "현장 방문 기록 / isabel0802",
+        "taken": "2026-03-05",
+        "note": "2026년 03월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1960452780",
+      "name": "푸른쉼터 스케이트파크",
+      "lat": 37.7390436073182,
+      "lng": 127.035589979265,
+      "address": "경기 의정부시 의정부동 477",
+      "sources": [
+        "http://place.map.kakao.com/1960452780"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:1864121415",
+      "name": "운정건강공원 엑스게임장",
+      "lat": 37.7156068137102,
+      "lng": 126.744708674702,
+      "address": "경기 파주시 동패동 1800",
+      "sources": [
+        "http://place.map.kakao.com/1864121415"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Ffiy_reboot%2Fplace%2FD8362D572E404B9095F292E8A42B09AA",
+        "source": "https://place.map.kakao.com/1864121415",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:467991380",
+      "name": "신리천 스케이트파크",
+      "lat": 37.1828776030468,
+      "lng": 127.11695075447538,
+      "address": "경기 화성시 동탄구 목동 513",
+      "sources": [
+        "http://place.map.kakao.com/467991380"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=https%3A%2F%2Fthumb.kakaocdn.net%2Fdna%2Fkamp%2Fsource%2Frv40uoo10i340fj2np8roq8xc%2Fthumbs%2F1.jpg%3Fcredential%3DTuMuFGKUIcirOSjFzOpncbomGFEIdZWK%26expires%3D33339548338%26kamp_tidx%3D0%26signature%3D5CMy5Xm2QIzBUltorLgUjEBcN2g%253D%26ts%3D1782639538",
+        "source": "https://place.map.kakao.com/467991380",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:1917774771",
+      "name": "동탄센트럴파크 X게임장",
+      "lat": 37.20595045136964,
+      "lng": 127.06286172421625,
+      "address": "경기 화성시 동탄구 반송동 59",
+      "sources": [
+        "http://place.map.kakao.com/1917774771",
+        "https://look360.kr/vr/Dongtan_sk8park/dongtan_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNDAxMTVfMTQ5/MDAxNzA1Mjk1NDk4MDA2.4aEOaH3kOhhf856rc1MhrS5d-fHthlFkbVGzVeXG4Qog.kNEVfOZm_4oW1am2rQK3iCwh7tkn7mcl3Q9zDNwvQ78g.JPEG.closingmoon/SE-a2760ac5-eab9-44cc-8d45-0d213d951b6f.jpg?type=w966",
+        "source": "https://m.blog.naver.com/closingmoon/223322982996",
+        "credit": "현장 방문 기록 / closingmoon",
+        "taken": "2024-01-18",
+        "note": "2024년 01월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:871985246",
+      "name": "코리아라이더즈 스케이트파크",
+      "lat": 37.15605091911687,
+      "lng": 126.7993346498223,
+      "address": "경기 화성시 만세구 남양읍 남양로 116",
+      "sources": [
+        "http://place.map.kakao.com/871985246"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:1959260024",
+      "name": "김해시시민체육공원 X게임장",
+      "lat": 35.25960291453878,
+      "lng": 128.8808076852716,
+      "address": "경남 김해시 삼계로 132",
+      "sources": [
+        "http://place.map.kakao.com/1959260024"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNTEwMDJfMTQ0/MDAxNzU5Mzg0OTgzMTI4.-lppHa6pZXrhntu3fzzmgJbV-G2TOMGyF-giqsGImXcg.YZkNl_yNpliv1gnH3zwBYT8dShQuKF8hcxCusbtPWhgg.JPEG/KakaoTalk_20250929_150516111_23.jpg?type=w466",
+        "source": "https://m.blog.naver.com/0056_78/224035730970",
+        "credit": "현장 방문 기록 / 0056_78",
+        "taken": "2025-10-09",
+        "note": "2025년 10월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:27601987",
+      "name": "진주시어린이교통공원 X게임장",
+      "lat": 35.1623929299994,
+      "lng": 128.038354633437,
+      "address": "경남 진주시 삼계로 531",
+      "sources": [
+        "http://place.map.kakao.com/27601987",
+        "https://look360.kr/vr/jeonjutransportationpark_sk8park/jeonjutransportationpark_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNDA3MjNfMTA4/MDAxNzIxNzA4OTgzMzQ2.NG4w5bLda2uQ6TVh-o4cLbLjMxu_vcNPD7pbBK4IVTcg.vkQxPpxtulL39Y5L8eWsllQedljNQF5O0PjjVyhPjqQg.JPEG/20240713_095234.jpg?type=w466",
+        "source": "https://m.blog.naver.com/suro71/223522667306",
+        "credit": "현장 방문 기록 / suro71",
+        "taken": "2024-07-23",
+        "note": "2024년 07월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:17578112",
+      "name": "마산종합운동장 X게임장",
+      "lat": 35.2228281708981,
+      "lng": 128.580455095222,
+      "address": "경남 창원시 마산회원구 삼호로 63",
+      "sources": [
+        "http://place.map.kakao.com/17578112",
+        "https://look360.kr/vr/masansportscomplex_sk8park/masansportscomplex_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:17575111",
+      "name": "창원축구센터 인라인스케이트장X게임장",
+      "lat": 35.2239217595514,
+      "lng": 128.704410675503,
+      "address": "경남 창원시 성산구 비음로 97",
+      "sources": [
+        "http://place.map.kakao.com/17575111"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyMjA4MzBfMTM2/MDAxNjYxODMwMDg1NTUz.Dom371HGpzm2PNP11HezdxzzHyLo1suu3oXCvC3lZXcg.1a4UAXbq1hUB75NaqmURif7qgmArHUR0_Rp6xUaFBfIg.JPEG.smap7/IMG%EF%BC%BF20220827%EF%BC%BF120300.jpg?type=w800",
+        "source": "https://m.blog.naver.com/smap7/222862032977",
+        "credit": "현장 방문 기록 / smap7",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1514515784",
+      "name": "해마루공원 스케이트파크",
+      "lat": 36.1434099129114,
+      "lng": 128.440617486067,
+      "address": "경북 구미시 옥계동 941",
+      "sources": [
+        "http://place.map.kakao.com/1514515784",
+        "https://look360.kr/vr/haemarupark_sk8park/haemarupark_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Ffiy_reboot%2Fplace%2F327A8A94AAF44718A6B9CFAE54F01A6A",
+        "source": "https://place.map.kakao.com/1514515784",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:87100345",
+      "name": "원평하수처리장 스케이트파크",
+      "lat": 36.12787198094703,
+      "lng": 128.34586527399054,
+      "address": "경북 구미시 원평동 826-6",
+      "sources": [
+        "http://place.map.kakao.com/87100345",
+        "https://look360.kr/vr/wonpyeong_sk8park/wonpyeong_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:1638248487",
+      "name": "스케이트보드 익스트림파크",
+      "lat": 36.55902921641605,
+      "lng": 128.72352461438226,
+      "address": "경북 안동시 옥야동 398-20",
+      "sources": [
+        "http://place.map.kakao.com/1638248487"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://cdn.idaegu.co.kr/news/photo/202202/2022022101000570500037261.jpg",
+        "source": "https://cp.news.search.daum.net/p/116206070",
+        "credit": "대구신문",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1800266712",
+      "name": "양덕한마음체육공원 스케이트파크",
+      "lat": 36.07854202924929,
+      "lng": 129.40803987836892,
+      "address": "경북 포항시 북구 새천년대로 1460",
+      "sources": [
+        "http://place.map.kakao.com/1800266712"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyNTA1MzBfMiAg/MDAxNzQ4NTkzMDkwNDQ2.zD-W-tvuWak886jjPmr7MO_kBi8o3RtvVORgio33RKkg.nNh5GEkxMk3MXEoR5jN5mHOjkOhT51hycanmariTOfQg.JPEG/IMG%EF%BC%BF5640.jpg?type=w800",
+        "source": "https://m.blog.naver.com/ljo3482/223883301695",
+        "credit": "현장 방문 기록 / ljo3482"
+      }
+    },
+    {
+      "key": "kakao:1910497200",
+      "name": "온더테크스케이트파크 월성점",
+      "lat": 35.82419760298534,
+      "lng": 128.5216879491823,
+      "address": "대구 달서구 조암로14길 13",
+      "sources": [
+        "http://place.map.kakao.com/1910497200"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyMTExMTdfMTUw/MDAxNjM3MTU3MTg3NTY4.CfwdaTZRIn69Wr85EWFAf52yXzCOXXoYoM0UfCRXya0g.Rs5EtyHeDYsuoyrZmUt5YBv8vdQp2jVG3h-iM5ksu4Yg.JPEG.tksc3145/IMG_3780.JPG?type=w773",
+        "source": "https://m.blog.naver.com/tksc3145/222571956206",
+        "credit": "온더데크 공식 블로그"
+      }
+    },
+    {
+      "key": "kakao:1474442738",
+      "name": "강정보 X게임장",
+      "lat": 35.8516309673431,
+      "lng": 128.468660005307,
+      "address": "대구 달성군 다사읍 죽곡리 829",
+      "sources": [
+        "http://place.map.kakao.com/1474442738",
+        "https://look360.kr/vr/gangchang_sk8park/gangchang_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNDAxMTdfMTY2/MDAxNzA1NDY3MjU0MTg0.oR6BP2v7N-5xgmALUbVkjhFK2HKwLwaXiPBCNO18IDwg.dqTmQpRmFLyzhBUqYJlQdaGIqerNqWlqOiPmEdbquRIg.JPEG.rina1230/SE-26989d6e-b416-11ee-9439-2b6bde59dc7c.jpg?type=w966",
+        "source": "https://m.blog.naver.com/rina1230/223325334302",
+        "credit": "현장 방문 기록 / rina1230",
+        "taken": "2024-01-17",
+        "note": "2024년 01월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1403397621",
+      "name": "플레이그라운드 스케이트파크",
+      "lat": 35.8579050721139,
+      "lng": 128.5914630342,
+      "address": "대구 중구 중앙대로 278",
+      "sources": [
+        "http://place.map.kakao.com/1403397621"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyMjA0MzBfMTIz/MDAxNjUxMjUxMTUyNzQw.tX1RLiFHiS2uYaAqW4uVlETW9t-AOaQeeT5oec6AxZYg.DMnB6np9ArFqrHVfuDRNUZAnPX2SaWBNKixkOC7QgyMg.JPEG.ahopemul/IMG_1995.jpg?type=w800",
+        "source": "https://m.blog.naver.com/ahopemul/222716068632",
+        "credit": "현장 방문 기록 / ahopemul",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:27587260",
+      "name": "옥녀봉체육공원 X게임장",
+      "lat": 36.3315501375527,
+      "lng": 127.346882241857,
+      "address": "대전 서구 도안북로 158",
+      "sources": [
+        "http://place.map.kakao.com/27587260"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyMzEwMTVfMTE4%2FMDAxNjk3MzI2MTA3NjU1.4DajI4YX6I8mXTIw1O1Fb1vX1AsTwO6umRBEn4-ztmcg.Sk6Ey5gYOTmvMu5yB0j28jHkzuKXMkzWaxgfrM5OYSEg.JPEG.didrlfska77%2FScreenshot_20231005_162153_Gallery.jpg%3Ftype%3Dw2%22&type=ff500_300",
+        "source": "https://m.blog.naver.com/didrlfska77/223305261954",
+        "credit": "현장 방문 기록 / didrlfska77",
+        "taken": "2024-01-07",
+        "note": "2024년 01월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:161004775",
+      "name": "솔마루근린공원 엑스게임장",
+      "lat": 35.3355769107298,
+      "lng": 129.165322734906,
+      "address": "부산 기장군 정관읍 모전리 726",
+      "sources": [
+        "http://place.map.kakao.com/161004775"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://look360.kr/files/pano/0/251/1/view_500.jpg",
+        "source": "https://look360.kr/vr/solmaruneighborhoodpark_sk8park/solmaruneighborhoodpark_sk8park",
+        "credit": "SK8SPOT / LOOK360",
+        "note": "현장 기록 사진. 현재 시설 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:2123676945",
+      "name": "모노루가 스케이트보드 파크",
+      "lat": 35.1500252438084,
+      "lng": 128.991495957201,
+      "address": "부산 사상구 가야대로 173",
+      "sources": [
+        "http://place.map.kakao.com/2123676945",
+        "https://monolvgar.com/Community/?bmode=view&idx=20716326"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyNDA5MTVfOTEg/MDAxNzI2Mzc0NzIwMzc2.QyQCOSfTgvAv9RoguKkivJBkPHnSB13aRAuY_6rPMCYg.7mpioQsXOcGVSSM0EkhMJeV9PpEUIs6IMmJGPZf2GCEg.JPEG/%EB%B6%80%EC%82%B0_%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%8A%B8%EB%B3%B4%EB%93%9C_%ED%8C%8C%ED%81%AC_%EB%AA%A8%EB%85%B8%EB%A3%A8%EA%B0%80_%EC%9D%B4%EC%9A%A9%EA%B6%8C_%ED%94%84%EB%A1%9C%EB%AA%A8%EC%85%98_%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%8A%B8%ED%8C%8C%ED%81%AC_%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%8A%B8%EB%B3%B4%EB%93%9C%EC%97%B0%EC%8A%B5%EC%9E%A5_%EC%8A%A4%EC%BC%80%EC%9D%B4%ED%8A%B8%EB%B3%B4%EB%93%9C%ED%8C%8C%ED%81%AC_(3).jpg?type=w800",
+        "source": "https://m.blog.naver.com/monolvgar/223584842331",
+        "credit": "모노파틴 / 모노루가",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:414365854",
+      "name": "벤또스케이트파크 부산점",
+      "lat": 35.1874906811177,
+      "lng": 129.104633833539,
+      "address": "부산 연제구 과정로 207",
+      "sources": [
+        "http://place.map.kakao.com/414365854"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Fmystore%2F9E5B4159D51E4446ABC848F6DEFE1B69",
+        "source": "https://place.map.kakao.com/414365854",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:1394293386",
+      "name": "일자산해맞이공원 X게임장",
+      "lat": 37.53312257605805,
+      "lng": 127.15082637672575,
+      "address": "서울 강동구 둔촌동 산 125",
+      "sources": [
+        "http://place.map.kakao.com/1394293386",
+        "https://look360.kr/vr/iljasanpark_sk8park/iljasanpark_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNTA1MjhfMzcg/MDAxNzQ4NDE3OTY3ODMy.DLVR5-turXxwDD4dRrqlGdFX4aBYnH9PghWua8HXhh0g.GBwyBYyoe8NjiIpTg1bF9HyGtvclqomkoSqpnofaID8g.JPEG/15.jpg?type=w966",
+        "source": "https://m.blog.naver.com/gangdongpr/223880883544",
+        "credit": "현장 방문 기록 / gangdongpr",
+        "taken": "2025-05-28",
+        "note": "2025년 05월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:17556256",
+      "name": "뚝섬한강공원 X게임장",
+      "lat": 37.529728338889115,
+      "lng": 127.07158584307415,
+      "address": "서울 광진구 자양동 427-27",
+      "sources": [
+        "http://place.map.kakao.com/17556256",
+        "https://look360.kr/vr/ttukseomhangangpark_sk8park/ttukseomhangangpark_sk8park",
+        "https://mediahub.seoul.go.kr/archives/2006983"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyMzA0MjZfMjAy%2FMDAxNjgyNTEzNjA0ODA5.jRD-XBhujwjNgdSCPasAfQDlNKaDVg0-HBrh0Qi8-vYg.eWUFOdr36-GTDod9ME0xpZjz2-HiJjYj5tjRaiJwp9Qg.JPEG.jgeniuss83%2F1682513138071.jpg%3Ftype%3Dw2%22&type=ff500_300",
+        "source": "https://m.blog.naver.com/jgeniuss83/224310611838",
+        "credit": "현장 방문 기록 / jgeniuss83",
+        "taken": "2026-06-09",
+        "note": "2026년 06월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1573342129",
+      "name": "구일스케이트파크",
+      "lat": 37.4951211499336,
+      "lng": 126.87059999376,
+      "address": "서울 구로구 구로동 642-71",
+      "sources": [
+        "http://place.map.kakao.com/1573342129"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:903287371",
+      "name": "노원X-TOP",
+      "lat": 37.6486959519793,
+      "lng": 127.070606388059,
+      "address": "서울 노원구 노원로22길 31",
+      "sources": [
+        "http://place.map.kakao.com/903287371",
+        "https://look360.kr/vr/nowonxtop/nowonxtop"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://look360.kr/files/pano/1/1728/4/view_500.jpg",
+        "source": "https://look360.kr/vr/nowonxtop/nowonxtop",
+        "credit": "SK8SPOT / LOOK360",
+        "note": "현장 기록 사진. 현재 시설 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:878964549",
+      "name": "서울물빛나루 18호 정릉천 디디미스케이트파크",
+      "lat": 37.57910429910817,
+      "lng": 127.03469294537528,
+      "address": "서울 동대문구 정릉천자전거길 155",
+      "sources": [
+        "http://place.map.kakao.com/878964549"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA2MTVfMjI1%2FMDAxNzgxNTI3OTU5OTYx.cZjwKYobqVXOGDYfiXIUUbDeL1bNgxjh0wPYUxsgrbEg.8uIft9AV9KDjFCuKnuhZvKHRlJ9AvlZpHYFxD6SNHgMg.JPEG%2FIMG%25EF%25BC%25BF7667.jpg%3Ftype%3Dw773",
+        "source": "https://place.map.kakao.com/878964549",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:18051991",
+      "name": "보라매공원 X-게임장",
+      "lat": 37.49086205196215,
+      "lng": 126.92183972201379,
+      "address": "서울 동작구 신대방동 722",
+      "sources": [
+        "http://place.map.kakao.com/18051991"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNDA5MDlfMTY4/MDAxNzI1ODA5NTY4NTcw.TraDYhflSa7UE-ylUBnOliyA6KB_b9O87hXEkW6MxcUg.Py2_Efsp7tFEed5YlkbDd6f4_VM6aaI8_LKHHleiK08g.JPEG/SE-a7139f0f-d267-46c5-ba8e-7c85910db813.jpg?type=w466",
+        "source": "https://m.blog.naver.com/thn03105/223577203674",
+        "credit": "현장 방문 기록 / thn03105",
+        "taken": "2024-09-09",
+        "note": "2024년 09월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:27602165",
+      "name": "난지한강공원 익스트림장",
+      "lat": 37.5653643747023,
+      "lng": 126.879386506575,
+      "address": "서울 마포구 상암동 482-162",
+      "sources": [
+        "http://place.map.kakao.com/27602165",
+        "https://look360.kr/vr/nanjihangangpark_sk8park/nanjihangangpark_sk8park",
+        "https://sports.seoul.go.kr/main/facilities/facilities_view.do?ft_idx=1519"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNTA3MjFfOTkg/MDAxNzUzMDgxODc5NjQ3.uKLfujXeEINNhJwpcTf2cFyb4-VT0MsWjHqxoeCqAREg.XH8jCF_1iA4_AdFfYcNqBcZRNfBmJGUF2-HsLudIWJwg.JPEG/SE-26C0BE90-BEB3-4575-946C-DAEABE99A33F.jpg?type=w773",
+        "source": "https://m.blog.naver.com/human_be/223941652635",
+        "credit": "현장 방문 기록 / human_be",
+        "taken": "2025-07-21",
+        "note": "2025년 07월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:986458631",
+      "name": "살곶이 X게임장",
+      "lat": 37.553964,
+      "lng": 127.049132,
+      "address": "서울 성동구 사근동 102-21",
+      "sources": [
+        "http://place.map.kakao.com/986458631",
+        "https://look360.kr/vr/salgoji_skatepark/salgoj_skatepark"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://look360.kr/files/pano/1/1723/3/view_500.jpg",
+        "source": "https://look360.kr/vr/salgoji_skatepark/salgoj_skatepark",
+        "credit": "SK8SPOT / LOOK360",
+        "note": "현장 기록 사진. 현재 시설 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:18059764",
+      "name": "서울숲 스케이트파크",
+      "lat": 37.545019807128,
+      "lng": 127.042339044185,
+      "address": "서울 성동구 성수동1가 685-707",
+      "sources": [
+        "http://place.map.kakao.com/18059764",
+        "https://look360.kr/vr/seoulsup_sk8park/seoulsup_sk8park",
+        "https://parks.seoul.go.kr/content.do?key=2604070012"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNjA3MzBfMTEw/MDAxNzg1MzYyODQwODE4.0I-zwBoH_SW-_5uj8rptrptxySQXl4_7heyZ294fU0Ag.VUowhLAV5a3hBZqImu1_DrbY6fchWkTmZ5Plj-ioElAg.JPEG/DSCI0168.JPG?type=w966",
+        "source": "https://m.blog.naver.com/hola_bong/224366857307",
+        "credit": "현장 방문 기록 / hola_bong",
+        "taken": "2026-08-03",
+        "note": "2026년 08월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1442167163",
+      "name": "광나루스케이트보드장",
+      "lat": 37.5395107188499,
+      "lng": 127.114716365002,
+      "address": "서울 송파구 풍납동 45-3",
+      "sources": [
+        "http://place.map.kakao.com/1442167163",
+        "https://look360.kr/vr/gwangnaru_sk8park/gwangnaru_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNTEwMDlfMjI4/MDAxNzU5OTcwMDIwMDMw.bA2poKs7xi_L4ZgFWe1W4f5B-uXPMJ3G2Q1uk8L8wFsg.lTpRQXMRYpV9nk6JyV4DoG-EKp8SAnSCGInskwTDYKYg.JPEG/SE-19c5c2e9-53ed-4597-8a84-0e1d26fda053.jpg?type=w773",
+        "source": "https://m.blog.naver.com/idsb1/224035476199",
+        "credit": "현장 방문 기록 / idsb1",
+        "taken": "2025-10-09",
+        "note": "2025년 10월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:2101425308",
+      "name": "안양천멀티스포츠존 X게임장",
+      "lat": 37.5313950401588,
+      "lng": 126.887711539816,
+      "address": "서울 양천구 목동 409-379",
+      "sources": [
+        "http://place.map.kakao.com/2101425308"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyNjA0MjFfMyAg/MDAxNzc2NzQ0MTIwODkw.2cSyCtXp8_9R_kjyeOKdmdK15z1e-7oy-UrmcPyTjCEg.RAI0Eynb_u4U1nc8bKbX-4jQyFvnIVYxbPY5-4W19xUg.JPEG/14.jpg?type=w400",
+        "source": "https://m.blog.naver.com/yangcheon2016/224259883400",
+        "credit": "양천구 공식 블로그",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:918791650",
+      "name": "안양천 X게임장",
+      "lat": 37.5177632228348,
+      "lng": 126.880707443147,
+      "address": "서울 영등포구 문래동5가 31",
+      "sources": [
+        "http://place.map.kakao.com/918791650"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:24941468",
+      "name": "이촌한강공원 X게임장",
+      "lat": 37.519351197344264,
+      "lng": 126.96606887934286,
+      "address": "서울 용산구 이촌동 370-1",
+      "sources": [
+        "http://place.map.kakao.com/24941468",
+        "https://look360.kr/vr/ichonhangangpark_sk8park/ichonhangangpark_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNjAyMThfMjA0/MDAxNzcxMzg0MjI0NzM3.MWP99WFgSAu5_Xv20PYaeJzGR5mcw-31IFWEso0qxUcg.1K9KtarKK6oy2S3RRNYVM7wbvBUnsLeLWiRBwEL6M0Yg.JPEG/IMG%EF%BC%BF8932.JPG?type=w773",
+        "source": "https://m.blog.naver.com/s_k_i/224187583661",
+        "credit": "현장 방문 기록 / s_k_i",
+        "taken": "2026-02-19",
+        "note": "2026년 02월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:488653127",
+      "name": "반스 인도어 스케이트파크",
+      "lat": 37.5348126658167,
+      "lng": 126.99527744586,
+      "address": "서울 용산구 이태원로 191",
+      "sources": [
+        "http://place.map.kakao.com/488653127"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://blog.kakaocdn.net/dna/beT9Sz/btrXECAg82Y/AAAAAAAAAAAAAAAAAAAAAIjwIbMQTl-45eFmgBVRw0abGzWNQ77NyF_EWh7YJrHS/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1790780399&allow_ip=&allow_referer=&signature=JQzh87MSa3%2B%2Fw3n3CEsf3fUaINo%3D",
+        "source": "https://kassiny.tistory.com/92",
+        "credit": "kassiny / 티스토리",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:658130384",
+      "name": "익스트림 은평 엑스게임장",
+      "lat": 37.63875310196162,
+      "lng": 126.91752469472378,
+      "address": "서울 은평구 진관동 61",
+      "sources": [
+        "http://place.map.kakao.com/658130384"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA5MjFfNDMg%2FMDAxNzg5OTkxNzk4ODI3.8EO_4tC-PUAFhCzKFzVLPVb6kJ1ztF4HDxvO-C1Ff24g.fjzaoMAAClt8lzCdadXOzsILEU8SBCP0KjU_5udb7KYg.JPEG%2FIMG%25EF%25BC%25BF3049.JPG%3Ftype%3Dw966",
+        "source": "https://place.map.kakao.com/658130384",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:521534832",
+      "name": "숲뜰근린공원 X게임장",
+      "lat": 36.4683389438288,
+      "lng": 127.26436483096,
+      "address": "세종특별자치시 대평동 578-12",
+      "sources": [
+        "http://place.map.kakao.com/521534832",
+        "http://place.map.kakao.com/1210559578"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyMTA5MDhfMTYz/MDAxNjMxMDQwOTA1NDAz.EnB1FowH1byLIrqAmQfz4dzbXKwH1KmaMXctb802jYEg.bCIWvWyLZJZWHF9S_ra7NOrUWGQYyZEqyUazFt0a0_8g.JPEG.sbdro/IMG_20210722_130608.jpg?type=w800",
+        "source": "https://m.blog.naver.com/sbdro/222498807718",
+        "credit": "현장 방문 기록 / sbdro",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:266208060",
+      "name": "논현포대근린공원 X게임장",
+      "lat": 37.402705185441,
+      "lng": 126.707147550841,
+      "address": "인천 남동구 호구포로 203-31",
+      "sources": [
+        "http://place.map.kakao.com/266208060"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:1988574095",
+      "name": "삼산월드체육관 스케이트파크",
+      "lat": 37.5074168517774,
+      "lng": 126.740230294103,
+      "address": "인천 부평구 삼산동 458-4",
+      "sources": [
+        "http://place.map.kakao.com/1988574095"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:556688728",
+      "name": "씨사이드파크 스케이트보드 보울파크",
+      "lat": 37.47147538473336,
+      "lng": 126.52327814143787,
+      "address": "인천 영종구 운남동 1640-1",
+      "sources": [
+        "http://place.map.kakao.com/556688728",
+        "https://www.incheon.go.kr/goodmorning/GOOD020102/view?nttNo=2036267"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNTA2MjVfMjQ3/MDAxNzUwODU3NzEyMzIw.boRMSjZ2eAskaSvzOIP1AyQEFg1I3Y37HUj2Coq1v2Ig.1ZlHG6OsyTkQf86wkycFhqxkxbMNieGZ6XPl8JHXwHsg.JPEG/639419_432274_143.jpg?type=w966",
+        "source": "https://m.blog.naver.com/meagumi/223911727828",
+        "credit": "현장 방문 기록 / meagumi",
+        "taken": "2025-06-25",
+        "note": "2025년 06월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:71693312",
+      "name": "광양항 스케이트파크",
+      "lat": 34.9068273822774,
+      "lng": 127.649041116387,
+      "address": "전남광주통합특별시 광양시 황길동 1418",
+      "sources": [
+        "http://place.map.kakao.com/71693312"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:266876728",
+      "name": "순천 연향동 엑스게임장",
+      "lat": 34.9420864775291,
+      "lng": 127.521220573501,
+      "address": "전남광주통합특별시 순천시 연향동 232-1",
+      "sources": [
+        "http://place.map.kakao.com/266876728"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:1954386686",
+      "name": "여수웅천 X-게임장",
+      "lat": 34.747193826191,
+      "lng": 127.674148893246,
+      "address": "전남광주통합특별시 여수시 웅천동 1684",
+      "sources": [
+        "http://place.map.kakao.com/1954386686",
+        "https://look360.kr/vr/yeosu_sk8park/yeosu_sk8park"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:1603797731",
+      "name": "붓내공원 엑스게임장",
+      "lat": 35.8706587283862,
+      "lng": 127.129729904624,
+      "address": "전북특별자치도 전주시 덕진구 송천동2가 1339",
+      "sources": [
+        "http://place.map.kakao.com/1603797731"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNjA4MjRfMTYw%2FMDAxNzg3NTc3Mjg3MjA2.XDYvgyJqTHQ-uEvxC9TeRRWZ0lyd2S_8ZdSASRU4B9Mg.1qe_7m3cjNh-l8tsB5KAej3H5JYZ7lseESjzUgwJJfAg.JPEG%2F900_20260823_121852.jpg%3Ftype%3Dw966",
+        "source": "https://place.map.kakao.com/1603797731",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:2029294222",
+      "name": "제주 구억리 스케이트보드파크",
+      "lat": 33.28906514103825,
+      "lng": 126.28715674288634,
+      "address": "제주특별자치도 서귀포시 대정읍 구억리 1124",
+      "sources": [
+        "http://place.map.kakao.com/2029294222"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://img1.kakaocdn.net/cthumb/local/C800x400.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Ffiy_reboot%2Fplace%2F577AB39B1A9E47F6962AA19E2B7C68DF",
+        "source": "https://place.map.kakao.com/2029294222",
+        "credit": "카카오맵 장소 대표 사진"
+      }
+    },
+    {
+      "key": "kakao:2035238183",
+      "name": "파크사계",
+      "lat": 33.2338144628469,
+      "lng": 126.310356468085,
+      "address": "제주특별자치도 서귀포시 안덕면 사계남로216번길 29",
+      "sources": [
+        "http://place.map.kakao.com/2035238183"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNjA5MTFfMTkw/MDAxNzg5MTA2NjYxNjU5.N2hvO2nQMDsFXd-dvxv3evTH6iwqUbZl7hb5RI1MZdgg.gvzKO2EZXBip03X_7HmBAJRH753-wRSUB_Dzidc3Jr4g.JPEG/900_20260911_122526.jpg?type=w466",
+        "source": "http://blog.naver.com/jjung58/224408763471",
+        "credit": "jjung58 / 네이버 블로그",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1472350138",
+      "name": "수암체육공원 X게임장",
+      "lat": 36.6700130511148,
+      "lng": 126.675037695143,
+      "address": "충남 예산군 삽교읍 목리 1383",
+      "sources": [
+        "http://place.map.kakao.com/1472350138"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyNDA2MTNfMjgx/MDAxNzE4MjA5NzEyOTY5.JlgO7wTS6VqkYVpQYy73iW0LgD7SSV6Gsz7aobRAA_wg.6hBncDIFuTyMBlFiqzlCCf55ikxBHX0VBdp88O6Qg8Ug.JPEG/IMG_6403.jpg?type=w400",
+        "source": "https://m.blog.naver.com/pinoko63/223499070275",
+        "credit": "현장 방문 기록 / pinoko63",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:619070066",
+      "name": "예산스케이트파크",
+      "lat": 36.704985575670854,
+      "lng": 126.82523527516575,
+      "address": "충남 예산군 예산읍 발연리 391",
+      "sources": [
+        "http://place.map.kakao.com/619070066"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://mblogthumb-phinf.pstatic.net/MjAyMDA3MzFfMjk5/MDAxNTk2MTk4ODMwMDA1.9T-BeUCG4kAY5kDmkv55wamq1UTQtwoPuRmbsQzAeQwg.BxQ2lTS98FQA3cI1J9x_GdCHezBVtFCXK4zzVa2M9YIg.JPEG.sbdro/IMG_20200623_155454.jpg?type=w800",
+        "source": "https://m.blog.naver.com/sbdro/222047668298",
+        "credit": "현장 방문 기록 / sbdro",
+        "note": "출처에 게시된 현장 사진으로 현재 모습과 다를 수 있습니다."
+      }
+    },
+    {
+      "key": "kakao:1188260273",
+      "name": "천안생활체육공원 엑스게임장",
+      "lat": 36.7797595075025,
+      "lng": 127.162791110237,
+      "address": "충남 천안시 동남구 천안대로 357",
+      "sources": [
+        "http://place.map.kakao.com/1188260273"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인."
+    },
+    {
+      "key": "kakao:1132117045",
+      "name": "만리포볼파크",
+      "lat": 36.7891828113353,
+      "lng": 126.146751982049,
+      "address": "충남 태안군 소원면 의항리 1157",
+      "sources": [
+        "http://place.map.kakao.com/1132117045"
+      ],
+      "evidence": "카카오 장소 검색에 등재된 시설. 현장 운영 여부·이용 조건은 미확인.",
+      "photo": {
+        "url": "https://postfiles.pstatic.net/MjAyNDEwMTRfMTM2/MDAxNzI4ODgyMTAxMzM1.g8cF9ue2_uOlKpOrYz_T-nxvSfNqj9S6iqDOqNdLJkAg.aDbig9SW7jo_Kdj1za4Lsv5YyUpZ-Vo2cPggwtDDliYg.JPEG/IMG_9388.jpg?type=w773",
+        "source": "https://m.blog.naver.com/pinoko63/223629047001",
+        "credit": "현장 방문 기록 / pinoko63",
+        "taken": "2024-10-22",
+        "note": "2024년 10월 게시 사진. 현재 모습과 다를 수 있습니다."
+      }
+    }
+  ],
+  "review_candidates": [
+    {
+      "name": "이천 갈산동 스케이트파크",
+      "lat": 37.27885,
+      "lng": 127.468867,
+      "source": "https://look360.kr/vr/icheon_galsan_skatepark/icheon_galsan_skatepark",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 이천시 갈산동 50-3"
+    },
+    {
+      "name": "시루자(C.RUZA) 스케이트파크",
+      "lat": 37.495098,
+      "lng": 127.584339,
+      "source": "https://look360.kr/vr/cruza_sk8park/cruza_sk8park_yangpyeong",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 양평군 용문면 다문리 512"
+    },
+    {
+      "name": "씨사이드파크 보울",
+      "lat": 37.474064,
+      "lng": 126.527185,
+      "source": "https://look360.kr/vr/seasidepark_bowl/seasidepark_bowl",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 중구 하늘달빛로2번길 6"
+    },
+    {
+      "name": "광주 선암동 스케이트파크",
+      "lat": 35.1445,
+      "lng": 126.778711,
+      "source": "https://look360.kr/vr/seonamdong_sk8park/seonamdong_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "광주광역시 광산구 선암동 214"
+    },
+    {
+      "name": "청라노을공원 스케이트파크(SKATE PLAZA)",
+      "lat": 37.519632,
+      "lng": 126.61088,
+      "source": "https://look360.kr/vr/chengna_sunsetpark_sk8park/chengna_sunsetpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 서구 로봇랜드로253번길 18"
+    },
+    {
+      "name": "춘천송암레포츠타운 엑스게임파크",
+      "lat": 37.863875,
+      "lng": 127.699345,
+      "source": "https://look360.kr/vr/songamleportspark_sk8park/2017_songamleportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "강원 춘천시 스포츠타운길 133"
+    },
+    {
+      "name": "죽전 스케이트파크",
+      "lat": 0.0,
+      "lng": 0.0,
+      "source": "https://look360.kr/vr/Jukjeon_sk8park/Jukjeonxgame",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기도 용인시 기흥구 보정동 212-1"
+    },
+    {
+      "name": "신읍어린이공원 스케이트파크",
+      "lat": 37.903904,
+      "lng": 127.202914,
+      "source": "https://look360.kr/vr/sineupchildrenspark_sk8park/sineupchildrenspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 포천시 신읍동 227-3"
+    },
+    {
+      "name": "한국국제학교(제주캠퍼스) 스케이트파크",
+      "lat": 33.291267,
+      "lng": 126.288506,
+      "source": "https://look360.kr/vr/jejuinternationalschool_sk8park/jejuinternationalschool_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "제주특별자치도 서귀포시 대정읍 구억리 11-9"
+    },
+    {
+      "name": "서귀포 스케이트파크",
+      "lat": 33.257502,
+      "lng": 126.576663,
+      "source": "https://look360.kr/vr/seogwipo_sk8park/seogwipo_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "제주특별자치도 서귀포시 동홍동 100-3"
+    },
+    {
+      "name": "살곶이체육공원 스케이트파크",
+      "lat": 37.553916,
+      "lng": 127.046363,
+      "source": "https://look360.kr/vr/salgojisportspark_sk8park/salgojisportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "서울 성동구 사근동 102-21"
+    },
+    {
+      "name": "서빙고 스케이트파크",
+      "lat": 37.519415,
+      "lng": 126.994695,
+      "source": "https://look360.kr/vr/seobinggo_sk8park/seobinggo_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "서울특별시 용산구 서빙고동 287-2"
+    },
+    {
+      "name": "경북학생문화회관 스케이트파크",
+      "lat": 36.074774,
+      "lng": 129.391125,
+      "source": "https://look360.kr/vr/gyeongbukculturecenter_sk8park/gwangnaru_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경북 포항시 북구 양덕동 560"
+    },
+    {
+      "name": "으뜸체육공원 스케이트파크",
+      "lat": 37.019111,
+      "lng": 126.907012,
+      "source": "https://look360.kr/vr/eutteumsportspark_sk8park/eutteumsportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기도 평택시 청북면 옥길리 1072"
+    },
+    {
+      "name": "평촌중앙공원 스케이트파크",
+      "lat": 37.389982,
+      "lng": 126.961265,
+      "source": "https://look360.kr/vr/pyeongchonpark_sk8park/pyeongchonpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 안양시 동안구 평촌동 895"
+    },
+    {
+      "name": "구영공원 스케이트파크",
+      "lat": 35.572435,
+      "lng": 129.241548,
+      "source": "https://look360.kr/vr/guyeongpark_sk8park/guyeongpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "울산 울주군 범서읍 점촌4길 86"
+    },
+    {
+      "name": "금산근린공원 스케이트파크",
+      "lat": 35.309484,
+      "lng": 129.02479,
+      "source": "https://look360.kr/vr/geumsanneighborhoodpark_sk8park/geumsanneighborhoodpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경남 양산시 동면 금산리 1460-1"
+    },
+    {
+      "name": "안산시청소년수련관 스케이트파크",
+      "lat": 37.3261,
+      "lng": 126.85328,
+      "source": "https://look360.kr/vr/ansanyouthcenter_sk8park/ansanyouthcenter_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 안산시 상록구 삼일로 696"
+    },
+    {
+      "name": "선부 스케이트파크",
+      "lat": 37.342834,
+      "lng": 126.810143,
+      "source": "https://look360.kr/vr/seonbu_sk8park/seonbu_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기도 안산시 단원구 선부동 산85-2"
+    },
+    {
+      "name": "구일 스케이트파크",
+      "lat": 37.5,
+      "lng": 126.871147,
+      "source": "https://look360.kr/vr/guil_sk8park/guil_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "서울특별시 구로구 구로동 621-8"
+    },
+    {
+      "name": "광명대교 스케이트파크",
+      "lat": 37.484543,
+      "lng": 126.873039,
+      "source": "https://look360.kr/vr/gwangmyeongbridge_sk8park/gwangmyeongbridge_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "서울특별시 금천구 가산동 535-98"
+    },
+    {
+      "name": "강변공원 스케이트파크",
+      "lat": 35.320026,
+      "lng": 129.195969,
+      "source": "https://look360.kr/vr/riversidepark_sk8park/riversidepark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "부산 기장군 정관읍 달산리 1245"
+    },
+    {
+      "name": "솔마루근린공원 스케이트파크",
+      "lat": 35.336885,
+      "lng": 129.161377,
+      "source": "https://look360.kr/vr/solmaruneighborhoodpark_sk8park/solmaruneighborhoodpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "부산 기장군 정관읍 모전리 726"
+    },
+    {
+      "name": "맥도생태공원 스케이트파크",
+      "lat": 35.153023,
+      "lng": 128.955475,
+      "source": "https://look360.kr/vr/maekdoecologicalpark_sk8park/maekdoecologicalpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "부산광역시 강서구 대저2동 4354-1"
+    },
+    {
+      "name": "옥녀봉체육공원 스케이트파크",
+      "lat": 36.328527,
+      "lng": 127.341155,
+      "source": "https://look360.kr/vr/ongnyeobongsportspark_sk8park/ongnyeobongsportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "대전 서구 도안북로 158"
+    },
+    {
+      "name": "경주생활체육공원 스케이트파크",
+      "lat": 35.865189,
+      "lng": 129.281088,
+      "source": "https://look360.kr/vr/gyeongjusportspark_sk8park/gyeongjusportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경북 경주시 천북남로 357"
+    },
+    {
+      "name": "통영산양스포츠파크 스케이트파크",
+      "lat": 34.802963,
+      "lng": 128.397598,
+      "source": "https://look360.kr/vr/tongyeongsanyangsportspark_sk8park/tongyeongsanyangsportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경남 통영시 산양읍 산양중앙로 100"
+    },
+    {
+      "name": "도원체육공원 스케이트파크",
+      "lat": 37.132458,
+      "lng": 126.927933,
+      "source": "https://look360.kr/vr/dowonsportspark_sk8park/dowonsportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 화성시 향남읍 행정리 478"
+    },
+    {
+      "name": "해남우슬경기장 스케이트파크",
+      "lat": 34.568176,
+      "lng": 126.619999,
+      "source": "https://look360.kr/vr/useulstadium_sk8park/useulstadium_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "전남 해남군 해남읍 해남로 72"
+    },
+    {
+      "name": "청주근린공원 스케이트파크",
+      "lat": 36.614281,
+      "lng": 127.470039,
+      "source": "https://look360.kr/vr/cheongjuneighborhoodpark_sk8park/cheongjuneighborhoodpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "충청북도 청주시 흥덕구 산남동 367"
+    },
+    {
+      "name": "천안생활체육공원 스케이트파크",
+      "lat": 36.780099,
+      "lng": 127.153749,
+      "source": "https://look360.kr/vr/cheonansportspark_sk8park/cheonansportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "충남 천안시 동남구 청당동 976"
+    },
+    {
+      "name": "상남 스케이트파크",
+      "lat": 35.213983,
+      "lng": 128.696872,
+      "source": "https://look360.kr/vr/sangnam_sk8park/sangnam_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경남 창원시 성산구 원이대로 813"
+    },
+    {
+      "name": "태백동스포츠파크 스케이트파크",
+      "lat": 35.158009,
+      "lng": 128.673828,
+      "source": "https://look360.kr/vr/taebaeksportspark_sk8park/taebaeksportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경남 창원시 진해구 태백동 4-360"
+    },
+    {
+      "name": "진주종합경기장 스케이트파크",
+      "lat": 35.174769,
+      "lng": 128.15023,
+      "source": "https://look360.kr/vr/jinjustadium_sk8park/jinjustadium_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경남 진주시 충무공동 8"
+    },
+    {
+      "name": "웰가 스케이트파크",
+      "lat": 35.194801,
+      "lng": 128.055756,
+      "source": "https://look360.kr/vr/wellgaapt_sk8park/wellgaapt_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경남 진주시 이현동 1178"
+    },
+    {
+      "name": "문학대공원 스케이트파크",
+      "lat": 35.82623,
+      "lng": 127.109903,
+      "source": "https://look360.kr/vr/munhakpark_sk8park/munhakpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "전북 전주시 완산구 효자동3가 1523-2"
+    },
+    {
+      "name": "덕진 스케이트파크",
+      "lat": 35.845173,
+      "lng": 127.112922,
+      "source": "https://look360.kr/vr/deokjin_sk8park/deokjin_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "전북 전주시 덕진구 덕진동2가 682"
+    },
+    {
+      "name": "익산문화체육센터 스케이트파크",
+      "lat": 35.968264,
+      "lng": 127.000514,
+      "source": "https://look360.kr/vr/iksanculturecenter_sk8park/iksanculturecenter_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "전북 익산시 부송동 157-2"
+    },
+    {
+      "name": "의령 스케이트파크",
+      "lat": 35.314518,
+      "lng": 128.290649,
+      "source": "https://look360.kr/vr/uiryeong_sk8park/uiryeong_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경상남도 의령군 의령읍 정암리 358-3"
+    },
+    {
+      "name": "오산스포츠센터 스케이트파크",
+      "lat": 37.159022,
+      "lng": 127.075681,
+      "source": "https://look360.kr/vr/osansportscenter_sk8park/osansportscenter_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 오산시 경기동로 33"
+    },
+    {
+      "name": "죽미체육공원 스케이트파크",
+      "lat": 37.175079,
+      "lng": 127.045353,
+      "source": "https://look360.kr/vr/jungmisportspark_sk8park/jungmisportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 오산시 금암동 508"
+    },
+    {
+      "name": "안성체육공원 스케이트파크",
+      "lat": 36.982414,
+      "lng": 127.266342,
+      "source": "https://look360.kr/vr/anseongsportspark_sk8park/anseongsportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 안성시 중리동 440"
+    },
+    {
+      "name": "여기산공원 스케이트파크",
+      "lat": 37.280551,
+      "lng": 126.979903,
+      "source": "https://look360.kr/vr/yeogisanpark_sk8park/yeogisanpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 수원시 권선구 서둔동 256"
+    },
+    {
+      "name": "부안스포츠파크 스케이트파크",
+      "lat": 35.700554,
+      "lng": 126.723777,
+      "source": "https://look360.kr/vr/buansportspark_sk8park/buansportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "전북 부안군 행안면 진동리 933"
+    },
+    {
+      "name": "작은내수변공원 스케이트파크",
+      "lat": 36.337754,
+      "lng": 127.346981,
+      "source": "https://look360.kr/vr/wonsinheungdong_sk8park/wonsinheungdong_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "대전 유성구 원신흥동 492"
+    },
+    {
+      "name": "샘머리 스케이트파크",
+      "lat": 36.356699,
+      "lng": 127.384874,
+      "source": "https://look360.kr/vr/saemmeori_sk8park/saemmeori_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "대전 서구 둔산동 1379"
+    },
+    {
+      "name": "도안 스케이트파크",
+      "lat": 36.306152,
+      "lng": 127.333092,
+      "source": "https://look360.kr/vr/doan_sk8park/doan_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "대전 서구 관저동 1662"
+    },
+    {
+      "name": "대구대학교 스케이트파크",
+      "lat": 35.901702,
+      "lng": 128.848835,
+      "source": "https://look360.kr/vr/daeguuniv_sk8park/daeguuniv_sk8park",
+      "reason": "2015년 철거 기록. 등록 제외.",
+      "address": "경북 경산시 진량읍 내리리 15"
+    },
+    {
+      "name": "율하체육공원 스케이트파크",
+      "lat": 35.859981,
+      "lng": 128.694313,
+      "source": "https://look360.kr/vr/yulhasportspark_sk8park/yulhasportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "대구 동구 율하동 1626"
+    },
+    {
+      "name": "화원명곡체육공원 스케이트파크",
+      "lat": 35.798009,
+      "lng": 128.503878,
+      "source": "https://look360.kr/vr/myeonggoksportspark_sk8park/myeonggoksportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "대구 달성군 화원읍 인흥1길 12"
+    },
+    {
+      "name": "대구국제공항 스케이트파크",
+      "lat": 35.898098,
+      "lng": 128.636566,
+      "source": "https://look360.kr/vr/daeguinternationalairport_sk8park/daeguinternationalairport_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "대구 동구 지저동 460-8"
+    },
+    {
+      "name": "남일대 스케이트파크",
+      "lat": 34.926685,
+      "lng": 128.097669,
+      "source": "https://look360.kr/vr/namildae_sk8park/namildae_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경남 사천시 남일대길 53"
+    },
+    {
+      "name": "서어지공원 스케이트파크",
+      "lat": 35.30769,
+      "lng": 128.731319,
+      "source": "https://look360.kr/vr/seoeojipark_sk8park/seoeojipark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경남 김해시 진영읍 진영리 1614-4"
+    },
+    {
+      "name": "김해시민체육공원 스케이트파크",
+      "lat": 35.256802,
+      "lng": 128.877341,
+      "source": "https://look360.kr/vr/gimhaesportsPark_sk8park/gimhaesportsPark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경남 김해시 가야로 245"
+    },
+    {
+      "name": "일곡제1근린공원 스케이트파크",
+      "lat": 35.208762,
+      "lng": 126.895006,
+      "source": "https://look360.kr/vr/ilgok1neighborhoodpark_sk8park/ilgok1neighborhoodpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "광주 북구 일곡동 850-1"
+    },
+    {
+      "name": "수완호수공원 스케이트파크",
+      "lat": 35.188055,
+      "lng": 126.820197,
+      "source": "https://look360.kr/vr/suwanlakepark_sk8park/suwanlakepark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "광주 광산구 장신로82번길 57"
+    },
+    {
+      "name": "수완원당산공원 스케이트파크",
+      "lat": 35.192931,
+      "lng": 126.819586,
+      "source": "https://look360.kr/vr/wondangsanpark_sk8park/wondangsanpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "광주 광산구 장덕동 1295"
+    },
+    {
+      "name": "광양항 배후단지 스케이트파크",
+      "lat": 34.919734,
+      "lng": 127.673893,
+      "source": "https://look360.kr/vr/gwangyangport_sk8park/gwangyangport_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "전남 광양시 도이동 827"
+    },
+    {
+      "name": "마동체육근린공원 스케이트파크",
+      "lat": 34.95417,
+      "lng": 127.693755,
+      "source": "https://look360.kr/vr/madongsportspark_sk8park/madongsportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "전남 광양시 마동 산 154"
+    },
+    {
+      "name": "새암공원 스케이트파크",
+      "lat": 37.707375,
+      "lng": 126.746536,
+      "source": "https://look360.kr/vr/saeampark_sk8park/saeampark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 파주시 야당동 1022"
+    },
+    {
+      "name": "운정건강공원 스케이트파크",
+      "lat": 37.7136,
+      "lng": 126.742277,
+      "source": "https://look360.kr/vr/unjeongpark_sk8park/unjeongpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 파주시 와석순환로172번길 35"
+    },
+    {
+      "name": "포대근린공원 스케이트파크",
+      "lat": 37.401592,
+      "lng": 126.698853,
+      "source": "https://look360.kr/vr/podaeneighborhoodPark_sk8park/podaeneighborhoodPark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 남동구 논현동 644-1"
+    },
+    {
+      "name": "청라 스케이트파크",
+      "lat": 37.539602,
+      "lng": 126.626097,
+      "source": "https://look360.kr/vr/cheongna_sk8park/cheongna_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 서구 경서동 836-93"
+    },
+    {
+      "name": "연수체육공원 스케이트파크",
+      "lat": 37.407803,
+      "lng": 126.685517,
+      "source": "https://look360.kr/vr/yeonsusportspark_sk8park/yeonsusportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 연수구 청능대로 205"
+    },
+    {
+      "name": "새아침공원 스케이트파크",
+      "lat": 37.397027,
+      "lng": 126.654882,
+      "source": "https://look360.kr/vr/seachimpark_sk8aprk/seachimpark_sk8aprk",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 연수구 송도동 2-1"
+    },
+    {
+      "name": "삼산체육공원 스케이트파크",
+      "lat": 37.514242,
+      "lng": 126.742975,
+      "source": "https://look360.kr/vr/samsansportspark_sk8park/samsansportspark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 부평구 삼산동 450-1"
+    },
+    {
+      "name": "문학경기장 스케이트파크",
+      "lat": 37.436082,
+      "lng": 126.689117,
+      "source": "https://look360.kr/vr/munhakstadium_sk8park/munhakstadium_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 남구 문학동 482"
+    },
+    {
+      "name": "남동종합문화체육광장 스케이트파크",
+      "lat": 37.441342,
+      "lng": 126.734006,
+      "source": "https://look360.kr/vr/namdongsportssquare_sk8aprk/namdongsportssquare_sk8aprk",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 남동구 수산동 595-32"
+    },
+    {
+      "name": "계양 스케이트파크",
+      "lat": 37.570064,
+      "lng": 126.739842,
+      "source": "https://look360.kr/vr/gyeyangpark_sk8park/gyeyangpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 계양구 귤현동 451-491"
+    },
+    {
+      "name": "경인아라뱃길검암공원 스케이트파크",
+      "lat": 37.570643,
+      "lng": 126.670117,
+      "source": "https://look360.kr/vr/geomampark_sk8park/geomampark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 서구 시천동 162-101"
+    },
+    {
+      "name": "옥구공원 스케이트파크",
+      "lat": 37.356351,
+      "lng": 126.714469,
+      "source": "https://look360.kr/vr/okgupark_sk8park/okgupark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 시흥시 정왕동 2138"
+    },
+    {
+      "name": "LNG종합스포츠타운 스케이트파크",
+      "lat": 37.40941,
+      "lng": 126.678309,
+      "source": "https://look360.kr/vr/lngsportstown_sk8park/lngsportstown_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "인천 연수구 인천신항대로892번길 50"
+    },
+    {
+      "name": "부천테크노파크 스케이트파크",
+      "lat": 37.52298,
+      "lng": 126.766743,
+      "source": "https://look360.kr/vr/technopark_sk8park/technopark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 부천시 삼정동 36-1"
+    },
+    {
+      "name": "걸포중앙공원 스케이트파크",
+      "lat": 37.637594,
+      "lng": 126.70473,
+      "source": "https://look360.kr/vr/geolpojungangpark_sk8park/geolpojungangpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 김포시 걸포로 76"
+    },
+    {
+      "name": "공지천 스케이트파크",
+      "lat": 37.873549,
+      "lng": 127.707093,
+      "source": "https://look360.kr/vr/gongjicheon_sk8park/gongjicheon_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "강원 춘천시 수변공원길 18"
+    },
+    {
+      "name": "보라매공원 스케이트파크",
+      "lat": 37.493234,
+      "lng": 126.919712,
+      "source": "https://look360.kr/vr/boramaepark_sk8park/boramaepark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "서울 동작구 신대방동 395"
+    },
+    {
+      "name": "한림성심대학교 스케이트파크",
+      "lat": 37.899316,
+      "lng": 127.755754,
+      "source": "https://look360.kr/vr/hallympolytechnicuniv_sk8park/hallympolytechnicuniv_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "강원 춘천시 동면 장학리 790"
+    },
+    {
+      "name": "이천온천공원 스케이트파크",
+      "lat": 37.282429,
+      "lng": 127.453888,
+      "source": "https://look360.kr/vr/icheonspringpark_sk8park/icheonspringpark_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 이천시 갈산동 산 19-1"
+    },
+    {
+      "name": "이천스포츠센터 스케이트파크",
+      "lat": 37.237527,
+      "lng": 127.410548,
+      "source": "https://look360.kr/vr/icheonsportscenter_sk8park/icheonsportscenter_sk8park",
+      "reason": "과거 현장 기록만 확인됨. 현재 시설 존속·좌표·이용 조건 확인 후 등록.",
+      "address": "경기 이천시 호법면 안평리 684-2"
+    },
+    {
+      "name": "용인종합운동장 스케이트파크",
+      "lat": 37.237874,
+      "lng": 127.213242,
+      "source": "https://look360.kr/vr/Yonginstadium_sk8park/Yonginstadium_sk8park",
+      "reason": "종합운동장 철거 후 시설 존속 확인 필요. 등록 보류.",
+      "address": "경기 용인시 처인구 경안천로 76"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+/* Tokens: DESIGN.md */
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Apple SD Gothic Neo", "Noto Sans KR", system-ui, sans-serif;
+
+  --color-bg-grouped: #f2f2f7;
+  --color-bg: #ffffff;
+  --color-label: #1c1c1e;
+  --color-label-2: #6c6c70;
+  --color-separator: #c6c6c8;
+  --color-fill: rgb(120 120 128 / 0.12);
+  --color-fill-strong: rgb(120 120 128 / 0.2);
+  --color-pin: #111111;
+  --color-tint: #111111;
+  --color-tint-pressed: #3a3a3c;
+  --color-link: #111111;
+  --color-location: #007aff;
+  --color-danger: #d70015;
+  --color-success: #248a3d;
+
+  --text-large-title: 34px;
+  --text-large-title--line-height: 41px;
+  --text-title2: 22px;
+  --text-title2--line-height: 28px;
+  --text-title3: 20px;
+  --text-title3--line-height: 25px;
+  --text-headline: 17px;
+  --text-headline--line-height: 22px;
+  --text-body: 17px;
+  --text-body--line-height: 22px;
+  --text-subhead: 15px;
+  --text-subhead--line-height: 20px;
+  --text-footnote: 13px;
+  --text-footnote--line-height: 18px;
+  --text-caption: 12px;
+  --text-caption--line-height: 16px;
+
+  --shadow-float: 0 2px 12px rgb(0 0 0 / 0.12);
+  --shadow-sheet: 0 -1px 20px rgb(0 0 0 / 0.1);
+  --ease-sheet: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+:root {
+  color-scheme: light;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  background: var(--color-bg-grouped);
+  color: var(--color-label);
+  font-family: var(--font-sans);
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+
+/* base layer so utilities like outline-none can override it */
+@layer base {
+  :focus-visible {
+    outline: 3px solid var(--color-location);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes drop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}
+
+/* Floating chrome over the map only (DESIGN.md › Material) */
+@utility glass {
+  background: rgb(255 255 255 / 0.78);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+}
+
+@utility press {
+  @apply transition-[opacity,transform] duration-100 active:scale-[0.97] active:opacity-70;
+}
+
+/* Buttons */
+@utility btn {
+  @apply press inline-flex min-h-11 min-w-11 items-center justify-center gap-1.5 rounded-[10px] bg-fill px-4 text-headline font-semibold text-link disabled:pointer-events-none disabled:opacity-40;
+}
+@utility btn-primary {
+  @apply press inline-flex min-h-[50px] items-center justify-center gap-1.5 rounded-xl bg-tint px-5 text-headline font-semibold text-white active:bg-tint-pressed disabled:pointer-events-none disabled:opacity-40;
+}
+@utility btn-danger {
+  @apply press inline-flex min-h-[50px] items-center justify-center rounded-xl bg-danger px-5 text-headline font-semibold text-white disabled:opacity-40;
+}
+@utility btn-plain {
+  @apply press inline-flex min-h-11 items-center gap-1 text-body font-medium text-link disabled:opacity-40;
+}
+@utility icon-btn {
+  @apply press inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full;
+}
+
+/* Grouped inset list (iOS Settings style) */
+@utility group-inset {
+  @apply overflow-hidden rounded-xl bg-bg;
+}
+@utility group-header {
+  @apply px-4 pb-2 text-footnote uppercase tracking-wide text-label-2;
+}
+@utility group-footer {
+  @apply px-4 pt-2 text-footnote text-label-2;
+}
+@utility row {
+  @apply relative flex min-h-11 items-center gap-3 px-4 py-2.5 text-body;
+}
+/* inset hairline between rows, iOS-style */
+.row + .row::before,
+li + li > .row::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 16px;
+  right: 0;
+  height: 0.5px;
+  background: var(--color-separator);
+}
+
+/* Inputs */
+@utility input {
+  @apply min-h-11 w-full rounded-[10px] bg-fill px-3 py-2.5 text-body text-label placeholder:text-label-2 aria-[invalid=true]:ring-2 aria-[invalid=true]:ring-danger;
+}
+@utility label {
+  @apply mb-1.5 block px-1 text-footnote font-medium text-label-2;
+}
+@utility field-error {
+  @apply mt-1.5 px-1 text-footnote text-danger;
+}
+@utility card {
+  @apply rounded-xl bg-bg p-4;
+}
+@utility chip {
+  @apply inline-flex items-center gap-1 rounded-full bg-fill px-2.5 py-1 text-caption font-medium text-label;
+}
+
+/* Map pins are <button>s inside Kakao CustomOverlays */
+.kmarker {
+  all: unset;
+  cursor: pointer;
+  display: block;
+  border-radius: 999px;
+}
+.kmarker:focus-visible {
+  outline: 3px solid var(--color-location);
+  outline-offset: 2px;
+}

@@ -1,0 +1,2721 @@
+{
+  "title": "DAILY GRIND - SKATE SPOTS IN KOREA 2023",
+  "url": "https://www.google.com/maps/d/viewer?mid=1ZOHd2CTv61X5HGhsCpQDV7pLyt-gQEQ",
+  "retrieved_at": "2026-09-30T03:42:53.509176+00:00",
+  "spots": [
+    {
+      "name": "CULT(훈련원공원)",
+      "description": "구성: 렛지, 매뉴얼 패드\n바닥: 중간\n킥아웃: 낮음(저녁 8시 이후 스케이팅 불가)",
+      "lat": 37.5673407,
+      "lng": 127.0037725,
+      "types": [
+        "ledge",
+        "manual_pad"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7seYwzROtEZ759wIqnb8Y9b_YIhKRZ-D8dJ6C7hA5AJ7cV8CIjNx127arxBpURDdI64RKgv9yKkRCyLmy-Co2aYZv5M1BLbmUMguRRh1y46qPJqKcwKJEcHuEFviPNH-AKim649RjelIXMcVIxwy1CP0sP9hGAiYXpAqzVWvMrf35XVBZWxmQ-O_9uwkmR_JzP4vVXY0e5HdvSnW_OeCPwuEE_GNJbThRLYuTcusLiTjxHeExUpGKa5Ws?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "수내 광장",
+      "description": "구성: 렛지, 매뉴얼 패드, 계단 / 맞은 편 더블셋 등\n바닥: 좋음\n킥아웃: 낮음",
+      "lat": 37.377901,
+      "lng": 127.114853,
+      "types": [
+        "stair",
+        "ledge",
+        "manual_pad"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6NrHq8TouPW9mqbc_qtlBG--YZx0laBLPHGreVVYlBFT-iaimwAq-G4AVxyKRuShuZ-iakTY6Xoclya9zwa5-spOwoafRvyhi6wAvQxyiZ1eSvGaHm76wG6E2ggutxdTpn_bgy4aTiL3kKVPF4EvEqeoC2ofMfLBRxt202_NZtRp7lsz0t1F3W5QXsgCY3lXWq2SkZaxWKMB6zwAheRcClcBAcG0EAVfZ-yw7rHhDGYc9B9yvDDuBZdEE?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "가든 파이브",
+      "description": "구성: 렛지, 매뉴얼 패드\n바닥: 좋음\n킥아웃: 낮음\n* 주말에는 쇼핑몰 고객이 몰리는 경우가 있음",
+      "lat": 37.4786737,
+      "lng": 127.1252635,
+      "types": [
+        "ledge",
+        "manual_pad"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7g4PBbuAQXY4CFLmbHgNBer_G36ZCGSxgJOjCQDZBhwJiAALr8Q7GlHDEJIVcr_twxTW8BCHVx1rHF6QnTAx8vWJo5ZO7M9eVA-sw1m-Wbwf4LwYrsXxHGrLl4SFv4ipbycZJp5ndouxr3PpdIC5SID5JQY7XtEb39MWYItRZYhuBa3aILiIBocFaCwFPUA5ELKiNHnTH797CDqVjflXE1ofNCeOOhDEW7Iq9MSGKrrzR9eelNOZBIPtU?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "여의도공원 무대",
+      "description": "구성: 렛지, 매뉴얼 패드, 무대 갭\n바닥: 좋음\n킥아웃: 높음",
+      "lat": 37.5240798,
+      "lng": 126.9192679,
+      "types": [
+        "ledge",
+        "gap",
+        "manual_pad"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR41uownNNg9LibxiHNh00fmU2ZX2Mb0_IwkpStOlM56EgK7WjvuCLhRa-1Iasj17NHjRYYXGZm3DSmBMHSPR38b65g-53sF7-3XXmEBafMNaXc_w9ciSlisn3Zls2mEL4j70xz9ggO8RUL1tURqNNrwCgFAAk175Xp8tVno0AUwEmvSFzEppwrONxTlV8Nbv6LBuB52ikzesh2_Ff2ihkXchXXQ0msE_teLzY68-YWPulrLQUN9z11SEjM?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "여의나루 물빛광장",
+      "description": "구성: 렛지, 매뉴얼 패드, 계단, 월리, 월라이드, 뱅크 등\n바닥: 좋음\n킥아웃: 중간\n3월~11월까지 분수로 바뀌어서 탈 수 없음",
+      "lat": 37.5304612,
+      "lng": 126.929769,
+      "types": [
+        "stair",
+        "ledge",
+        "bank",
+        "manual_pad"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7fJV0Vv6t1IOr0WFUl6VAXrzn00iKac_FlGIOG3KOJswD5Wi8Ls25NNsSM2lJd-z51FB6TPYlfBQLYkXK8v2EcK9xtJYMaQQxT-pByrFkVE5R5VXAMdLttEUA7LR1U8EqjuV89A5AaJVl_PYoeyLiQqj-DN3Url6ll59oKgEDJjSTt0YsLfbwNrOmiBLkJlX2xpFspXP7kx0rati8PAbkDfDYRdOtsT8TIK_jJO1P4onl3mkImpJYxnyo?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "평화의 공원 난지연못",
+      "description": "구성: 렛지, 매뉴얼 패드, 계단\n바닥: 좋음\n킥아웃: 낮음",
+      "lat": 37.5638336,
+      "lng": 126.8957101,
+      "types": [
+        "stair",
+        "ledge",
+        "manual_pad"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7EpW_9b11QpaydxsYTKQvi8AnhbE55DbqWeL681lYmir7XAiDi-1xXWsyJGmX9wqTLlvnbMQEp_vxnY8Dm1D-ne2SsNZIJ_x_4Xmxl-pO801kv-WCtPnNp8fz7Hg9GXwv_4xOhAFnp--XYet8neiC85XMXLLtwpE8AjL2Z2kO_-xy2B77O7cfvrhhCmug55kZ1pDe8f3tiIc7hKj7wfbrLpP8fIM5AtPmuqMKJZaGbpZ2AGBnH0_m5XD8?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "반포한강공원",
+      "description": "구성: 렛지, 매뉴얼 패드, 뱅크, 계단 등 고루 분포되어 있음\n바닥: 좋음\n킥아웃: 낮음\n* 롱보드와의 불화설",
+      "lat": 37.511136,
+      "lng": 126.997732,
+      "types": [
+        "stair",
+        "ledge",
+        "bank",
+        "manual_pad"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5ZIMgVhxYBYGtMnM2wTXIfaIp50hjsK4oSyXIKxqhr2YUJykLXTRGrmKoFNCm0zSsIs9C0r_O7Xecv7YIhVVVTSy3M2JpjwtHDwbCEVk2U1DsbXExZ8pxm3znXcWsc8jKgXHgiW69acbzhcBxn8fLWvzYZyF4z2dBmpms82KE0antMYNDxQu8Pi9EEf2WVCCHjonWzrENJ_Zx9sMupz1C-jgWhXo5vQsyrg4S8_kl81DNi5f0a61pXV_8?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "망우역 광장",
+      "description": "구성: 렛지\n바닥: 좋음\n킥아웃: 낮음",
+      "lat": 37.5984614,
+      "lng": 127.0923412,
+      "types": [
+        "ledge"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6bb6U2geKzv67ViSiIM4Go_A15ybcUKNm6Vy5SEENgQ-NQXhVzj6sftvQwE9YLFR8o1Dn98_h4odINc1_viiHtrTO-uqLCkfDpzAmE8iDCV0wvrk57ld5Qs3nAqByS_VGi0HNkFIzg2ugTAKh5kOf3BWWcg5u1EvNnSMhthAx85CL45ai4MwiDpwHYN_57FH6aK8kIHxoIxAE2EXMxs2OyK-pzFDa_6_dGBU6Z_tVIqBneoVqhHKO_sSk?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "건대 분수광장",
+      "description": "구성: 렛지, 월리, 슬래피\n바닥: 좋음\n킥아웃: 낮음",
+      "lat": 37.5429853,
+      "lng": 127.0723583,
+      "types": [
+        "ledge"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6vwulJl36er0hAuBdbiSASxinuJWlwIRGp9GZoY2oCpKvZkyT7dkuLzq2HZ-Bq3UVUwUnN0cSc4-t5WnmCfGVabt9ooMUWpye_8dx3xVvVHGONI3E3Ab9RWcKWUmUEG71bipChBHNYg10KjcWu91ausYnle8RSwcIJ1Xrjh2n2hroHyVTXP-tyKLrTRUrn8-bF8eqwNQZPWHEJY7IGimD925Z0wPr2akxqNa3V-0JsyYk4qwBtzjz5VXU?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "새암공원 플라자",
+      "description": "구성: 렛지, 범프\n바닥: 좋음\n킥아웃: 없음",
+      "lat": 37.7073147,
+      "lng": 126.7465045,
+      "types": [
+        "ledge"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6p5DR93e0Le-MziXGaAEYBhoQysWYp4rF6WaTZfwBRzuygWxuPXPkeF2073jzrcMCChoZ6v04IzuMzZjpT6fWtk7buAmEy4fYU34srwP2BOSMJlvMNUzk26M3HhTQRD0-rsOFlL7BCpH7-DuQ_2W9lZMspC6VLV9SK8xYS4GixUH8LL1cRHBpZoVqbka8C2udx03fPbbtTIkcxRe6ZATtpaYDyNaabk7OIKTqR7mnEkTJjw7ysm9vecZk?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "세종로공원",
+      "description": "구성: 렛지, 뱅크, 계단, 갭\n바닥: 좋음\n킥아웃: 낮음",
+      "lat": 37.5734867,
+      "lng": 126.9759537,
+      "types": [
+        "stair",
+        "ledge",
+        "gap",
+        "bank"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6CdUhwXVHgFYdKRUalYQSef_H9JqaVGDT77NFj5e4aoLALhsof_jpDeb9IKnn3AKsByEa0fsncqXvD08mJ0aOO9RWvtl2W7qIdVIVsSo0CQJwmq62AxWA3dZFbFH31yJ7CzrqwV6QwVDjl-tJFzaV_aAOy3uuEUy36wNuAbGoYwQaLcJx9w40zFPB63LhI7iFRxi5nN_CMq6e3vkPrScRPcpFHiuPxImMTXlYAvkYWF_CbEkTcDNhJpsw?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "중마루공원",
+      "description": "구성: 렛지, 계단\n바닥: 좋음\n킥아웃: 낮음",
+      "lat": 37.5193668,
+      "lng": 126.91173,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7dn4Z64VSOpwqY-RQy5lphqG-1AJ6cgfDvq9EqrDR_edZuPzurQAYNa9ZMIOlNT1lGb8ASFbv5Z1Nzngi8cPlZXrCKH_oGNRTvgd7rEIqa6QYrNNb0SLVfgMSk3Da-9BZmD0gkNdk-MDHmvqQKp_kQkrnpVlwpsICUIQJq5e2pRswizGIqFT-nDuaufqoqGsB0C5A26sKMsLnqnCZRtbBS4sQD3H06ZtRYPffK0oqWLyNPyxsjOEvYyWY?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "제이플라츠 빌딩",
+      "description": "구성: 렛지\n바닥: 좋음\n킥아웃: 낮음\nhttps://youtu.be/CdSIrS-XBfg?t=90",
+      "lat": 37.4813567,
+      "lng": 126.8817498,
+      "types": [
+        "ledge"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5DWxF2gur6CuQa62nYJWrP9J6v_fiddeb-c8rvdWymIzhRXiHPvrRLlajuI5t1YNZhU_RXmmcTTRhrI-8JCcgPy6KAm63oWyDXAVWf2jRxRGky30I1Vz4fqLrgRb2Q9zHLdycf3OzTmNIe926S-dHTrIzaB1SihF992TmBt8_coKIBOSP-pPN0wlNSV-wKDIjHG0iLnWSV6iMMix_t2wG6aIsrmpEr-PqV7qs3wcLQXNKbsI83K64tyYY?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "뚝섬 수변광장",
+      "description": "구성: 갭, 렛지, 계단, 매니패드\n바닥: 촘촘한 시멘트블럭\n킥아웃: 없음",
+      "lat": 37.5286129,
+      "lng": 127.07002,
+      "types": [
+        "stair",
+        "ledge",
+        "gap",
+        "manual_pad"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7NemmiOwsgzDoLxZEps3sS0SG_pWxF0_XCP8psYZaguHa_-cJGYk-oky0lBQW1FKdn81DyrJhl2e0_7jqsAo-n9wl7JxkD_GpRz96LlmLpTb7f4oxv_Xralk7-8ztVT-DJmh1BXdltq6DFW9bgkvAnPX9MCwZC7V8niZH4UQ0ZHUUR9LjMORXIfb8bDEB9AxpAPQqUm71_z82whjyj40hH0DT6WtB0D2Pb_Bp8qQ4q0grUmBPauVqiL1c?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "한내근린공원",
+      "description": "구성: 렛지, 계단\n바닥: 아스팔트 / 대리석\n킥아웃: 없음",
+      "lat": 37.6224788,
+      "lng": 127.069091,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6MF8uZKfxbcAnZUsQUnjIQNi62PxxcYbhn7sP3Nzo5biWA-CNhst4acRuXZD-xeXEfJskCF5JtYsykCr_Ob5thX2dGGDCKLl2CeX9qOkV6sUhzYYKcQ-zeN4QmJpxqem8CLVrjskKsKW67vQygJFr_qpTbXSIgJZN0i_QaaCHcbURVJGAlww-zlyNRqctUqrEMr840XoHLBHEwwRrGKQVnElfaBUQrIDkF2ezl9G_R55yoOixlfUjGgnE?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "구리 매뉴얼패드",
+      "description": "구성: 매니패드 / 렛지",
+      "lat": 37.5949359,
+      "lng": 127.1371391,
+      "types": [
+        "ledge",
+        "manual_pad"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4p00IewcuX_1pnb9z7a81Tj1qEsIOTGFQYwc9h8UkjvVBPEv01VRiTvQLPfpJRkn6mzWU4jmpryRZeP3uU9ERZC0U0wBOgrbPPUcnoXhywLlL3940ulldRpdPkdJ1NWfC7H1Qc179NosaU_yRLvKdekvF8MXPI_NzPob1-oK4aPMFIHagDCrCOwhpdySI9no5ILvX0nmXdhmjCtCz5TUgpY3HgmPymcNV2BuSiYo3QbaLQpWRd7ZZXDwE?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "신촌역광장",
+      "description": "구성: 렛지 / 계단 등",
+      "lat": 37.5596307,
+      "lng": 126.9420264,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6VklOyZCO-GxAs6esL88WZPwwVZA7xFHmfCy4mPxn20icvJwcL_iixzI-3tO0LKct4ZdrIA86Fc8m_o8RGknq2Ll903VNqyPuPkFbHuR5FlnxcHBespIs6FBXxc7dFURjudypDyDsObObeC_v6PZQD0ZNwnRlhyt4Pa0MuFbfNDUxPpPmaW5oyRF0dzJztc1eq1Ejw6hM9veIdBlEupNF0IvxqrQLvb6kvPedb4x4AIRbfLlDF8Lua6ow?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "세운교 광장",
+      "description": "구성: 렛지 / 조형물",
+      "lat": 37.5685539,
+      "lng": 126.9953226,
+      "types": [
+        "ledge"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7Ln38SJrqOfgjnS_utBINy6vZlCo3L1DXJTPLMgTft2JX7dSVbmZDOm_C_BIjdtqzWXGhAJJtkAPYfp_OPMmL8uZBEniv6PX5G8xNRU_MACUw7lMtDFLSEn4b3cUk5kGoQOulHqKCXoK8HzPi_4QrGxaR1lABfX26rUOojJ07pKC5DsW1LF1I-s66EJnKj05QKVOU9utFJ4xra86ajIth-IkaOc9Mb6YbSo599TLql52D_RIMIJcBUUU8?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "수지 풍덕천 스팟",
+      "description": "구성: 렛지 / 웨이브 / 매니패드 등\n* 사진 출처 @722_spots",
+      "lat": 37.3284152,
+      "lng": 127.0944296,
+      "types": [
+        "ledge",
+        "manual_pad"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7CuuRkrKVqOp8hFiA7xvIrlwgdw15Jik4hJY6Y16gl83ocKhPEHDAaqznyqZdyYhjnqQyLeNtuLcYRhvHNRU3hC5yvrlM0lvC1aOnG8O1sZlnhifNfYdCP-kGcdbJgLJycExLBP7CbASvHPQhRyjuv2BM7MakAAafH9i5dje39oMjxF-EtBt750D-7AszFVAaZ04dM7KWdjrUUwRwWPNZEb7r_6mFIPguTGRyFXEWrdwv-6sXAeVIQK9U?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "대전 우리들공원 핸드레일",
+      "description": "구성: 핸드레일",
+      "lat": 36.3272913,
+      "lng": 127.4251634,
+      "types": [
+        "rail"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5-rOmaBqnVxzqx3svw59blandqTN4ZXT2zXcu1cDRTnSNd9TlMDAhf10hXstvJ3LuAWbuM6Ee9V727w0ppCD7jGEloIeEFS-pxGN9MR2TGg3HiQ5G1fBmW_JNFJ6_nUsqof9THUWr00YQx9FR7TBC29csfuGN5x22N8Q5qZeSjMqLYMI6QJkrPtypXA9P0xe8oGFI6PvYVnXfhxstII79wPhlDUipNqcKKqUki6I4TiwjxaJzYiQgvW6k?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "다산선형공원",
+      "description": "구성: 렛지 / 뱅크 등\n*계절에 따라 분수가 작동할 수 있음",
+      "lat": 37.6244806,
+      "lng": 127.1523448,
+      "types": [
+        "ledge",
+        "bank"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4SJNd295yhxqDMQcDjJaiiTljhoGq9Od5cL4rCpjypNuX3Yb2u64YZLj0LG0Cmxv4Rb6U-ox5I_SAGmuTkQRRt-8gDb4ag9NFSUnrYZGYZxIglGBLx8-_AvODhLHrumMzJt1jywWvjtGBJUtFqg2mVrh8D9JwhTZ4a0tbRbeLWB89mfwugHYjf3fpHBFP9H3gYA9Tc9wVGT44tzliK0wi8Du9yNx1jUlIL1ZKVW39azzvD-xM_6kUSlp8?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "왕십리광장",
+      "description": "구성: 렛지 / 월리",
+      "lat": 37.5613938,
+      "lng": 127.0371278,
+      "types": [
+        "ledge"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4suRZ7pffKKc3Z2RLG-FPAsBxqMS-e1usfXHgdH31GjkJNavTzqRBwQrcDIbN0WS6VAS19uQyu50mb6P3-zmJw9GGiTLkj-gOLgyLPhgl8hQO-1py32OsutPc06gv5mqD73Ded5XWGWPQv0Mj15gHey97Y41M-_9wvRID_Eh6cHOZcVJgZPOw-Pm-nx_i2ZRJ6DdX9YaUu4PR_Ix9MMDMTvEMIMcJHwcSx80eEfpwiGYfAn_QCH_Wt7OQ?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "광명 안양천 어린이 물놀이장",
+      "description": "구성: 렛지, 범프 등\n바닥: 좋음\n킥아웃: 중간(여름은 수영장 운영)\nhttps://youtu.be/Y1y0CQwqaT0?t=676\nhttps://youtu.be/Y1y0CQwqaT0?t=821",
+      "lat": 37.4937454,
+      "lng": 126.8696939,
+      "types": [
+        "ledge"
+      ],
+      "layer": "PLAZA",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR42_HeDgIYbpiTS4frELcCr83z_ep8nxSReD_X0xcmzKt3uQse-sQZUcmrfWr_8Crk6kGweuySUv_NbcJP7ubo7y-Q1_9U_ZRgwR9Iwbymfs3gQ6f0RjpQ7FrH04Nz5y7KjGwTyclBNs4gGAGrDa8gHFcEMJJcdQxf5LOEHBVwT1lCve5GAaEWK2nfZsNOEvc1CBHWfQWIZKc2kxDKsW8ujTsb-qpbhW2sPJWXGmM20giyQuVye6mF51_Y?fife=s16383",
+      "category": "plaza"
+    },
+    {
+      "name": "금호아시아나 Flat Bar",
+      "description": "구성: Flat Bar",
+      "lat": 37.5699822,
+      "lng": 126.9728241,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Vlg2LgxNT1rw9HOGdDGMLpT8R0CTKY4gGCxxyyY3eBH__wBwqofSsFcLy5Ba2ibutRiQ3TpoHRHrBbnL_to1uGI33RslD9QjhtsZVTE2-REgUiROGIF5nN96mntAme8R1GBDeCO-RoL3VacRwsKe7tj08EEvXUOpCTjS1u55hUxYoz9_123ZnVGG1O2c9oRBQ9vKgHPoLizT_GV451UeD5lGDam3WRKrCZ3OaLa-mM7TMOCBROFcYNAM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "상봉터미널 HANDRAIL",
+      "description": "",
+      "lat": 37.5969217,
+      "lng": 127.0927087,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6vVLI-8tiGlLQZWKJnweAOgWalo6ihBGX2OyElN7BP4sagERJE1-wx0GQOQUxbI7Ummk9LxsvUqFknvsgHF4AoZsZo1CKNZqJXO84Yw5b1HYaAvmv6eaNpzQDBMFM9f3wmg9_c7RUOe_ywFNMURYnkzYr9xzbRmnuIaGjfaJWgvLwTRfQ1uj5rXBgv9uZIbsuk44p-jFqWr37S9C1vIGTPTQ70v6qM_OnWZ2Bp_1rK9f5hDBQ21IvHz_w?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "서소문로 Gap",
+      "description": "구성: 갭",
+      "lat": 37.5629845,
+      "lng": 126.9733563,
+      "types": [
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4cGdx3_pSClubAhnw7gscZepwu_h-ceT0K236cQ55un3e_i2t5jWHfpGpPKhV96qih2ehSiV2Y37CnddTkjvAAK5iYhIBDSNrJYMWCicg2kRDroFPJ_tQ1JnOPlchRFvNgEnfyOF0y8Z4THbQVoJJeEKybwTTnf8soPzYCmjJLFIO5bleT0ZHTj0XhmLLe0ZqqEH1EUlOyaiqYUiUXLB6MUixU32xJDU5T-P0AzrQedUlLQudMfOn961E?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "노원 LAT BAR",
+      "description": "",
+      "lat": 37.6558989,
+      "lng": 127.0602413,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5pGy3Fw7L6GaRyno_i8rH7S1lBIp9bBw93y4oPpJJNt7QLrBra3-wuiH4rbtfcmrdMZlPwglWw8G8CaQczRCTpIvFZ-bFGTL_vWxrB6Wp3xZmkPY9aeB1h-O0eZYgj004X5ntXz2E4AaG_NgHvhkV45QExIH0UsK6Lhg_JZ7GYLiTJq13OKe5unE5qD8qqREnYHnjuKWbcLSYQ0VehpbaTxjdITpQ9c04K3uCfTu82Nn1yZMAo9CAzoX8?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "금천구청 Flat Bar",
+      "description": "구성: Flat Bar",
+      "lat": 37.4569285,
+      "lng": 126.8948319,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR71LShNaMSgP5jwieg6DMyBIpsX9E1gRdTqEIGwboRWplnBKQmibAKsh3yfE41h5c2gvlMYZ2nu0wdbe4jbU8ERsiWn2f4hvB73pLMiSETAL4Y-coEwFdDyyqBuDlRiBAqDpKOry1b0g3M5zfG9bKkAB_h4QsAUeSnIwFs-1eXQoln2GeOmyz-gjLNRMTUcntbX_Wa_hoZLrOiJQ_wti1_B4CXaFaQkq2gpP8I8bXkqEYsdK10Bl-xs5KM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "신길 여의도 문화다리 Handrail",
+      "description": "구성: 핸드레일(나무)",
+      "lat": 37.5178245,
+      "lng": 126.9165852,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Hzjk0yF4bqH5ISvfdiNCZ5dQXb10HQtLKhAWwYrXfAP0CR4VelIIJ_mbxg_srCSz64z_POnu0CxlviacI0RjwmvzifqIXr-QJuF_fckzrcQd3NkKr3jZslCvYFYn2dZgo51wC6l9QxbkRAMDeBnjACpbLmbK7JqD93u2Gkec8ZJJUyWh7j2iQQQBefpc8TmRVMfUfCrBFbp4ElRo0Sc_wuX8HAQO91wmcdCvLtp-CPklkBjiYBcOd0YQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "새문안교회 Bump to Bar",
+      "description": "구성: 범프 투 바",
+      "lat": 37.5711708,
+      "lng": 126.9735524,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7auUzXthmnuEaooe_DJ6wSKTiJ-VxjUDO_d7Rzo_vN95Z1SWuTqvMLpabGcbH30k-hsKBmhMSxjpxQuZYpK8gKcULFSpOV-WPWmo7TdnD4bzHG3NZuspPga17yCv28mQBG8lk4jZ07DzLTCAqEHRuotPFV9dwnFjbg7X5S6AO2_UXTQiQkJq5tRYSbMTe1wN5GLC1yEe6ubkrW_KDuG8RRlL6o6IZl68oV7uehEQoS8YlSBg206A2yHm4?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "광화문 배재공원 Hubba",
+      "description": "구성: 허바",
+      "lat": 37.5646461,
+      "lng": 126.9727863,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5l4hetrRQV7kbKJwaburDtFHeOsSIN2xaaucaXpg9GKN0VLYZsPnkn0Sa1Me7IFAcDOeU8Cdwr-hVrTgdd7ko0qtGtirdFSet9elgDSfq9xNX-pA6fxsFFT1XkPbK24XF4V1YgKBtJDnRiC0xtSFSdSC31_UNSjTzydfdi6R3yL6S1-zu1b5dKaoqQFpdfdW7ET9k_y89jjRZI4GdOM3_RGCcu2dVyRjJDbYNcBVVkUZ3nD3Pvgc67P5M?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "신설동 농협 Bump to Bar",
+      "description": "구성: 범프 투 바",
+      "lat": 37.5745682,
+      "lng": 127.0210935,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR42Dt_Oe5MaFW4OxT-kRt-ELSEx0nkcf1QRXta98tVctGr5L7extr_VyD1DpL7XeOfsHRZVBWYUu15_4oCeIqB63c8b2_0d2mkLom-FBeT04i8DkroKw1u_NtWfoEorW9Iy_Ubyfj4yJPG3ni_leFpkoyBBbOP600ITsPHvFAHNVTuREH4UNMBC3jQb8F1iBRIQzYbBKwJ60ko2JKnIkGchVBCFmqho2SXpF392K349Kuk9j8l0ajN9_a0?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "신길역 Handrail / Hubba",
+      "description": "구성: 핸드레일 / 허바",
+      "lat": 37.5167777,
+      "lng": 126.91713,
+      "types": [
+        "rail",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6VzgEhoT-j3OfcIMXFkz36oRnj7rVbkBmVkjPWFy0Rldq0JVbQnR8LuNNVqVaZAKijIbEBVjGFQNjQKlJ2VFEUGe692pSnhSRKRnzyOs-G7f_fSsHkzMvyuuFWxnj-91ya6Az-oojU_cDERnLH2KGnSSfBfc3vnP53DdvOH6iaf_fUQ3886z9vdYhkrWymn3Hhjo0PAiu7xuHZoM9DWklIMHTplaGVBcHxbvTs5PRJD7dpwK19uwygYwQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "산울림소극장 Gap",
+      "description": "구성: 갭",
+      "lat": 37.5551297,
+      "lng": 126.930148,
+      "types": [
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6w41iQBJA0syaIWXH1hHdJRiRYqTaawDncApXqwxIhEwQMA42cSsPBPB1j3xEVHVdKWW-45K1s8JIGFpuR6j_Tz1PzSXIvPejRsHjc1Q5fJa9kA5mGOW_wc00oqVOFThFwJghHnetd9HS8dP6AzsylBTZ_DvjOQaldzvp3RHetsXFXBMfmk8a_aDmqUFF-EnqKjD6xECwKL-kqYE3fDDB1-gSZge58Oz3_Hbb61Tvzgw_V_1gV2eOkjgU?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "고려대 Wall / Quarter",
+      "description": "구성: 월 / 드랍인",
+      "lat": 37.5862945,
+      "lng": 127.0246344,
+      "types": [
+        "transition"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR64FzLjdIRRYZCkdwP8wMuPMyj_HPBUecSOPgCB5tgt4S24UjXSusMmaUku4bI5ZIhWBeLs9mN9I17fJ36FkXd2fGvJ0_tDmcABHsCU_wNjbvL2JObF5XyprxEnaDu234TOlvNpKEILlXmWB2FT1FZFTvodETjabp9xLIkWLierqnmg3azufevHDPQsUwYu5fiTTEepNKSX5AUNgWa2b8pZ3OeVSJhbc899XPTnaOv28rZO7h8-1-Giu8Y?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "노원순복음교회 Handrail",
+      "description": "구성: 핸드레일",
+      "lat": 37.6558982,
+      "lng": 127.0671348,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6eCHZCBXBO5QKN8iLzH7LLhWd2n5h1hjdx7ap1hAnFqPPzVZbsilWHtVpXT8GMkFF3rb7PKC440i2vUEntxQK4nFNMf87AUzwh-DYYDceKl_2RRqU5oOrFBbep3t45kvrSvjlFTylFOiu-lkCkZKSMe8R7zufeam-LJZfLmyVC-J-m-0uSNFQg2cQ3vicsrVpIaAD-K6EdFvre9n54ZafZZw-2QuNXTi79xkW8t737VMNAS2bAt-WmfVI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "망원 베스킨라빈스 Bump to Bar",
+      "description": "구성: Bump to Bar\n* 도입부에 턱이 있음",
+      "lat": 37.5579259,
+      "lng": 126.9083036,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6LxDICAqk6WF02YpI9klmmON3oDBruqKFbhb0DNlOk2cPx3P0R-zSiCxuU2YzK1TSpYOmpkEP_MZMR6T3NVvsv8kLbZw446syQ51-NTLw7gkryIXZbJHmKj25FvOXvb_hrAejqBxmefl90QnoLuWMjXL7i6k7bBxUFyD3O5IY5F1LFtvn-emOpPZbjsRJ_0Id0F5k_aDufnTw_oayw_GjiIVGQkmdd65UPLqZKz6fH1j2NeiePwiX2L_E?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "세일학원 Handrail / Flat Bar",
+      "description": "구성: 핸드레일",
+      "lat": 37.657524,
+      "lng": 127.0617022,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR55lKq8K5L7OflWy1pE30wz6ig2S75H3uQ1_H71Eo0WUSZUWf5lRoeZbyGzOto4ZPC3tont2ZvqXZANZ0Q7P9SfPxYkYRN_83Qh544pEW72_lqvdebNR9JWadIsik17KVcb4RkbxcMEB1C4ANrfMgx0bj_dp4AQ6fhq5xrjKBaCA-8GBYkK6_ea7mW0AUpvLxUVG9RsPGaVg9eNteDvquLlifBnVz8G6gY_gqPGTC1h66IvAzwAMqe15Ck?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "와우산로 Bank",
+      "description": "구성: 뱅크 / 힐",
+      "lat": 37.5532608,
+      "lng": 126.928635,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR437fvt-jXLN06AgCneaT80S5HQMFjvfU-Fv-ZtIrpF0ozDzYXLhUN7U0VZEAqiRpDtMpKcZRMkfhDGVmJzFf555AyFMLEfRx0RFv7gbbQ8gaG671iSmGCPgG9YIGsY5gJBjoB0Y5HJdjruXWzvT-i6frAE2jxjUxhJOnm9tLD4Um5VHGqeBD7OCUrzn1VNq0XEw4In1odN_4Of7_04JiHaU8NMEV6uRGX4qDeDbC7pQUWaq-WIFWnko48?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "부천 스네이크 Bowl(X)",
+      "description": "구성: 스네이크 보울 / 힙",
+      "lat": 37.4940633,
+      "lng": 126.7773068,
+      "types": [
+        "bowl"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4ERixFsUlxKrLrf_iSTT87DP2y5B3rVNBwe29srnYN1EKMJdISrNIPl20mC8_NBPGxYII7R-14Ho128K9tLNdalGOik03-QPa7r2MIhIDM_3qZBR5Z7HGIZoBPI8Qy8HlSKWA1ROdASSr_sBTpaL-2hRryejtWifaXb1wsJAg_BUYFqAF_41FTahFO0fzT3MKqkbNIdUdYVL7S5uX81ttnUw71-TAGvRk2qAv2H6mVuHh0fzc1sJD6QNE?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "새마을금고 Bump to Bar",
+      "description": "구성: Bump to Bar\n킥아웃: 영업 외 가능",
+      "lat": 37.62427,
+      "lng": 127.0731796,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR69EdpI8DT2ajwHvsbVkfpalayS0P6xwfoBE6id4ImRPZSq6aJ49WDYeJ8r-jfvt8GKTxvojHjbOSm9j75FAFGnSrvaQ0_dOEwZ5iAxh3bseQdREE-SMdYy37UXXzfij1Jdry9PnGTZCdK5c3ooLptIFTk9a8B7dhwBfxkPKYYJx8_7DVuZRB-aXE2-SeKornhppwpZiHBJhc_nPABLLdqC4C08c1WpcxdqKZfmJC5glePURuKB7n2ihvw?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "미도파광화문빌딩 Stairs / Handrail",
+      "description": "구성: 계단 / 렛지 / 핸드레일",
+      "lat": 37.5715415,
+      "lng": 126.9740392,
+      "types": [
+        "stair",
+        "rail",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5CyhL0GLOUnRv-UvcdQ3rT-8xDPCnaaj5Pfb2VGNJbNBCZUxuQh8B4q6QdMetzuz5aY6aZkl7BVLQFSq7dIXbPJNYw0IyyYjkYJIzHxtEztti_XBqudCXcvdRc3kia-5zPLkCC2XDv0mWZaAPusUpbTg4vyG2IGUgQocp5HTNFuBAoVBLJC9tp_pwx8wdGxipT55V9pfYciE9mS8YZH8j4jTYdIcRjZ7slhhgFRzOrZDfI1PgalX5UOVM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "동원빌딩 Bank",
+      "description": "구성: 뱅크",
+      "lat": 37.5717881,
+      "lng": 126.9725934,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR71dlLnWo1j3pAva577kDvzxDga6CeaKhaNOnLuyTOGPGS0njryyT2bCpRMdcrVOFG2vsDsB4hg3zg_TF3Dg-I-MEIgUXO7ScGvgauijjN81P2tAbAeYpSBN9c-BEomtKueRofJx3SWn_VNtGoWL3uYccJm7wppkyi4GgkZaOPUrssnwfDqgD3MywJNoU5EZ_ib9G-M1fIU41Z4ab0IZXwyL8Ef4lEZSMz0qo7ni4WjxYaJG3llGCZgBtc?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "새문안 Kicker",
+      "description": "구성: 키커",
+      "lat": 37.5720305,
+      "lng": 126.9731527,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4GMb3L00BtRCE0Yd9mdvpvJmKlVFW1iZWuAF1bOXuG7M2opP8w6-GomtPrPifEC0ReefdiMXR7xn1F9uxZBWfQ8QSf9Mlo7Qabm1hYWqlCwYoobfIPu6IxbN_eosNolqYmKNAb9oS3MCBod0ZJ00xXWv9boXgmEF9xZHrzpYuT3R36IWgMKoWAuBOwbHk26irKeij9psDfCpFYIeXuPjzwIB86se8XhtPBcD5f1GClcRFNXakViW4tlfE?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "경희궁의아침 Gap",
+      "description": "구성: 범프 / 계단",
+      "lat": 37.5725375,
+      "lng": 126.9726001,
+      "types": [
+        "stair",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7-cMJR1k7MMe4SSdS7r5zlgzUXPbwyEj0TYSSH1L4rE318r4Qi_QmCfH36uFkH3KnlzqKCKbPRE-zaWVA6-iulYBtjYmMEjqifKy1ujAeBN_4tyOkIZtrXrv4awIY6MvMFuPezHg12rGe-1NdRFRcBoSPPQzIrcSyOfttsh6M1JNHqmBuohdJb5ZfGRF1QofeUMX4IQkmIiGS343TiO00II_-FeT3HFJuyHSVnqtNRQCu4MoNbsEMmR7w?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "새문안로 스팟 Manny Pad",
+      "description": "구성: 매니패드 / 갭 / 월 / 렛지",
+      "lat": 37.5727536,
+      "lng": 126.9746467,
+      "types": [
+        "ledge",
+        "gap",
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5QstY25dkyQGS4Hb-BLee84vc7DvAorVvP7h8KFEeGL56LkdZWhs5JtyHTC2Ca_f9b4szYv1v0G26bW-26-guSkQ_7Zpm9N6ijBirzmA-HCMBBFoJ6hXA4oaeNkhJvv6jSK1x19aOFs7aFJ2AiMKHQyB-iX1yZk4RFth9pZTTk_pKeqc_VYqsXpVr7bh6XKaBDp5TQ5fhhLXAAWag-fc--S80p6DX-KsFJiJYd66b-kWiwPKq7RDzHoAs?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "LG 광화문 Stairs / Handrail / Wallie",
+      "description": "구성: 계단 / 월리 / 핸드레일",
+      "lat": 37.569591,
+      "lng": 126.971424,
+      "types": [
+        "stair",
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6FHEVjtwdMinzxPpDQ6gH-chLN8u5q315MbI9PtPtXVicWar_b4it-AgSurtTjGqsxTi2iZmfiZlocaZ2yF8-8Up5INkowHf82hvfBF9_XnitfAHKG6OkV-ZuphE9jobLu_SEWF3t4aguUsTKvohx_mBTrCAEZto5kH4sovTwu-1exwrfZWIOWZc2tyGsk4DgebyUnl3IrMQ4eILuxrp5wz9Jd4HkYuIHU7nP1C8yMmb11ouOThIkGY-I?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "심학교사거리 Flat Bar",
+      "description": "구성: 플랫바\n바닥: 보통\n킥아웃:",
+      "lat": 37.7168724,
+      "lng": 126.6899657,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7_lkkRtDEwgNlz3JP97Ki5wceIHyQEu8ftFoV6I2TybglFi6IWcRJNj-G2nKq5G__PQFgP9ertfMuoj40Jr0irb7Ca1pEKa3FActweoSRoDaruOM2ORdV5KI6GKrhE5cg-35SxmQi302Es18QuHZoxJxhLdizulfKbs0jqiGKykC5_DncV1wKCnsiFvbb1Yt1sV7AkflPLXldIldvErRRvwZHCIFzFqwVRmmRwQR2tyMnzyVPj9hWcwjA?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "흥국생명 Wallie",
+      "description": "구성: 폴 잼 / 렛지",
+      "lat": 37.5699311,
+      "lng": 126.9718585,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5oC4bhOf6Z4BGHU5eFgrBLAQpuz7ezQhrEa4c12yFhwIAkmJDKOsJrTnIGQvdXmC9YqJVCf_uuZovfdHyRZ9SP3C_9prcCJfHxIFGVmNG0E66DSJaEaJEs_af96neWg6cBAQlrqU3FW3-oTfNdQ5fAHkbrGODRLTJvbAnSSy-m9A3OoMzWeWwSFR-SKNmIVfZy1p-nxeo3vtOtfUeVUtU9iMV4CEGMEvLo9CIIkQeMsN-_dGkb9vEbKZk?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "광화문빌딩 Bump / Wallie",
+      "description": "구성: 범프 / 렛지 / 계단",
+      "lat": 37.5692661,
+      "lng": 126.9768019,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7qRLH8DUkxTL7G4BEioAewe7ro0Au3EAj64QdcjrW0LyzUu86ajLKWQoCoY5SiIlIksOOMc5yRWxAIADozrsVXHqcR306FbHSRWJ778DwJhfiV8TzZFzujlpYbsrb7VWWTjS0NMyX7HUu9THlcbX-uXevgs-JLTFeazYH9Mn5odE7KU_La2IfGkbBhoQb0Haq7TD08D6WCnb0gj6-xXyf9UzuNRulurDJQd6mUHlEHVpjfpMgf77UCdkI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "도로원표",
+      "description": "구성: 렛지 / 조형물",
+      "lat": 37.5689237,
+      "lng": 126.9766034,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5YsvRiRWzOV-AYS8d83wZqfX7Mw9dqad9f9Ugdt-ZvOePZnTRyIQlO6DSnSULdg6NU79gsuUHN_NZcw6986kB1JNVzM27DvZRmHHUhwmsnJAKg_sp1hAET61cLEIIt7ociEIP9LJamTBgzhQedERiz1EdM86h5u88aoJ3g596LsLKeZ_-Hczn1ONHOXAz7bXEHKTEo3iy3iM_GW4TOovXchpnAHd_Y60ZCNRnO2iS_8DkEuWXSuJ7q8Is?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "한미빌딩 Handrail",
+      "description": "구성: 핸드레일 / 계단",
+      "lat": 37.5687984,
+      "lng": 126.9803022,
+      "types": [
+        "stair",
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7O09GWf8bRLLHbTYYvQ79MiKGVDHuLYmK5iQ3aDL26XQKzgSfVqrNxDY2gfUXIBV8GrNZKEOJtTU2rwJdsDNEBc_XxTUQjAhY8LC3OsAvsd2FAu7v8jMj6V8YK1WdNKDgA4vPADbVQyLp9l4oPPr7ttQuCYelnkFDVfzSHbDZV6MhFKHHLaTDU2mqRSTin7RKsmPCMa9mfRpeM4BQE35mg0g8VZZLsNvEybfoZ3CB-PajKw7f1c7GFHGc?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "서울 파이낸스센터 Gap / Stairs",
+      "description": "구성: 계단 / 렛지",
+      "lat": 37.5681414,
+      "lng": 126.9777407,
+      "types": [
+        "stair",
+        "ledge",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5-6sfzclqcKH7Q0tiyxNniE71yGbIdSF7vYJmWy7pMzEgWqWOFYcKk2bg8Fe1-loIk04p6p58EFxwS1NbpRe-MEFpxZjVBE9e2RsXYieodVAdIjGg4lLzDax-f1-qdISkYtLbXuTmabkggx-Hp2XVuMRaET8KLF9RRI5pGEyhdL0_n4qOd5f1UAFHD6LYuIfHTWTLUsWOJMS1IPy-gHW7OnfD2RZgf9nD2f1xADqb0izMwsXNILqUgixU?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "미래에셋타워 Ledge",
+      "description": "구성: 렛지",
+      "lat": 37.5676397,
+      "lng": 126.9845803,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR494ydbCUpQA6IYTuyy3TxL5q8n_9yJ_lxS6u_u-clT_aRDeoNp0rXkdGMBziK9E6cH75X6FOWLVrBUWbDinU-h-N0h_uhLWwYTkfGckrjH7Wo2wsVUK_6crURfz9yRT5BhQhG0XgXPNmgzemEGWCViyRu1I1dFxUyTlBx_NptfA-0yjXOu1vWw0EhcziCq_xxDQMx28_1HkQinwKvhv_duqPLNs2MIxV22jycqvBYotqGoaNdSQect1jk?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "글빛누리공원 잔디광장 Pyramid",
+      "description": "구성: 피라미드",
+      "lat": 37.2401531,
+      "lng": 127.0440698,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5iRxc3Ijjey3HUuEqSlursDkWagQiUAKVK2zdVb1pN3U01x6QDgHQAtbKsmdKUm5i2rTFGsgnzN1WtSTsr76OSW2jkr038Rjq9-vLZcMP_nBAjj8RCDX21YP_JKSBLKa3M88VxX_w9l9bqTk-_g64xx4On-jvS_0m6CZz0AEAR4cVRrPwpdQkfFQ3qxBEvUhfkGhfCkIZ9iSsV_hNcd3qv7hq0Hy_vREDenmIOtKsdJQxR-ikecrHI354?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "서울파이낸스센터 Ledge",
+      "description": "구성: 렛지 등",
+      "lat": 37.5684093,
+      "lng": 126.979114,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7amEHyZLA3BwsP7Pw5On_pKmooXbHeN5hBgWt-nBmd1XqBAze9BCk-yb45bwO36HnsYGjjQ1jI-jmYpgZIUiC-mi_RRkwQOPupcO8KIjdH4QphP1lsn8ZENMWCVp7QUzT9nNeoNqO9N5F3sRXFaR4zUh-IVqWUKBY-q0QphRntjFeuee0dFgtuO12dt4KJUyvtXu9vCAvnv0ffEGgxEtXYpOIFTh_BQuSW1pb2RDbaa8tydEc3gVgxSrk?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "SKT 타워 Bank",
+      "description": "구성: 갭 / 뱅크",
+      "lat": 37.5662429,
+      "lng": 126.9846796,
+      "types": [
+        "gap",
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6LP-b5gjLPsmtL1flj-7UJYMY7nANUBfnrATy7RdI-mMuahKkQ5x3YsSgICg2J4buFbZ5nHgCZP6sjIDO2uZ4Oewdoycevm_KI-XGWzuR0LL8nr8V9HNme7Cj0O2qp266vYC2FrFk6iKsrqn6-yMYk5gFTy97qvxg_skNuMh1l1i9J8InKHh541jilFjVBeXzoJx1H9ufU8VTnyvb3QaELbLXaPNpww_gloY9NmCOLZizG-XyOcZx-j9k?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "문정 물놀이터 Bowl",
+      "description": "구성: 보울\n바닥: 좋음\n킥아웃: 낮음\n* 봄과 여름에는 물이 흘러 탈 수 없음",
+      "lat": 37.4866454,
+      "lng": 127.1293768,
+      "types": [
+        "bowl"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5iymYLL3K0Gjd_79oJ5I5mmfHwfIOttyKtLTkO38FOzv4eRmTJqC2Fbmds3dg0A7akYw21QHs61x556zRKKjf3BndJOazFtGbJDdITIvkfnHsSuRs1taQ1Y2PSURD0UzVICsjzeH8Se-XSiUzCuwUmwTVFlCy3sNyBIcx_mE--Sr1dFUscO-WZHeu2LfBx5o9zz0S1DKyCLmlxzq4hWBNq59P8mfGbTz_pWE-b4vkn_tmHwFhpKkF7Euc?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "광성로 31 Bank",
+      "description": "구성: 뱅크",
+      "lat": 37.5497837,
+      "lng": 126.9364237,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6MK2qqYfzjDjwQ1C3yUSXNvCNf4pzpcvws695SAAJGH0H8GInSbEf3ur0K7QPt3S0i7MZydE88j0M9_oVsqVoeyrWJhMeXshyN7y0Id_sjMue-iTjPqIcGuohm7Oa2sDeEch94FgylswwHYvRTzXE-vuEM3zHtsVa89OEtePTxxNCSpH_ICpKamKvw9or9Ngie0BBu42V21j7zmcrn76v1w0z40bzbHHnk96_o1yPg4ffa3kyn7ZkPXds?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "서울지방고용노동청 Handrail",
+      "description": "구성: Flat Bar / 렛지 등",
+      "lat": 37.5672634,
+      "lng": 126.9863613,
+      "types": [
+        "rail",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7mLKGN1xg5nq195nNS1_DiEqJ7ghM2BJU9N-5PVCHx4_6cgsm22i6BA7ITmyhL8723bGstHy9RWSYQOHqh2dmUrUeiamf_JyJR3E43l1sqkaNz7bLT9YR8gcx3_dNLX74-QxmaZxGQDKV8FB6kDIByUdQCJ4dBBt9OjaTIz9tClEGfK2CKD-oRjYP3HueqS_V1F0uhBLwRJWSJPZ_wZVg2JkA8RLvZJWZr-g10ND3OwamuX_tG9V25sic?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "이마트",
+      "description": "구성: 조형물\n바닥: 매끄러운 보도블럭\n킥아웃: 이마트 휴점일 추천",
+      "lat": 37.6271517,
+      "lng": 127.0627351,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5hkRKrrhEzNLNZv_JUO7sV4Zm6mIOj2kRgM0QRha_VlS-pnmWnAEij6DSLtFkGK13_1H9dSyH02ieIgXua3YXhqM0Qu4zM-YMqd2iM9B0QM5pe8Nj0aIxqbNuYnwT3A8ycYP7S0PgAZpKW-dDY7tldAyhPoO4vEgmPqPovclevdmzbPvo8LpUNMLpfhXSuktuKL7cbMR7i4PxY6kTFRXoWWxLQSxxMTNbmtYd-MuyImgXFxUT_WPmf9B0?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "을지로 하나 플라자 Gap",
+      "description": "구성: 갭\n바닥: 좋음\n킥아웃: 높음",
+      "lat": 37.5649389,
+      "lng": 126.9846756,
+      "types": [
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4646nSu9UktnQjkdtD_x6tTyOpDDZiZwKVCPRnszQatQg1m6hlRRJA94pfsIQqagb_p1DiHfmEc0vff8W_rRaXBdnHzOMwZi0mwuxcT-xWyoMqUHpMAyDfcg8u1yDO3b6OIPaoCWuCdUiaA7DfmjTncuonQ-WewEBzQIxUGYoAa79V3MfUnEctyM4VPlLkNrGMbB9K02P7m6i6NgZ6SnqgkffVe4liF289WDqDi6y7LnBCqKulHYtmh5c?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "용현회관 Rail",
+      "description": "구성: 레일\n바닥: 타일\n킥아웃: 높음",
+      "lat": 37.5171266,
+      "lng": 127.025117,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5XxQMWffbWa0DNHUfqg4eMexBC0iJ2DKUf82WlU4VvFGZROz0C5hRQ2jocLz6mS5K3bDctP5K_gfpueKJqKTL0fyKy1Omn1A4o5zWxbmTBs6ieHRVfLvMcD-R03OByjt-ISXtcEearEDGhz05RsHbObXwbuXk2MlDzA-iD0mi27qjybhVwBdvzSrjTgv0s5emJerojIiJAEjF6fg9-JXRR7HKu1Jf5vJiX0svbH4rt8gxI2rrBC7wZ0Is?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "그레이시 주짓수 Handrail",
+      "description": "구성: 핸드레일\n바닥: 중간\n킥아웃: 높음\n* 주짓수 선수에게 관절이 해체될 수 있음",
+      "lat": 37.504507,
+      "lng": 127.0255984,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR626pkq5DhTAuLDoL6MpS7AvjXaPWqD5JKXbcQ_jGvC3bUkUqzwoEGLNqKeX7UE_mOGe0GZS9835-gwf0R-wv-DJ2iJz4trF289IpkzuUzV9DNTJSjH_dw2e-M3Wuh60GdzFCl8W4Sra0NXG2U-JkzItfjtUoRZyTEYdUx36vRmcDQmCjQeWluxwIx8oAqb6TqT0JxhJz8DIJuJKhnqmCUe9hdHG_Ecqi5hjW9doYEabdTro7oGNKufKfI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "뚝섬 생각마루 Stairs / Wall",
+      "description": "구성: 계단, 월, 매니패드 등\n바닥: 타일\n킥아웃: 휴식을 취하는 사람들을 조심할 것",
+      "lat": 37.5303082,
+      "lng": 127.0650257,
+      "types": [
+        "stair",
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4-9KEc4Mz274G8Kryo6b342BXgYxAeA0K9CtrvK1YXpgo7WKmRbx9y1ZoSMPLbefTC1viTlqVC2mpmi7PUzsV0T9qEW2mFmuFWN4ZV0EPcgk-7CERcVQsYy4lqk1OoN4Ej8oXwOpXd4C1plvbxE0YJ7dg_mRtMr7hs0NcOB0l1pzn6JoOuFP-jO3-AGjYMPqkWiaX_BfUt5i0GITuRi4d6ZkWBY3WBM3yWbTx_BtEcJH99TGeeGGqPDKg?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "뚝섬 Slappy Curb / Bump",
+      "description": "구성: 렛지, 범프\n바닥: 아스팔트\n킥아웃: 없음",
+      "lat": 37.5302763,
+      "lng": 127.0693628,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5rCCmNrOdpljkZ-zRVDnobzhVE64RGJYQESX6HvGNO3qGHBbc0djVadHDW77O6dhNL-BOZ6orAQAfdpt24zeYTGi-XDSvHMpP7mCAviJI1cUcscCd5da9v94HaVPBQCHYSQU59jp96i-e9Mg6h5Uw-29fJeGhWMTjL8sAfvQKtaNvj6yvMWEuaxez-Fjfhx2mCX6KFA1x9-NjfPcNqG1XJ-IJ2SN_kmJp2WUcH16Yosy2g-Mtt_K81uqY?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "을지로입구 푸쉬킨 Handrail",
+      "description": "구성: 계단, 핸드레일\n바닥: 좋음\n킥아웃: 중간\n* 보행자가 많음",
+      "lat": 37.5657861,
+      "lng": 126.9822884,
+      "types": [
+        "stair",
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7p1KF60iMzTpDgWCdgBEQO35AZDjCQwrBPUWLqdzRgVdC4ejxWuybva1TJL0tl_TdjNJgrwrO5AImm6XYPVku6NPzxrsRUBqVu9ckZK92MRTLPfjbPhkGu-KJLFG8TGug6IV89lMZ7fCxp1j9pLyaH98v6VfrGGn6okJk7SVE9jL3jYxPT24mlxB_yn-h61owUSV2S5K6f8GJRn7M1RQ-MsBBADGMo3bmgbibv2o1Bjc1qDFePKGeJ-RQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "숭실대학교 Stairs / Manny Pad etc",
+      "description": "구성: 매뉴얼패드, 계단 등\n바닥: 중간\n킥아웃: 낮음 (평일은 수업으로 어려울 수 있음)",
+      "lat": 37.4960759,
+      "lng": 126.9545972,
+      "types": [
+        "stair",
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4U7R3qfjXvWdeMGJgyeyqc-drhbCr2JP7Ecy1NR_8u7vKTcTuT917RyTHo32O0njEMA3tZUloHWPRhacByPBU4I-kSlcPRi7m1NQl9Y_sqAeItRq6Mbo2WT0FDcdBvX6h7RwyguBQLA7NsM2eoyxtBJ-eSCMopykC_eToWC_bEAmosegziRDWxxNqiOtTvJZuw1fwdDYGlyWFWkoXa8bDfLwAUDH0SCz6iHMgPh4vebquzLly_XVD3CgY?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "당인리 발전소 공원 Stairs / Ledge",
+      "description": "구성: 계단, 벤치 등\n바닥: 좋음\n킥아웃: 낮음",
+      "lat": 37.5445918,
+      "lng": 126.9179637,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7CysFsa2iPhu8pdLu9nZH99oSAwyblHoXqaHcNFTucdWggmQq78GwfS568A5ZoozdFcf7VMEdE7Jj9cJbHrTdspTWJT81izCSrJHtomy4g2_WB8ibCE15xBm1_gGVnu1wVsfz1AoOt7SWK7y8u9Gpe8hHZa-SF83Bx2GtthY4y7_gzj9iSCDgJZ5KNsjs8KC0jANEx1I1iaUvok2rtZO0bF_A6OqOcOmQlBzJMnW3KLtnXS6x7HaoARWQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "SM Town Handrail",
+      "description": "구성: 핸드레일\n바닥: 좋음\n킥아웃:  중간",
+      "lat": 37.5094701,
+      "lng": 127.0620612,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": null,
+      "category": "street_spot"
+    },
+    {
+      "name": "별마당 도서관 Ledge",
+      "description": "구성: 계단, 렛지\n바닥: 좋음\n킥아웃: 높음",
+      "lat": 37.5103369,
+      "lng": 127.0601196,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5pxGGu1X7BHu27NpEECW_eFSaxiukRfmjLvK6oF0LIvsloVFgS5pXBKhsMuuNYahYIPpVUySDRwivXl20xxaS5F_-FN8vOMYAzrA50J9opbvXcfaWbhqWkTvmvJMAY0N6PhqATreg7WJzAyagbYrIJdyNQIFYiPP9aVzv_yRAWf8LcEMEzMUWnxI4zHl-mvpRzo7yJKsbWRIDXctSfRvu_YEWjc0fyFfLLt0qRzbv7K2lMGE5fJnvGJlQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "현대백화점 Ledge",
+      "description": "구성: 렛지\n바닥: 좋음\n킥아웃: 중간",
+      "lat": 37.5083802,
+      "lng": 127.0592182,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7nZyilPf1_33OJz06yvNMklKCJaSvx20ybYWXa6Vf3TfYeIzfvWxQ1igE_J5IQpAk_NOwANANt0oD6ddQP-wIYX7IsQGIQLv8piA-h1QAk_Ss8Bj7Oq5E8U-4fAZppAk3PAQshw7dDe3DQnG7iuVqmgpe62ALxWITuFE8fYzPh0HHWPAzF7UaypokKVqxo5P75qka_ScSza3y_pUS4uKnA9n1XjvDbjQXC6sMAFH7zMuj8w1qG4GvKBvs?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "코엑스(봉은사역) Ledge",
+      "description": "구성: 렛지, 계단\n바닥: 중간\n킥아웃: 낮음",
+      "lat": 37.5138171,
+      "lng": 127.0601695,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7xoWFtWXcVtgWZ-jUiHmXUWha_IHU99TKuakvudjPi8KWi8vnLWblIC_k64VAUP0o8qbGx9WyH66KLwHnxLdPqCEy8yunLH9IrOFxjndp687I-nq5UXaqj1qbVjPHDaLadNX6rmsUBash0PDlly0UbKd-o-Eis3GNliWR7GZ3SeklIt-ANixZjMqRCP1CauMWLw8UnIoFxqVgE5jDKKtLhe2JmjKK9JHkqInV9NDdXgViyjmM_nQjb8gQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "커피빈 Kicker / Bank to Bank",
+      "description": "구성: 피라미드\n바닥: 중간\n킥아웃: 높음\n* 커피빈 영업 종료 후 가능",
+      "lat": 37.5144554,
+      "lng": 127.0598543,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR56zhCxWZK6WuQ-jkgiRHellnrBxZHASxaqEtNR6kA6p6LnfUY0bWsDOt44bZfC0mD4zoNswbgsEDPAawwBv4C6GtHgW3WfznZBUMXCzN104Lvw8YM5bxOndtLDHHnPnPPmyElmSEb1xCvf75uN5L4cFFOCn085axZ-RyzkbBCJaF1cSebfjRaZkdCV1lMJJRLfwwzCbWIbmBHspj0TaJTBEBYEWDuSWC_9fJ57JJF23KXKe5NzHjDXYpw?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "삼성로96길 Ledge",
+      "description": "구성: 뱅크, 렛지, 매뉴얼패드, 범프\n바닥: 중간\n킥아웃: 높음",
+      "lat": 37.5091938,
+      "lng": 127.05799,
+      "types": [
+        "ledge",
+        "bank",
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6kkceYAKWaDIfkml32cG8aHD6QFjyW_WXM9WnSGHcDQreqjFH9z5SH7b9Ctjdxo5iiGDQuY_9U6Jcum7a3ZzVsV2s9TnxSFwMMMItaYOcXv4-F9606UjCh0zH4fS4OrWYM809c0xWK0NQTvC41x2YfSd5BHF59VzfzE-O9N-nbYtAQcQbymfhTH9SxUVqmAG0vEgR4UwVF29Am-cR_PGZ-4K4ODfuLD1Y5409aTSb9WPwHRCXxXSrpbSI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "삼성역 5번 출구 Ledge / Wall",
+      "description": "구성: 월라이드, 갭, 렛지\n바닥: 좋음\n킥아웃: 중간",
+      "lat": 37.5087646,
+      "lng": 127.0616149,
+      "types": [
+        "ledge",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5jZpLFMpJkXxf_GeNMavk2Q-jXAvG5z1U3NWonBIhzsO8k1JBWfeio_dxN7UYcDF2iJRy8JJBK1ZIDV3yVEX-PMR6FJ1pZ5KHAoUMXqC_dymf6IFQN3LELu8IkxMXuc61J77fIuX_LTqFy1bFMxhdGlUfbW1r76HFGFcN9UxJho_bhqnc4v0A0Gvzw-NVxwW_Er_lslhrbdgGoBC3S7wlcCsENCnkY5DX-BcqseGZk3i59gXu-UFrdgkc?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "플레이스1 Kicker to Wall",
+      "description": "구성: 렛지, 월, 범프\n바닥: 좋음\n킥아웃: 높음",
+      "lat": 37.5111828,
+      "lng": 127.0644379,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Wa6KVaRgUqLVXPYH4-ASBtVWWs3tzC4b3GYFSddd8Mty3FH9la89W5OyFbUF8fPrALInGzKtAkCvmTX0epRe03fPhEpCl6pWQ2-KdyKQVpTUjwE0I19Op1TSA4XrNypQU6NN2lseUNrWPkpDnyO70nBlHJZCwvP2FTIGUwliCpl0E8_Qrwgbr0Is24KazBxrh7_f_JrdbMo7mrHOgEgozL8zmxmdRJozOQXvX-XdvPjZ2xRhqnYUyOvo?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "안국동 사거리",
+      "description": "구성: 조형물, 렛지, 매뉴얼패드 등\n바닥: 좋음\n킥아웃: 중간",
+      "lat": 37.5754519,
+      "lng": 126.9832374,
+      "types": [
+        "ledge",
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5E2EoU_y-1x1lnuid_IVfrjWRBTg7x-Syk0nuI_UxAQlZXShBa7rYQ8iLwLkhKyfl7W9bocqJHkCLHL2gMhlUUEp2gt6LK7_EOux-NiYg4ysGHG4pg5uXCdvN300lSnzorSMFYMGsoQYBeCqVvu_NWmyB2iwMDTe57raiDYVCFfroSw5jjGdxwFaZgo7iBR82AxkKSYuY338EpWmFOtLbcz3br6Lb5fhwzePD0WWL89awRy5hl-lRhIUg?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "선릉 변압기 Ledge",
+      "description": "구성: 렛지\n바닥: 좋음\n킥아웃: 중간",
+      "lat": 37.5021371,
+      "lng": 127.0419838,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4OQz7RbV8svOFXdIHcmyHlSaNdeq_eIsdWh3bFX3__lE1eGiKM0WIdpiUrACc6CeI-0zjh2mycaG8QQcyeqR5eG9XXysemw6OopqfgG1ivnEMqIlwyvGgbdCE82fBwxE_XZThdFzA6t-YQ-gsPExs5UQUmW0k7Yl8gd2Ma92VR-sdjc5PABp-IJ5sx81pH0H4Qk4D0R-9lyi8wtsvhwxKAmBP2te5WDFz8DnAuLO-zjkgSR6uHrxVYf9k?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "서머셋팰리스 Ledge / Gap",
+      "description": "구성: 렛지, 갭\n바닥: 좋음\n킥아웃: 중간\nhttps://youtu.be/KoRuKydd4QQ?t=250\nhttps://youtu.be/KoRuKydd4QQ?t=149",
+      "lat": 37.575605,
+      "lng": 126.9812972,
+      "types": [
+        "ledge",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5l1XoxrOudvlY3NBCnBML9YlsMD3k8rUjQF_LxUoVflHdymxMN3tq2Y8WySk2YmAQtrdMRrjs8uTKifewUu1wt_UgsTi6C8dbKrkmm0gjT1I_QGYh2ILcT5mX8hD_CBkHYeFp5NlYuqOSd_l1zFYk2QBRNiPVo27PF0RRmnODMm3hXPcwvDUQAB8HoV4qNm4KRPpygx90aoXYWLsYiCXG7MjEhC0fMArCglJuUZCRRr-OYBUUqaLEWh9Q?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "교보스팟 Ledge / Wall",
+      "description": "구성: 렛지, 월라이드, 계단\n바닥: 좋음\n킥아웃: 높음",
+      "lat": 37.5704317,
+      "lng": 126.9783736,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7D6WAjhANKaTfMl7BBE7YaskjfOobp0kHjfjNKFeVNIGqrT_FUqHlK08tC3hp9br7YAEtoi_7aI-Gs9Fs1MSo5uUYQOt__Fi6XMWMOr-YglO-u0_MO1-yC1c5OAnwZ8__vfxnu9-Y9PB1pwmDLAk0NRJjBqcd-_St_KtIDqF43SFcmeODz571tVzloWiovxz-TWWXFINakygOQLu4MvBJ3hQt8plYz2wPzi6HIY2jNCZmSGtbuR_64tfY?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "새안빌딩 Ledge",
+      "description": "구성: 렛지, 범프\n바닥: 좋음\n킥아웃: 중간\nhttps://youtu.be/UyAZidcFU88?t=357",
+      "lat": 37.5697942,
+      "lng": 126.9734851,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4_Il34IssAs2FXtoXyE4USpoxs2V5P-WW6na5SVBaxY2OLbiiO4otaF0eFLB9YxRw4MadpgLfijkdBYbx8iG88pe-Zjp6snk-zIc8WweeZPhaPTbLAlJj7bxoqa-rEFc7tSCx55cIrrF2JXQ_RjYXbfw4gbSsjmc79wv2PSXgdQsPZ67iQ25qOqurBbX8ndjwKOla7jryoDT_qWoEwwkqHoR4vn1vm7iiGOedis-F2j67hxWjPO3Bfqdk?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "고척 스카이돔 Bank",
+      "description": "구성: 힐밤, 렛지, 뱅크 등\n바닥: 좋음\n킥아웃: 중간\nhttps://youtu.be/xBZeNfcT0t4?t=10",
+      "lat": 37.4979526,
+      "lng": 126.8678352,
+      "types": [
+        "ledge",
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR59yRrypFZ8BiPDgpcwcltUzcyvY0Cg2LMC4OT1XjVvrqM41Bn1npFOTXOVVuBQwPYzrev1jcTzj2T8gRpHfKfZYBdaCheEtM_g96PY2D04ipS170yjaNCCpve7YMSBQXkZvAMrGvDlDnzXy9HT_S_I3_tVeEfzzCN4hgbcqlH2oXvVrJiA11BUzA1clQ0NhrXh0lUAbYfd33x_9pFIJo-0oe-bkG25gYgpB9vvhI1UV3HDmDJVLnNQqW8?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "고척교 Ledge / Wallie",
+      "description": "구성: 렛지, 플랫바, 월리\n바닥: 중간\n킥아웃: 낮음\nhttps://youtu.be/xBZeNfcT0t4?t=119",
+      "lat": 37.4991133,
+      "lng": 126.8706722,
+      "types": [
+        "rail",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR69kNvkJwCffTMQHDf5oBuoZ8lB1qTG_OEa8Qa_hrZXXE4ewZvr7QiPgv00pHB_1gizx9TZDgArfgpJjIKDhu9BB7XCSsjnyDGtapmK8CQk0WcMbb-NiLXGyGjkBU_2kjgkWyy5h_275esxemcd8dU_P8PlOmvnc3PV8l5LGmapM7RGMkHvTqpveWCsstCe8p-TCp5EU-Vn6CQwx1xTPK8cU8b0Ks4QlNlqy284kx7T-C3ZLnk9VesjvjQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "풍납사거리 Ledge / Stairs(Double Set)",
+      "description": "구성: 렛지, 계단, 더블셋, 플랫바\n바닥: 좋음\n킥아웃: 낮음\nhttps://youtu.be/svQ_FXyHx0Y?t=178",
+      "lat": 37.5281365,
+      "lng": 127.1195003,
+      "types": [
+        "stair",
+        "rail",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7rIHi0mwXSpkjTZI_18As1kSNnxk3_YWWio0ka8Ruj8uGkgikDP4Q-APZieC_Xw94E-Km8svzs0-oPZClNunXDO5N40lIjW0ayzXuD21VFZDc-xb6M7irhDmQVLdSnjysvc3Ln7BBk1lPL4iuRcCaAokCMmjQseICpkaRIyRCkRVoT6HQRnS2Gb8Kfp2npPCGnY6Z2PKUUuqBNoVQ2vc_-IbvRQzOdME4yH4o9lshaQDQen6uaueMpca0?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "올림픽공원역 Stairs / Wall",
+      "description": "구성: 렛지, 계단, 매뉴얼패드, 월라이드\n바닥: 중간\n킥아웃: 중간",
+      "lat": 37.5168576,
+      "lng": 127.1310338,
+      "types": [
+        "stair",
+        "ledge",
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5XDxpU0iFk-h4ONRwwMS2MwYxcdowmcbcWz96XvNH5_5JH0m0FSobDWjN-pJhI12i1-bRSpIr27ylwA0dlccz2HhPAqHT5OvkDG-MYZh68IEsI7m--SwbJnwfdEZYB8h8JH4595K52yY5fhICewCLiAn7T-1s0_IIKvKDFDawsTRUMcyEWcrK7G6y40m3K0vT9gCDilZPW-rHeFUPKcrumBIQYxoRm3dxkjlQUfjj3W-GtFCXtnfh3Ubo?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "여의나루 Manny Pad",
+      "description": "구성: 매뉴얼패드\n바닥: 거침\n킥아웃: 없음\nhttps://youtu.be/ReqbfED3CDM?t=121\nhttps://youtu.be/hBhsWWhd0iY?t=60",
+      "lat": 37.5332444,
+      "lng": 126.9248768,
+      "types": [
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6AMmu4tR5ZuSqWjS-IPC7zXCk7hdRnvumyKItzQyTbaCnb985JSLVjEL_rrp_e3tajThzgrEEaaBqL0ycHVBlSEQ4hm1--nuPAPJwkiohI07hcjFS9aSHG7eGAbAMf9ZsWVWD_cqr669ZBAMsZ5_BMozV_jYZps2GzGvQSf0A0XUQ3cSd4eOfsmoi2hUs4gI-A5SLR8n7KgMdmWBAHRC_ohy7vUO7Sm1HvvUur298bzqHN1fGOO7vs9j8?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "퇴계로20길 Handrail",
+      "description": "구성: 핸드레일\n바닥: 내리막(확인 필요)\n킥아웃: 확인 필요",
+      "lat": 37.557654,
+      "lng": 126.9866566,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6k4lWdk7SJjkO01ZjGRbmIQvbtsq40hHngBqSDwIFSRZp63xOuwMZtQPP0rUxR83WMgC_YcIQE1JFQhkPsTDiDn7eXluap2unKYBRZldLdTCixFIzGdR7k8se_t2lcdrNbtw8SqLoY-vXiro5plGVl9MTIC0weHXjglSbHyPJKdtR-fwCgqgwM6YjvvXgChgVD93Y-VqN_TobCF-qEsCrVMT_yAhhYAEimiShrzue3WPIbhYLzAIVHQaM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "신촌자이엘라 Ledge",
+      "description": "구성: 렛지\n바닥: 좋음\n킥아웃: 50:50\nhttps://youtu.be/8YsHzOXMeAs",
+      "lat": 37.5568518,
+      "lng": 126.9427528,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6k3iZBn5LBmpsxtsMY3Uf5AeNIXfHtIM_I4RKfXJB9YfkMpvqklk8xtWkIWYw4V0ca4Q4QM9KLUCvnx1K5tnMW98ZqsWfeq4izilil3dK9SEPkrvR5Q-IQqJCe38CAqBJPEwAse_aLaZXc8FsVEkWNpDFAbiV23-IfinESy_xVNZ0kz4raakhv5To30YCOjuEM_a1vLlt3XDgaL95ViGa7RM_-XaNYIsuj4_fZz7mABgFBLeRCftZFrmk?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "화곡역 Bank",
+      "description": "구성: 뱅크\n바닥: 거침\n킥아웃: 50-50\nhttps://youtu.be/UyAZidcFU88?t=278",
+      "lat": 37.5421376,
+      "lng": 126.8397658,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7Stl9xu7TUSDg9eYCbYAd6NPZxTxh3w8Q2Ks8E1k-F9wokul38MzM1x7PsMbFTh3nmWmu49z2OY4Aoo0nMWKIfRru5Gjo35ASTniaX4CR4ACI-EE8cWiKIkUvK_a9higpnaSzOusRBMPSdNznVITxncY3Bxp2c3cUfpPO0k6aznFljQ4A4haWxiyYpUQtjLU3fIbmzgbukOmQw0cZj418-H8awKpfEyUhrayW2XRGQMpgDrMFjy3FyZUk?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "신촌벽화터널 Bank / Wall",
+      "description": "구성: 뱅크, 월, 렛지\n바닥: 거침\n킥아웃: 확인 필요",
+      "lat": 37.560188,
+      "lng": 126.941271,
+      "types": [
+        "ledge",
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4olwN6vp-2dc2c4mypdZ1BUAJootbIVvmwX_UPrPzM0sVcgvBugaWRe_yRBJruhXl8f9oXlGZCMZoUkwiviF5M8h2PBRfwY-WyiiRRE_jOuUKLA8zUfk--sn6QuG_EEi24aQvzYUQmjxM4HB3njugDI4CZ0Po0FyuoBNvM2rM7KNHkXrglRQPlXLX-rlHLXltgpTYjSRgyULbP4-Y0xH2BwqD45Gt4XaBh1TuX4IVT0E1fFP88UJxS0AE?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "독서당 Handrail",
+      "description": "구성: 핸드레일\n바닥: 좋음\n킥아웃: 휴관일 가능\nhttps://youtu.be/MIoB_sBUQ9A",
+      "lat": 37.5464321,
+      "lng": 127.0252669,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7eu_U0No8KWqmLjwGSMN2HKJKHgyJWF_l-B_FnKp49LfRm0hrTppKvQPOJNHBfCvJs_GLyicBJhtTmIshkaQpWogI0Vrs0ICEDdRnUP2uc-Wkk5I6lFQHnXJEOm5EDud1GBXR74BqS561lTQBZ7i1NWYh7Di5fI83wVPRO_RWHe1X6Gp5LqAOYkGJLEVuBFuCP9ysr5xEI3g2e2bXGQe8KLl6nDzbsYoByDP599O7mdgFC0sZNQFSiZ68?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "과천래미안슈르빌 Ledge / Stairs",
+      "description": "구성: 아웃 렛지, 렛지, 계단\n바닥: 좋음\n킥아웃: 없음\nhttps://www.instagram.com/p/BfaNSqGgOtx/\nhttps://youtu.be/pWudJcR9UQg?t=228\nhttps://youtu.be/I1WfO8xtBK0?t=90",
+      "lat": 37.421813,
+      "lng": 126.9921471,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7k0X4qKAYRGg22wwVTVgAlZnSr-y48EwupN13KZ0-aQHK2V5cWL9vJ6I3GSyu7TTC6ybSF4NF3Umo5olHdim23HF0IYhBuYFsQ1JLtr86lv-JEisecTjlE32tGdKMzaUljork0ZxWACbVNe2nWy_P3sAIyunM5f2vCrs3cM-eQrq4Rvo6COZqW2KAd_ie9PXmI8iBTDpTsaH_pPhW9LnaM7frMPH1EfNjgD_Ygoxy0WKISWUIKy_HyByY?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "뚝섬유원지 Stairs",
+      "description": "구성: 계단, 렛지\n바닥: 시멘트 블럭\n킥아웃: 사람이 많고 소음이 발생할 수 있음",
+      "lat": 37.5293276,
+      "lng": 127.0659055,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR69YlPmhssckIp4zB-zrbT6p2jA0qmy5q9bG1LSddxvO0xydkgWPkSNx8JDh6gXt433JQKd3PVZhJ0HJNVqhqDOs_8hSkxgrSuxoJUccPUcbGNXrX-1TzDoeFBpMe9qPuGc7soBxAf64c0VlYrtcOOR9t6K0oZQfWEXCADurDH9P9BM5fixH8OnDVYI9O3KA30WwdLxYtNnTmMp-lzD474VE--0C05qe-TKz2-NPlLO7HHc0txQWxNoCVI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "동국대 Stairs(Double Set)",
+      "description": "구성: 계단\n바닥: 도약은 좋으나, 랜딩존은 거친 시멘트블럭\n킥아웃:",
+      "lat": 37.5570942,
+      "lng": 127.0010343,
+      "types": [
+        "stair"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Lki3y_9Yhz8vwMp4x7-iVsIC9azeDZZj2_lHiLhOxq1Kd_63oQxpB2TU9hHQ5htOgLsxGTmv6Rw73OlSXZ56j3xmgwRBQhGIzyqpYuso8JhE1KoVgjUniVn0iiNgS2MCEJ2to3KDUTqN1B841Q0yZMRXsDnBa3XTaazNPOPJkhjHMylyaUm7SdMUrz5d02o0NWGnx7rpQGrXlv0tnnhB89nh0jg6-szwwGfNlxZC27Ci7BIslcooAzgI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "충민로 Bank",
+      "description": "구성: 뱅크\n바닥: 벽돌\n킥아웃: 없음",
+      "lat": 37.4818664,
+      "lng": 127.1310762,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5JNZwNJes4Cenltkm-a_SZ93_9QRxh2r14BxFDGF8dj3wa-G1bLqZWqHe2PjpiXZFS7HfrezNL5YrBxfejK-SjBqLn5LlFI3bCE60t6PMWqk20j5TFTLdaWfLxjAOlCYAH6zPVLFgNNCtgY7u_1pgSRRPupya1dHlRCYwmGtzJZxGbi2PZ0ub7xOS2TnLj8WzaGhol5gk9Z-jRV0Gp_p-DJ3RZoNUpb8dFGLciCE0wuC4fynEfwNgvAPs?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "운정건강공원 Handrail / Gap",
+      "description": "구성: 핸드레일, 전기박스\n바닥: 시멘트블럭, 점자블럭\n킥아웃:",
+      "lat": 37.7154041,
+      "lng": 126.7424822,
+      "types": [
+        "rail",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5cOJ-Bm4KwdQ5Lh790oZf1Jaxpfdiem7favBhTY20CxkEdZVcPVxSCNcJESgJDjJwQehxkIUlqVnV28DyIVRHhirRu8UVwFVYLRijbU1_67Aq4K9x46-qACPqVz_K-T5I0pjTSZJIV5zfmRJu8cQnz3RrJHigeiThjJf3EdwnzZSH_ikqFFY8pZ_kJlW8eXZqKECctmOrh4NezGKwoeUZWrvqElSEY5G6XGAJ1DeVia7N4BqfzSQLQS3c?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "밀리토피아호텔 Quarter / Bank / Kicker",
+      "description": "구성: 램프\n바닥: 좋음\n킥아웃:",
+      "lat": 37.4679628,
+      "lng": 127.1446624,
+      "types": [
+        "bank",
+        "transition"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5bUJR8O73opdXAD7J_JqOcsdZfV8L6ZZxDDmO8QHSj53xF1sUGbmmS4UgLm6s1iivdHzrEBWPFRhjuIzV0LdOyNipk9q8nYwtXlIJVcn8j9ZR30hO7aPnGqGq84OgbA3f8Ujii3HPzJqyjMSKWO6TwWUOK-zGCJNsFHQK6gQgRPftuWzxJRqNf624bQlYvx_bGr3Y0GmrzqQWPpFzZOesJZxsOLVEvUrG69MurfNNMQAXjvZ02IySrwes?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "운정건강공원 Stairs",
+      "description": "구성: 계단\n바닥: 좋음\n킥아웃: 랜딩 후 도로",
+      "lat": 37.7170453,
+      "lng": 126.7463406,
+      "types": [
+        "stair"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4DxIw4yjJHQetcVkRBmd8KjZlEu3ESkuW5Acpx1oDTB2EspERc9wDm9BJHLivrl9xh6g7BhpN0H4roeEHta24dZEivk_UwRToIR9fE5EgaxBu0wF5mgV5J3m9wTsRGaTtY662qHk6ESog2fW6yxasWq90Jhg09MNKZxriO2bIUdEKt8nr0A9852HLhmuOlWCcj3powms-z9DFzsv4qUi-do5iBHMvCODybedFg_XExbk5xh_MQrcm050A?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "티마크호텔 Handrail",
+      "description": "구성: 핸드레일\n바닥: 좋음(오르막)\n킥아웃",
+      "lat": 37.5581394,
+      "lng": 126.9784433,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7VPTKzftaSBkR0GoB0X2iA31sj61vYESTRfAAhLRPDDayZRQt-7sM_CLmdHoU3MbSH-etk8xzLnQKZr97ls7gZ8uDKUOuXVb9RJRl9IKEuuj5fPq04pkkn4Mc8kq8EF0GxEmBhCrfwc4wkQmBPmT90FpjGqUkHog5Lj4X2CHlmvA4VDTDE-5l1Qrh70GiEwLveq2BhSNAEnvKJ_ujyyhH6qY4coKaJH1-ED3Fvg4hfHsUHtcdl5rJ7lQs?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "도담어린이공원 Ledge",
+      "description": "구성: 커브 렛지\n바닥: 좋음\n킥아웃:",
+      "lat": 37.4674284,
+      "lng": 127.0989927,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4mFer2qD-WvnWUCy2RbhHrvF_iK8DnihcemECNkGFKKXuNmiMlInDHjiuGbttQwJcU_H4tuq7SLx-xE2_xGlvJv-xMhd3U6xhN-qfDpms7FWMbugoW10tBu-ZG-K81DNvrUj5RRHJetGgGcMtpw2uUuvcrL95JdJcZdy1spaue9TN6aBLOH1LfCeXC8hru3tVbiEH5BOPFbnvtkipNVNtx1ye-rk-sA9nVrC-nUcyDXr8-7B_iBCNP8cM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "안양판교로 Bank & Ledge",
+      "description": "구성: 뱅크, 렛지\n바닥: 보통\n킥아웃: 없음",
+      "lat": 37.3877732,
+      "lng": 127.0745422,
+      "types": [
+        "ledge",
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR63kin953rRLHghu_tNZqK-DJOxAdbFFWYVMfihipk4p_Bk9oww58iTS_XXbWMVJDhD5K5MV98cW1TpqYX-xROwcbKkKu3o0bwuwSDxXJz9rv9e24jMm0qkHzZT5DEZRuuhNs83BAiplQjDj-5CEM172uN9ZCOVhgXyH7QoNWUTkWggY-5ZMnbVX5C6cGLmPp3APNGz3iaJI2-aIF8FFz7B_agTyBR92s56CzlIbwLpjPLTI7sv1kMKeuU?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "관악 예우림교회 Bank(Rail over)",
+      "description": "구성: 레일, 뱅크\n바닥: 보통\n킥아웃: 높음",
+      "lat": 37.4774861,
+      "lng": 126.9519508,
+      "types": [
+        "rail",
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6VYf4HXHJsqkryZQH7S9IPEdGTDSGt7n0tZT-ENkmNfS3qTJ5B5Zy5nSo1sEqCf4NnhlWAZDmYVCmfqalpJwdKdbe8gpnKp2y29XwFWBxc1KWY7tN4H1iV0rXoH0GGGoMgHGcXPW7KPU1HWngvjEBUJRf1dEab3ZLG7GVw4-xGzAeNzuNMaFXH0BmUSnkMDYa0hJrRmJ1cQCI90mTmawomyuvNoeaq8bLQajqiORMmFEYp8ugG8zxZNnQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "신도림역 디큐브파크 Wall",
+      "description": "구성: 벤치, 월, 뱅크\n바닥:\n킥아웃:",
+      "lat": 37.5094874,
+      "lng": 126.8898624,
+      "types": [
+        "ledge",
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4MVr2QuUwlpaDbJVzS5waJSPtAzdIFul0FO2g_S7q4-Z1ZoZoSsMDnYRR1DXzjrqBTvYTAag-oV-Zb3sqXWoMgWKb3kvT7FIiqxuZt05tZkH2NS7BfeQVIfhumpO2dzstoZHznd62tvattXteE2VVFYha_Bru7evjYtSxMhauByHwHJZyplXkm7NmQEWke30L4ajRHnJxTWp_QYsrFPc7-mKLa8gZ92lncCAR-NQjsLcadITpvFSHAaEc?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "대륭포스트타워 1차 Stairs",
+      "description": "구성: 계단, 갭\n바닥: 좋음\n킥아웃: 높음",
+      "lat": 37.4842312,
+      "lng": 126.8956439,
+      "types": [
+        "stair",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6YQUx0_acLShM0LdWI5-q587i_QbjnzpiCOErEsEonLY3X7bzgaXKRmM8IiyK9ZVs-2CjO9VubmMkcoAjTDV3UTbm0MEtp9o92al0-KbO4LxYOHkKz_w3zlVx_No7Es-P_m8I1TLd9ubDUxd66bUIIdrymoB6us-s6FzbL6qBTWEdY83k1Qj_WBoTUG1tR8DOaVx1kamgcavNW42m2GiS0ju4CHZPs9t1MexazKJQO2QdM4jS2JDsbLOw?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "디지털타워 Handrail",
+      "description": "구성: 핸드레일\n바닥: 좋음\n킥아웃:",
+      "lat": 37.4822667,
+      "lng": 126.8966577,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4ntK70HTZ3Vx3i3MwCD8_9GrD4EOMpS25aZHhk3CCLXOwATJwQVZecTyxBnQT6xG_0xJrFRVk-M-ndTJLgAgChuHauIoHs8nUjHBzeemOyNM1inHePgm7IQhHzjTq97Kt70-GE-Zg0i5UH9ocUyIrwlx7z-nIrjoELonjqwuz4ifAL_oLu8TmL8UTpAQkS06b5VaTtUhGVtTKBnnhgtVWOMsMHN6ppYN-TEXyHkgxXw0R-GOpiXd2gjuc?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "마리오타워 Stairs",
+      "description": "구성: 계단, 매니패드\n바닥: 좋음\n킥아웃: 높음",
+      "lat": 37.4824455,
+      "lng": 126.8958424,
+      "types": [
+        "stair",
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR47ICRebES1lGa9xAQPWrzw9mXjMcIOFZ9GIfdgQYt5zfOxV0hDRW9pZQfpXg44N3BST6sQMqgyRvYN1e7KJmyqaFBK9YheaawAEdZe8bPVBqtCCyiJUQL5gc7lFT3MgIfTARK4pZv0Y6kXAwhRtpOfGWO9ZnMlhvdXNWq_DT4bX1ROb3yzkcD2b94-WUV7DVHXXafAITqdcas3dO_GriRfA6K0K15zIL46AhwP8LsvlTww5ktIpC2vMlg?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "지타워 3단 Bank",
+      "description": "구성: 3단 뱅크, 범프\n바닥: 좋음\n킥아웃: 낮음",
+      "lat": 37.4803851,
+      "lng": 126.8941284,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4DMpH_OZcqREf4f2g0A9J5qHk1hUfwl6nH_t-wSkgyb4yQQG7QaIkqCfAZwhpTdH15Dx6ujkguT8MdAHY1tgUf2Go9pdqhpQplET3XouLyRYjJcIsyfKCdt2D8MS5O_48YM94gXwuvHq_Fd3wYrGxNwsAxGTY0bz0_x8HzvG77BZwHyD4Wd2L_d2w-Q8DrHKhkrO5GfPWf4_nCFifQK3hsQto6UAMhU3Tsh6If5IbGA_45ZNfsPX53al0?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "LG전자연구소 소화전 Gap",
+      "description": "구성: 갭\n바닥: 좋음\n킥아웃: 높음",
+      "lat": 37.4806682,
+      "lng": 126.8956425,
+      "types": [
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6fwT94d2XRwwg3khFSfbWaKRJxfErd4KHyAbBswDoh8O-0Us5rZeRut0f_Izosru03CZGHKkwE4eKcuH3V75hA-KLiHJmVurWa6CvnybuA0-BuwOOFF3UbaHFkpvk34H3Y6Ynbfdj0gpdKAWhHMAwd-vsJ56V3HV6kF4lwkouL_Kx5jbviPwi5jKIZOdc8zhv6SX7g8JeBNSQuIxyHbGaJMF1dNkmaO9Oh5igXMVN2FmMtly70lX9Zx_A?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "에이스하이엔드타워 Handrail",
+      "description": "구성: 핸드레일\n바닥: 좋음\n킥아웃: 높음",
+      "lat": 37.4817175,
+      "lng": 126.8931829,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6sBm7BjkklhqeQf7AYDtsc79IiS3NV9Y58tWq7BvEy0sB8zwle3dqTc8jrM9Y-vKIvO04kojfcEAC48WTLoO17iE2PMobuNasTyX_flKxBh3F-mPB9aiR8Gyg8QhYJI9ixZ_DKMUJ-J0w9tGIsBM3cBy8NQSHOCBsarLUY8H6yU4vYmpdLJFWobplVAUDqUmsaBInsZtY13kIuPKbpoeirYJMKmuc6cm8CLN7RcWAsBjnxOiDGLiv4VnA?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "비즈메트로 Ledge",
+      "description": "구성: 렛지, 계단\n바닥: 좋음\n킥아웃: 높음",
+      "lat": 37.4811978,
+      "lng": 126.8923155,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4BLr9qGqHEEll6_AyVU-L7Mkgb6KMF5sunsBzEi81L4SPGt-j0EKyhyCQUxaDzQ_Q5vUjK0C3Q8oztL5lRc-y5eQF8IjesHLY-HJ4p1KpK-WYiYjWd_Vgnxw8-f2oDZ7xe-o8PiGtSSX071E-CO3qSKLjLxB5QIw-9iObmt29ju-Ed3ZbX8ro1v3I8UxAwiX42E0g9mIW-kHln_OhCGR2NKspqKgCyhF1sJ9OHgPA9HRmko-DETlCzrBE?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "에이스타워 Stairs",
+      "description": "구성: 계단, 렛지\n바닥: 좋음\n킥아웃: 중간(미용실 오픈 시 어려움)",
+      "lat": 37.484232,
+      "lng": 126.8943339,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR54VkiUMtbD7lcwpaVreNAXDJPKsKTnIT_xtCTJLLvHcKPupB5HtZpNTdjJS4ciV5zYsd-2gy2zxE0VAQdL9owNG1ARKZe4hsIBHgXaa0t8yxVTsY8fuXTtilZMXoFhvlZDb6ndRXjQKWZMQEAJ8cv8D4UWXWtc-leWlE_Bs0GfMUSx-WjfX9tvlNcygrZn1VfxOJ5dVAr38LNSpra8KNXa_fwUbz_jlPKXyInQlZvKHhe9Piyk6tMVxYE?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "e스페이스 Hubba / Gap",
+      "description": "구성: 허바, 계단 갭\n바닥: 보통\n킥아웃:",
+      "lat": 37.4838745,
+      "lng": 126.8921762,
+      "types": [
+        "stair",
+        "ledge",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5G-UCqVDhy-lGdtKL6wmtZf8r29SqzMV92_NGpOJIfIkDqc7spn4mQHLTey8CnuDBkLFruf9SeEKZ2LqZZ9JNUTXa0SYaDKL8SRCh9W6_vtkv9F3L23WpdPHOGfcnx2QDzHmrS0hfGjyHOEOKgmcfolr7k-xJLSik-lG5B9zIlYViYpzz5KIhQcc_gk2CK4O79ZYsOSKjPlXYkPvC5Hb5uFD9Nucx7cHQbg_LrT0Bl9_vJ4UJ_btmtB0Y?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "우림이비자 Ledge",
+      "description": "구성: 렛지, 갭\n바닥: 보통\n킥아웃: 높음(평일 불가)",
+      "lat": 37.4866797,
+      "lng": 126.8946438,
+      "types": [
+        "ledge",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5nXYAMYPTQQ07XidbCWH2BUZOnxTfwEfvOPhaZE9Yk6zaOw95OYAWTfkgQ6eSb5Yrmqc_tBj5KUvgpG-IfZxncnAfi8Wrc8KI9Sro9NC_k77wnnevwYaMM3jBENKanaBWEZyK1qyqBPN8CTHdvwlKLlXSJyM0Cn-IeQmsArI430RkpJFCuJX2WRr13URupBIRWHC1fdne1cIL0PAvjVfhXKRd4EimVTwm6mtE9B5-OowTo_yTO54WbUOI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "영서초등학교 Gap",
+      "description": "구성: 계단 갭\n바닥: 좋음 (랜딩 존 거침)\n킥아웃: 낮음\nhttps://youtu.be/VL4voEYHpJ8",
+      "lat": 37.4875757,
+      "lng": 126.8949549,
+      "types": [
+        "stair",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR71fNqTkjfEDWb03JJfzyZtHog80RDP2KAFgSkF9zkOd2WTYAR6bENrlFiJ3-WqGKT7WyKdGxmv8bUCP4N3bQVWgxNMZe9yK8t7yDm9Qz-n_6jnXZMiIwFJKG3FZaZFSmwWVKuud6tcCXkHsoESu79g9tVb1kwE7FKu3JQDoim5Sa-qQtQygEEUyJQYVqq6x6XzryLmGzGyt6MWf94YzMXcjVu3XkNNrnTjqQYqFaiUv-d6ccdv8WcRUT8?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "에이스타워 8차 Hubba",
+      "description": "구성: 허배, 계단, 커브 렛지\n바닥: 좋음(도약 짧음)\n킥아웃: 낮음(평일 불가)\nhttps://youtu.be/VL4voEYHpJ8",
+      "lat": 37.4858562,
+      "lng": 126.8957692,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4FaGq_kNVeP23VKRoguQNlN9Lf6wsSmL-tFRyBUTe5D9FoAVho9AoVb7GwgcO06qDJ6wvcnqKWJcMoW89wCYhOnZgQHa03wyjiCv0YWWvJz_TglwiZPQUt3OJGLPp0VihxgHWOyQGb8RGcH-OC5IsgtYLShZ7w40aWxeReXMpQeXYecv7uHqdsX9VjjU8rFUAisazF3ci9sDAhfqNcO6Z8U_tfgWDrCjI2X7xZJ7vH54wsQmKuoDvp-qQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "태평양물산 Handrail",
+      "description": "구성: 핸드레일\n바닥: 벽돌\n킥아웃:",
+      "lat": 37.4851787,
+      "lng": 126.8955935,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5gxzyTHcSMylpDTQAPkf0Gw1Nh-5z8y-TF-gpEvgwMGGU3ZZYxCznEWNrmOdY0I6RDCm7sdQ2RnF_CYD5bFTgFJcCwaXAs2E9N1jq_oO57CWPPc5khRqn6p_tHJgq21_OH9c0EWrx6ueV4cflFT28LoRkinzz6PofkZ4sVBRBtnoz9AKcapWROzhPYHyEwx1oMg5N060yu-RIxrDxfuijq-cyBghiFOr0YrOxGY7_RzyI51d02EN99TjU?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "화재보험협회 Hubba / Stairs",
+      "description": "구성: 허바, 계단\n바닥: 좋음\n킥아웃: 높음\nhttps://youtu.be/-atFyI-DoQc?t=87",
+      "lat": 37.521111,
+      "lng": 126.9262261,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4wlJSADvC4rGmndLmqNF3dyKST55JX1-2MxGoHahX0Q3TrAGiSkzY-M03uBQtPp2PwrGKrkfBwKyN-bUWWTE0ipgtyS3Lql0yKs8U9mDkekv18WLCmx3HkZk9PwgE52PlprMgKEIuVuWQpQtt_ceu21DUwBK063LU7HMtblFGzzRsBr6EgdFRqCR80kdVfISoGT3Kyx4oR5b5X2cGtlTRvRxR-a-LF-Qt6ZmHywZjnbf_a4vb7rUaMg_g?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "쉐라톤 서울 구로 Stairs / Wallie",
+      "description": "구성: 계단, 월리패드\n바닥: 좋음\n킥아웃: 높음\nhttps://youtu.be/svQ_FXyHx0Y?t=93",
+      "lat": 37.4833084,
+      "lng": 126.8990026,
+      "types": [
+        "stair"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6ubyocPYeiBysXjQF13M_gEvb0JkrEmeKXXq1DF6oC0ovb2bPE4hL5LTO9NQePNL3Lb5LBwxSziLxMlSBOo6ME3DWJJ6fosylIsBSPpOSRx4EXn46nxRs32fDEW9Zvqxn_2Wj_z1sSJfsiz-3xSK9cgCVGhkPhqcQzG6GzwuYU07-utcs0lBxG1_rUJjuAMn9PRj5_n5yLyz8CLbGScJLSIRT_Vi7FcQc1xedW5bgB6cVd6UJibVkmqDI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "KT서비스 북부 Flat Bar",
+      "description": "구성: 플랫바\n바닥: 좋음\n킥아웃:",
+      "lat": 37.491864,
+      "lng": 126.9234107,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4dCwLNhhhOGiiTBzL48lnjNVhtj6KSBai3Y2ar_Y-pDya1BirvJbFYPkyjNUJ4TM8-9DBNPYgWQJABScrf-jPTJPXfAszvh0zG-vcHrlL1O6t4WJsU_gMcKqoZTZuDplLiI9P2iuozpNAhy2Wcqy7fAsD9Wc88ZWQv2xg_awUK4Y4VaqCnc65lMy_ujePwdK5Kt8bGa3HK6ond-wTqQR_sbGrvYGIEwkosODeos-mxbzZ1bwwgqjqfuFU?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "보라매공원 충효탑 Bank / Manny Pad",
+      "description": "구성: 충효탑\n바닥: 좋음\n킥아웃: 충효탑이니 만큼 신중히 타기를..\nhttps://youtu.be/LGwLtBdo9BY?t=34",
+      "lat": 37.4930813,
+      "lng": 126.9225524,
+      "types": [
+        "bank",
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR55DxKkiDjz-g7cF94EbDn5fDZ7yLLaHA4_-n6hfW8GZuliP7oiWPsmiA7r6kP_-d8Lb6FL-4kyLFy-p_5Hl7KIBvOAnjfo2CapM2oYOYf4eVHOQWR7At_0SK_4rKsuGXAXsYjTZPLwdR4k_XmXWlDFx99rTjfVCKKMBTXSYNeW-MX57ruOlgINaYxEDh379QhkpFfTqAgokZ0REsUZ-TeeZlubgSDtyZe2Nm0_zt0fEydomOxnmdgshOQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "광진교 Ledge",
+      "description": "구성: 렛지\n바닥: 보통\n킥아웃: 없음",
+      "lat": 37.5436221,
+      "lng": 127.1166875,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5SWGyMiPSi1PKLNVyFUtASiSMKNJGh7Ike-Yhsjum_noiLS3hP3pOB1hlXHh5YPdKVAkiulX_JqGIZsEH8gRWw5ok8IX6z7G3Cx2sjlG7UVcmxy7wTjviX3N51Vznk9iY96bvj8FZ5HzeS0eBV8IhUoAfvKq25xuxBgkuGt3jBw0u675dm39a7myppYYiElxNwjTlIs-pLnXt_Bd9Sc1Qf_poqtSzdp3Wt-kKxL8mjTtTIJfoyBpJDN6o?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "약수역 Bump to Bar",
+      "description": "구성: Bump to Bar, Gap\n바닥: 좋음\n킥아웃:",
+      "lat": 37.5537156,
+      "lng": 127.0101589,
+      "types": [
+        "rail",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7w30pJ_qrqi9ePXErnaGDj1l69xbFwgtLzeYhS_rycYbzavI3ZFnXiV1PdBx0X79YjgDe3VftBgI44EGbGT0wrwoIDNNYlHGuTOIA_0moeERQqMPGfq9OB4urGdIDYEZA8afsaA2DyfVwGp_xEtiMsrVbrC1vDQRNHNYMqwV4rjU6niGvgtc4QG1j4T_duVCR7X1uP_MtcuwwnYMzgSEgptSVy-dyB05PgKQl2TNwWrmfmDETv9r75bFI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "광진교 한강공원 Handrail / Gap",
+      "description": "구성: 핸드레일, 쿼터\n바닥: 거침(핸드레일 합판 필요)\n킥아웃: 없음",
+      "lat": 37.5428841,
+      "lng": 127.118658,
+      "types": [
+        "rail",
+        "gap",
+        "transition"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4a6cVD3KhS6Qu7CQ3P8oDxq8Am3l7d4oJH1BNmAHj8up9uNqvnGhdHT9J9DR9dP3XVxZSiSqHhOtXJH835b9B2SjPO_gjvd-hUPYpbNWvrwkJ4m9z8BocOpGt3jT8IkrKN5p4c0UKKn5NIdmkcaZkoSs_l_512o3xyReexsbkzBivYrfkDqFFIglZV67plVIr14ASGDY7Zp5KP4Z0Naggfg3gZV1M-giQwZ0ePYqnQ3_dXaSYB3Fgy8vM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "월계공원 Handrail",
+      "description": "구성: 핸드레일(나무)",
+      "lat": 37.6203908,
+      "lng": 127.0611821,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5NZttqUSJF3FipgfFv4QnqV2Z9mO89Pu53-_AG_sGn71SLICiPcz71q5WlruWQ-w0JEhc5ZRD-_SuVwH5ESO1gstj4xC90qW3rKHWqaULY6wKJT_A2hyDpafjXDiOAMPSjQbD1DPhQ06imoS1Iuhii6CS3_4tdymu0sqMuB_BXhUdv31sVpUbExMsQjB9WQIBGlCA_TK3hLAagAh3LARV4CzzXIiIgQGylDhQHFyzCr3NbqB8FB5FczXg?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "광운대역 싸다김밥 골목",
+      "description": "구성: 매니패드 / 월 / 라인",
+      "lat": 37.6231979,
+      "lng": 127.0600691,
+      "types": [
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4cQOd7jYrizsbZZZbOttkiGGdRTYBNFQuJx1ceGnYjKPUVK2ZV_mQKx-Cm8XQP7uLV3K57-q_S4g6OZfnk_y3MZBNz1ZnPFw1-hTfP-MQaNnchzV7dfmlPjAuq4vRIY_DZ9OcBN7XmH9JURL2LBEaoeUw30UQYo8wEKo_zmlr2E-wyBJX8VoIR30EDm-sEoUTrxxf5QAkL97YshBgxN6sQdLq3MilSRgHhCQCHNbQRT77zjJKMUl03S2g?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "청구 하이마트 Bump to Bar",
+      "description": "구성: Bump to Bar",
+      "lat": 37.5618323,
+      "lng": 127.0148726,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Lokg6AyZNq5QUdcsFlqqexc4z0MWwRZ9ygiFbOpTY1NEIoQCZro8_ibR6aHgXiKQ2g2J2EOqnit1E_YN-Yony533Unb2agvkwXIAqW9kGqywi0MzDAWPsUPlHEcfdx6b6DKcOyHf5suKsxEh0-DnmciI5PKDBf5yiph_t3lx9rSUD7cQiOfGLWAwJQ-6b24qSjOV80j8FOPt4ooJoH20ZQaDropG_il2UB9scwUmnxZNt_wvle-U9YBM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "청구 앤제리너스 Kicker",
+      "description": "구성: 키커",
+      "lat": 37.5621522,
+      "lng": 127.0149947,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR63VSuL7EXc6Fdd-C-IFlS1DAKiw9-56rko-Wbf-2UrNSQDxXzDgHCXEmqNiqEUFcb0e0QtZgI9VxyWJjfyxbkHdzBHCNJ91RwDvIY50jOAnPgi-2jCbCyt9kIRNAGn8WGWtKatQJgVUeb8O4Gs_SN-jUOIbGRSWX8yNS0y-4MAXhEnPmCM7ukUKCAMt5j0eZkXJr8DnAHIZVzNSuPoyLCjSicIQohtG0nlQKTw2M3mD2y9jOp3HuUsWoo?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "종로3가 Flat Bar",
+      "description": "구성: Flat Bar",
+      "lat": 37.5744292,
+      "lng": 126.9907513,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4lYjCP2rq-dqBzDOf7eKhwgIqGiyrWNS3SxNkZztn1U9m4dnYDmHnSdPV6Dp_WtYVwPtuWzd8W6koAq3aE5EutJDleTmodk1IKpDRwlAr5lYP5Cs8IT4xzsoMlW_nxvD5BLgUSxd2twx7rOtd4kU3EQqAaIdmcv0o-om1vPhUX8Yqgij1QcvBuO4Kt6oQy4qRuVtV3LyHPEPsV5VUhKYU9xsnw2rlxum1WdEU4gi82VEdQQj1iOkjb8ps?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "창덕궁 Ledge",
+      "description": "구성: 렛지",
+      "lat": 37.5792827,
+      "lng": 126.9890438,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR68eN0EFrNa6MiRyDD216Yrb-iBXL2WqN1wsvhcjaHWUb92i73TZQxOEWE9KyK1WG6W1i8b5phYLpAPd-ncaHpSdX89eqN-72tNZimS61phHXr3s4NHcvQbt5ACfJ0adAqTmd03-6tKtTgucEEuVmey1DMGRoQLcZgeOKUlo0GG05-luwDY786hkmdYBaIqwHui21uX4GVQmNIjcJbuGa-9qc3YvY8OMWVEXki7vGikei8Vy74qG4RzjCo?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "창덕궁 Flat Bar",
+      "description": "구성: Flat Bar",
+      "lat": 37.5803572,
+      "lng": 126.9892516,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4bPxAk7TZb2ktd2ID4X3wnz0XO3TpvypT18dnZiI_9uNVpOURXOtBYltG-kEhU1D-gkeud4M9kdPswBRJW74YPPFz7MLWiKhbDVyW8AmIfO-wUOJUGJsZMrix5GWIeGy6jnM3GwOmejbvaeB_wlSHDVf5LwGvO4QTDVZmNt0wpbRSr4WLKvllqFIoI41u9VMPx5ynd7dRRdmeR1gPKUuSwxp9lIqvmTKpMF-tlnVFisndX9s2sV7EjK7E?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "노무현 시민센터 Quarter / Wall",
+      "description": "구성: 쿼터 & 월",
+      "lat": 37.5807823,
+      "lng": 126.9891765,
+      "types": [
+        "transition"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4F1YUTDfn5U8LYMFnTejWH7Yw3IA8VXgllx4ewapxKk12ViiNdFlw11SRUBw14ai3hkDkzM4MnK6XRSpEGnkgWcutnlPiQkj31CuKjY2z5UZlHMnNGCsxYEV33n6X-nMZ30RVMr_rIqbn8ZBYGJg4q8ljsvU83jSAUcyOYT9RdAg2_IvNpVSZ2ZssNf5L-CRHpys3H28RSC1EHbCBxocVTc3NrmoqnWkWsINMKZbCwZkggeD9eV2wS84k?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "트윈트리타워 Wallie / Ledge",
+      "description": "구성: 월리&렛지",
+      "lat": 37.5757279,
+      "lng": 126.9804458,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7pMEaXMDOJZfyLlvqsm_03NHi16-UbRiIN3LHMhLf3n3ZKy9zlMBkEQdEKQPQPKJXKvJv9y3cTSYZRvdJnzMT0Pz34WzX-ISFvoz9-uPseRMzR8LUVA0rXfWXcgRFlTvBXVciQgMXn0ytPjwOLo9s7Sd1Fwec5TjY9Q_CNqtIdpeBwjwxHctrJL0OdPsHr2YMeg-5YSFXXxfoKrcxy_-iG3qAWCPg2-EnHPwPZbHp5gWlBiVEdYcYA8Aw?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "중계1차성원아파트 Handrail",
+      "description": "구성: 핸드레일",
+      "lat": 37.6497616,
+      "lng": 127.069084,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR54t5EK91WfszUgnlk7FpuRnVkEds8JQh66LgResZF8b_iyMDjuM3laMo0st-9xqlyUQA6GXsymKK_lCDRs9m4N6sFa5Bv1QttaajVcWwEj3-DOdKLEU-JwM1xcreMlw1fi0dC1KIDsTnnM5VUIQ9qBlQ4Iwki7eyhYL6a-7nOCRX9D7ozNnuQwhVREzO4-Jj5cxdHPIaH4zxT1jORU6l3oH0xvvZJvRtSzn-E6RCXXq7mKPdwsOcmbdNk?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "삼성동 Bump",
+      "description": "구성: 범프",
+      "lat": 37.5091307,
+      "lng": 127.0646012,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR61h4BP8ZuNGAu3URjcZPUVPi5EMcawX6fPoSQqwen7M9p4zu0bX3jpa3oO_pKQbTSCTaANRICzsic5FMWnonMF6cHGb7EEDxrgU7BVcURCxg54WBpwVD1hhoCQjoVZLNsCpMGhITpgucgBzpWEms2e7ksNMnE4jOZ9-3IR0_BEQhdwr8fieygrRF1NdfH5QkYHXTXVmae7v6wLVyj_i7NU9LeIv4XQbnHB61u_XKwsW2huZs8FyRSR_VQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "평촌중앙공원 계단 Gap",
+      "description": "구성: 계단 / 렛지\nhttps://youtu.be/_wdlG9Hs03E?t=284",
+      "lat": 37.3919252,
+      "lng": 126.9586709,
+      "types": [
+        "stair",
+        "ledge",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5SvBNL-4IH4HrTO2ZgOukn-dPbim6aGKxl_zAX-XKdVEljLNEGUih4tFt3Fyv8sFeacTElI_2N9P1lIvy5QpeIiAe4nbY3VtQ-m_Lu83Vfvi_XZ8KUCRudu4872Czj71xFcEmArni1rv3aGf0WthxuwcNXcwJ9IBS2t1WKFriMpHORPibbqXUN1dUEAlToqPuRIotVpTeoUXfXJu4rUBob4UCC24-HU6T-8FZkpxU25nNzMu-MMYqWXew?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "대고빌딩 렛지",
+      "description": "구성: 렛지\nhttps://youtu.be/o00rAp91-Go?t=113",
+      "lat": 37.3917377,
+      "lng": 126.9591778,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4I9fcbESutjPjcWcNBveas6gbNk7Wq0i5Nyvo2CZAFFUqOm4unnv9dQCtTmSDc77wEI_-J6TSVoxgFF4XJkoseTrCOAluW4df_iF0Fzi4iH-xIV-hXSRpfYUMJTJzOgXV0F0aUTP2RsSfR_HkN195WZqeACJMQpGRM9PPCJcr-HzTdE2Ul8oAFDRoQBJ36ee3qgfsPxb0V38YSuqr_RL26pxpxFkzlbgBAj92UmyguOYD_jqd_p2EMvEs?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "평촌아크로타워 렛지",
+      "description": "구성: 렛지 / 범프",
+      "lat": 37.3928628,
+      "lng": 126.9567236,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6ZCCfWihCrVyfvHNegWhdVlX-FhbQIth_tqHk9PUvqLO8NiQLFRs-UGMRf-0MrJFKT1Z4DcgoXu1GXCB3YU7ol_bOEGcoH7FXMCEg1rKMj8L4ekckBsXQqw-_uYm82_4h8baJpe2-sEMhlW9vmmtLZddEUMW1H6uv2m6wvkPV1fOWA6_h8Wyny42RFNuMNrV18rLNIA2XRM6yL-46jYAdHXDctW0AygXoc_R-kg3KMkWiiNHKI15tQYnI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "약수 다산로 뱅크",
+      "description": "구성: 뱅크",
+      "lat": 37.5532681,
+      "lng": 127.0094719,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7_XcaR4Iu97jE79DbPP2dmQNm298LnNuFe0eCQU3lwQxREReQf09w9Zn3Q44TTEBeHyCIm9ySNsxOeeoRx4OAOZYWuLmL3x4RXTy84EgkLg9KWQhiBblsEJYI7PRhiggpGswPFRmrNI_kaeznxqtExdbw_oJmoO01hyG4ryGmJdgCTV27uYrICyM-psdCiDC4sd_nxqMb_1WtxMk257Fmy_-_1EMsPgx_i_SFxhdY49N66NZPEVGqME2o?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "노량진 사육신공원 플랫바",
+      "description": "구성: 플랫바",
+      "lat": 37.5135239,
+      "lng": 126.9471386,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5d2e949NvZEycZVBPjWdgH2tek--ROeX67MmzXvJPlTanqLbCkwgBpieJEniq2BFRBLnncdMcN9ePw6d9oLBW6e5_y7nWYPF9k-I2arwv8sKVz3WNvlbJFldn3dE7S02TKLnminYYPtqbzupXBfTQYRwBWZ7EVVz1EMIXdxf_PzlJ6bT2AMmkKKb8KJWOKDmcm6HxkOWBxv3lhsn_hIk-4vMe6RdyZyFCcXtIWwMuGNs2rssasK3KPddY?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "관악 동진빌딩 Bump to Bar",
+      "description": "구성: Bump to Bar",
+      "lat": 37.4842639,
+      "lng": 126.9546636,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5miS2VR4qu5HsVoFpRuvvcvlFyzo6ivcEYeqjE4nrAhZRTfAZlqQ0ommNiYe4DydLmTvyAvuuBU2Mnqcg475oVZrnMC6tiNt3i-nBXhl55jQD5b9Of6yrrYJzJDVNPqJPeqPTxhq5JdyCzfGqE9FZa4FFymhSJPvuuz2YC5aPfpLfzzrqqKeduP3qQfgwgWatQN9ZxDL1bIWpYlz5tbPyHePYKM_qULyNkrblRFwNdT237jXLIlmJLiCw?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "쌍문 금호타운 핸드레일",
+      "description": "구성: 핸드레일",
+      "lat": 37.6576908,
+      "lng": 127.0287626,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4WnUfEBPxtv1YpJFDU-qO2bWlUhrpScU4L6juexsAKn5qswRZngwvOpqSmg2NVqhnU2Qt1e19rFGDGkf9rWXQI0xNBaMcLuj9HCMVRZ94Adhv8OHw98iQhGB2gt2N2sQ3nqqLuPJPtBng1sw_PFY0JZevvueASWSanOBPMvqZj4AA1rIWfDwXwCybcvKh7H_bIkEJRNSz062_8VLhlYEZ45wZjVRyBf8U0kuihYPRG0bSl8quU3KmLEKA?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "방학사거리 계단",
+      "description": "구성: 계단 / 렛지",
+      "lat": 37.6625804,
+      "lng": 127.0439078,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7kRaJbma03P6nAWOXLKfO-_znYrkT903MGU2aVgYL-DAQutBXmyq5cqqK-U_sEzJhfgg1b4UsTGXIbTAf3Fy87h1y3zXYHRtnxEf5xLlQQh28uPNcBloY4hM_Q8duEWwWQpJ72Nhnqk-k2kypkCb6V1i0yOu734j64WdRH7xb-rMxKB6YBAQojTPv41cq_dzRpcDC6mVTrLtgD71xXU3gk2RXRWZjSOW7YlJqzbJ6UA6XNIO0bDHeD2io?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "갈산역 부평테크시티",
+      "description": "구성: 벤치 / 플랫바 등",
+      "lat": 37.5176816,
+      "lng": 126.7212808,
+      "types": [
+        "rail",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6m2656kDmrh5y6njlhW9sPh0mazis-_saQAb1wM3x7L4HPr9qM882_wlQtIIXvSBLKyL85AH5Ta7F2O4WUgjJvVRzKFVfdWBn-lweZhI7qlvW7_fvVPDkKCiNRBsFHo9RQVTmHn3kbAmAZkvLjzh0OIKemnKywyUOH1uY21FuC0DZIr-P2x6qQAuL-a_yyEFRKwJxMoVE0e2Kne_woHVJpoAfrNcTwgk69CH3kCz9QV5HlOwbAjKHnvpQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "월드컵로 Bump to Bar",
+      "description": "구성: 범프 투 바",
+      "lat": 37.5585309,
+      "lng": 126.9180679,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4AT3RFu-evJAgXuSqiesxbbbqTGezD2CJ14M0jmJSiu4V520I3cMoWPZeEhA4nsRw6RxGL03OFz5qb9vQVbcA7gSAoctUVgA_AIfN43ZC5fxITz-g8GRXNRWhWUterDrTADbBeeCO6FNTq9Ft77mgM-FrAIrd1r2LQL8oSQHIKwrKCJuKO4pV8URM5AqbYqRxu-fCRr6iMWue157v5jNdzOXioPSp8leE7qkvu2Bp1Pql_3u6Kt0GTf8w?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "앰배서더 서울 풀만 Flat Bar",
+      "description": "구성: Flat Bar",
+      "lat": 37.5598063,
+      "lng": 127.0024791,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR78w1PWzkp9pJFf4zBWUFaIdid9pdHux-G2AUpZPSlWk5U4UPkCeeSkp9LPRyBWCWnGdMTBrxPj_O9p-BdgjNyW2bxw9iPahVlqdXdc5u_zChijpcpxmJte38JSNk2NmwR4Q8wAY4nkQawjYGtDQQ4NRlk7k65FidQ3y8TynOMR0XpMzQ_po7z1UV1BeUsPivK71W9RqexWUqerCEJEuRTQi-ERgGDIFqDfKDt6VMFr6fh2kq5Bmt5ZUIQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "왕십리 피라미드",
+      "description": "구성: 피라미드",
+      "lat": 37.564932,
+      "lng": 127.0256747,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4PpLDTIzdAMrj0d6B_STyvMK_3ovZGLKPoxxyDZOIe1pZx4Y05WUKPXq3rklZZe15P3F48wd8c4LofZPNsxq3RwG8c3lMnSTH-SAqMSJn5nbMRmr2buSvPfMJmHVtfg3dA6XPRHowVRrzJt8fkd9ixEmzMlFLX-kxA9IjDOBpcfSaarSp_mRbgm8kLG2Zpfr-RLI3v4QL3pstWGviGh3NVxs6bXDsgxkEKD4ABDVFI2GDL3gkpo7GH5Lo?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "동호로318-1",
+      "description": "구성: 피라미드(?)",
+      "lat": 37.5628742,
+      "lng": 127.0026228,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5bH_O1HJE834V99SIRPkqxb3O_unmCHlj7M_FBVOCqGAMB8B9Yaci_gyl02bwVnm-SNYno9xHidcRPqeVIqLHUmOmZDDydG-QACvtC_FAG1PA7uZhOUwpKGk9YzUugOg4P-NICSQ5oBAOSlWbfUc-ZuOxxwckbw7XI4ozEI2tkuxByrzOT2jkg7tY3B_AyxptMzeDSMdsjslZ4j2dEWxiBOj164sc4MGl4oG1ZaRk2HhAI5zh_PKHJj9o?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "장충공영주차장 렛지",
+      "description": "구성: 렛지",
+      "lat": 37.5598359,
+      "lng": 127.0016639,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7ScSfCPGGLFQgsFnWmOz35eng4ojAgkjTW7Z4FJUqD88b2DGNIBV_K5N0wsJRhOccITIOP2-yMNuPNu0oLiMxenveMsk-vtM4l448SDPh__VerRi7pakWeNs5_OABOAfNWzHdauuuXj8b-XcIYnThyzbWw-D8jrSh_UUZyxLnUcq_4PsY43QWqncRlpLUpoc_rm2LWKKnrhrJWL6cyDd5u6CDW2ztPhWQoZgTlzVNsWHwsAbsNKox9qXk?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "압구정 다이소 Handrail",
+      "description": "구성: Handrail / Flat Bar",
+      "lat": 37.5266926,
+      "lng": 127.0286591,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR585xoIZ_XJlFqBU44Lq6wSLQ67LsVl7uO5xoXxzE9eYgu4elvKbggfwbI5FuKDyzjJ_ogcZ_38MV8VnebcuKSKShBS2E30VV_RnEXosLdycP45pNzDN4VZiQ_hY2vgY8xakvRptnn-t5tMXFc_LIDOycNypOrnjfHXaUwdW51MV5L7QUdnOEDoMCILIxdGozW9mMwq9MGrfWUVlv4Uqo76-0XHsaRQ-w6DlmSzffFLNX2j41XoazBV7Iw?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "KB 국민은행 렛지",
+      "description": "구성: 렛지",
+      "lat": 37.5194784,
+      "lng": 126.926909,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR75C2UZRQ_iUk9YAR0GuW-sWeq6j8FzT5zm7P95E4TSic8L5dO9HEdgBrfNv0OYNhnHEJVb8u0tLYh4ogQTdVSC7cINFkvNZpUbcabSnHQ9foD49_UR_XMtWvqmxW5Vuxn0910nmrsOQinUMa45tTQ_M1_cbN7kR1W3a3Do7v07F7GUa8bKmwX9Qg3n9XYoSC-IHcHf7H_ql_TytE35creEndh6MKMku7FRignXSgYE7cnrfSC4lXYEhPs?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "화양사거리 하나은행 Handrail",
+      "description": "구성: 핸드레일",
+      "lat": 37.5481725,
+      "lng": 127.067597,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6IdK7hdk6dT0T-9vR8QVUjVC4gcuyjIHdIfuT9mvcGjdwo1quryJiqIcKCi1j1r47PBM7b4OhFF22yOonjr3i8OtNetHMlV7dmb2Kq6YLdeTRmJPqDOtIUpPurhdIhmIJ6kdhP3pijiN8oNP8TmBOipChO9YOb54HkubptC76Efkvius2ffmo3IdQFD2mpBpmpWRsW-lfa94ScqykIUWL1Hc6vAQujRB_AtEnn7xXuiFpASebXUox2HJ8?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "성신교회 Flat Bar",
+      "description": "구성: Flat Bar",
+      "lat": 37.5463755,
+      "lng": 127.066445,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4AI5XRxfIG15zNOCcN1Ez5aDJMQ86xx5_YsxxHkcz_r2rgBgiaHqqLMOLJAP0cFwaUExZukFTkBwOK7LRjVAyvMl-PQ9XnAe1tnvNNkUtrret8KE8P0MNOFxfWLb0-qYeDwnrcXKfrTSuWUmllLUaMLrOh7-KOX-QCqpPu3K3ENrOjZ0EBiEjqsV89i--95bDX5-swjtFizPZqxVH7psc3I5QbBVuezeKygxUEmM_sU1qGuPb3a7pBFH0?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "사당역 고가 BUMP",
+      "description": "구성: BUMP",
+      "lat": 37.4766831,
+      "lng": 126.9812735,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4p13yedHjBsvD0iF6g8wtalyqDi99Ya4Rg7MQxywLFXQdLwmYQClOGIUGcmOv4-G8fOgz6s-L-cYNlYB2Jf7CE1kSfikZRHZtdbmbkJaY2dYdtPU-TMnr_kcm0DmzvReT0AxUi0ajvj1ITw_ltxhHQIyFc4VoU9cIKL8u9puWvVxjpAJ_wFjB5poLPBbQqV9eJBrN07WURNJASwuoLqlxdenBDNTe9UInOejPfsKt60YGmy6MifPE4ikQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "보령제약 Ledge",
+      "description": "구성: Ledge",
+      "lat": 37.574399,
+      "lng": 126.9976612,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6y7_RhpCAS5JqM3VWmDJCpY0y1NdFtBeivajHNFw9JXL4tq4SLKMIYOL6fGz_WkGR9uuIf-mhlhUi91KH_E7-gdxsQ4iBR4EXh64xNNf1AYOFe0VKCwVmczsRK4oBwDEOOmoovwCFNJbdD6Q6nkahSrsTpHLgVQS3O5XBn3xquTyTqdp5F9Yi3s7-08SEHDHvKTr3afbdKz2ASPgJL0Rtwl-gihgGplVXBGcigoLeCaWIw_ZudhRdAnzQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "창경궁로 Wall",
+      "description": "구성: Bank / Wall",
+      "lat": 37.5739717,
+      "lng": 126.9973769,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6ilMUsqsIQSBoGyPkJlZOR0gXdnR0DX2PbahfYEuIeHz2Oo051fCNM3GxoMB4rfrLnPMZCmuIKXpqb9Q2Xwaet1Yu30veQ1fPW_8AD4PDuZ5okCpt5LU0jTzInhzhMk0CCyL-LxzBAfQq0Y77sM2zL-wjIF_7zDXybBnoZ_5qjUomZFAFwNnrCvh7FxvMCcQiEaUDEIL-8MvjduSOovJj3Rw593-QZbhqM3gDhckBVnDUhrib_RqHeCsM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "창경궁로 Ledge",
+      "description": "구성: Ledge",
+      "lat": 37.5754643,
+      "lng": 126.998992,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7godt6ZdBFm4BhBrwfAWOTD8Wgafyw2WpY7FBXVJUu16bnqZdgTRs9sa1yCP8OKLOib9TAucYLnkJY0bgETkNQdBkGPuGG0KdXG8J-Ulm6Kwv9seGlg95dzMi0SnCHyWo29nnetiwkoMfHnzogXlODshZtPE11yhKL-vsiHcbNFO8rSxYeBMEigvu5VX3Q3nbzXhDjrQp0jt8TbUNrWMXDJ4uFB1SimXvD9bLWmBNygsW9g4mlpAqw2Sg?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "율곡로 Flat Bar",
+      "description": "구성: Flat Bar",
+      "lat": 37.5759855,
+      "lng": 126.999769,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6wzFbkTB01_cuV0GaKCAFwgXx5hcQpXw-zoERvClwiDcDdq60rfbYlzo33itjNlO27YhprG0uuHL1jqbFoc6RZ8eKcW0pEbGu3iCTRvAjyS3w39gcbsAcj4HHkj9nKGOs9L_FbjiT8Wpp3JK_3c7IGW1DvBmmFPJqMDZWQpJYXwDUarfiNQEFk42mq-dMJUhXwzCO1xFKEc0UtNaXO_5H_p-44MHFYCWW4U2NdvKXFvSs0wgY5ZRhF7yA?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "현대그룹 Handrail",
+      "description": "구성: Handrail",
+      "lat": 37.5752192,
+      "lng": 127.0012362,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR45AgvwI18sfvPsEdc-fHj6GIG5z2EYHY5ehTRgWgbOnKi0rBfSjs_Xfvtj_3lt5CAjbSqZApnMNP0KOTDqAY6oo6U7B4sPFBxNUFdKvQ1nU7XaYs7caW5Z2cvxgfsz2TJq1anpKRlP751D0NMj3C8EBBFyjaBQj9Jhjyj2zbQdr3trdQN1JI2IfMN3F3YdGzAYA4bOvOqeD9Z2yOe9YeTkY7vFTyOiQaTErPTl5oP4qIkxH2n3L4tAX94?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "하나손해보험 Flat Bar",
+      "description": "구성: Flat Bar",
+      "lat": 37.5730263,
+      "lng": 126.9967749,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4rXyMQy87ZMmngXyhGuyjF7ZAxtZv6fg4T65ytg-CboNFKZBtrYkmwJWg9QFlaP8YB0w9dz_PRTVj43LQFjEspb8TDkdXTufxQ0Us3HmZof0OtOrUUysFip7lSLVMwCgTRAa5Ccint9aeSSs6N7L9QqhoUcCrwH-XHl0Z6bJ4P2YFX5V2tBPvAkcSZXDZMk--CM1QKpT7qhy9NVvke36cFdNjDGHNaNXbEBHgCQHGMvwCRfBEvXjDn2uA?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "두산아트센터",
+      "description": "구성: Wall / Ledge / Bank",
+      "lat": 37.5716976,
+      "lng": 127.0007563,
+      "types": [
+        "ledge",
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6XTi1wQNK5c_I3bFvSvUiAhxjIaB-MyE7fIzg5zSsMWY-zZ4lJoe_7azCZ5ZrvDyJxU97kwLl_KGQ83s1JFcqS7enZezBBsEaDX0Clxac3xC8h1ko7kIaL9YJyQ6HFdbbt0MdjLHbOmmsuIxgkL8bp-RL-3QNSjLRZcIIazrTUZTm-YQH6ilVmQyFmaEEpbs7J8tnF13Qo4xBcPj9tYwBlHDlwsQZ0Jy3U1YGoy0S3VCq6svPwnDcYWuU?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "서초디오빌",
+      "description": "구성: Ledge / Bank",
+      "lat": 37.4849681,
+      "lng": 127.0295329,
+      "types": [
+        "ledge",
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7Ol-IVegmb4ppyiV5mZgcOXL8O5V9wGEKMiyE5sbLfzdxHxi0U090zJr1SoW9SD2WGak94mJ1o05L5mh0BBWRZAQO6QoYWdilbT5vFOj5jnvahdBC7AJprQ7OBTpeC9LwyqnaD7Q5VA_SIqJl6jCMxC-v_aWmGNxXktH67W4-JEjsqqO93iJsRXDfxuPFOnvUTaUgp2rVSsL7DOxrW89hxRpe2DLWRsL7lR0DSXsA6BfO6IVoOGAmyOuE?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "무지개쇼핑센터",
+      "description": "구성: Ledge / Bank",
+      "lat": 37.4919069,
+      "lng": 127.0260785,
+      "types": [
+        "ledge",
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Irhrvj8MGRkbJRfFoNS8PGlcged5PeDyMAkKFOk8ec6Cyg5IaHDMCtQi34cO8b-WvNHXRKUqP6uO0T95fJIfQkwUC0IaD9H_c0LIG6oW6ly66Ev0lN2sLIah1gT1RpZ6F8casdQVgxLsPB8Cz5J2X_jOmk9WvPjkZGbkMZ30iBaz0FpVdNDBU8PfrXG1DOXl6vWwycqO7iiTVuhWScsw-Q4YyrfMawvlpvTl9O5VQi2G2XbdFnZZJzWM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "제주 당구 클럽 Wall",
+      "description": "구성: Wall",
+      "lat": 33.4853255,
+      "lng": 126.4899024,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4qAcAMVumWnNRBK9qJxl2Agc9foHdoUNyAk4Abf8E1IAjjogu_hddfgdGIENvWVVBSYhkVAeqxP9KChr5DXbfejmaBhsjRbLunlLQQZbN55e67vSruMrNimfSoaOGZpCINGXRadzfCw7f8xdq6t19p_sdE3NE0U_ALbqOWDrNuFEtig3TrppPA4wtkwUVL1ccCxVyJ1hSJBY6p_9mAxnoQw1Qhh2fey67hlCAWEUCc3OIPbD7oQuSmLM0?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "용담레포츠공원 Handrail",
+      "description": "구성: Handrail / Stairs",
+      "lat": 33.5184317,
+      "lng": 126.4998585,
+      "types": [
+        "stair",
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4q6vISa0YoefoBsoXC1HRihFDYDSc7ZVwjuluwxl-c16jXnnu_GnnyWF5sWfII9gvsf9VhqrWIamQKumY-V09RL_E4kA0xvLIGrOUbP3zVDjI4xB4egP-yf-40yhRwPdiSwfh8WZMRA8mzUwroclZE_ePeDZOMx5iKTAN6DOqZLocBzQXd63ipm4Xcf-Sl2HNmpQWJqnYtcnf2yzn2K7uSt0J92_kKs05q0-eL8ME-NgeVZOqsWe91bUk?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "국민은행 Bump to Bar",
+      "description": "구성: Bump to Bar",
+      "lat": 33.4818547,
+      "lng": 126.4868837,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7_0drUC6hKnphCqQfhUogN2RznQPrWkRkXSA2f3vWBt_bVGTfB3dHibk3Ws7JAdNiljFnFk8P0XxtYAx8V2ZdJ3RPHLA2X6gOsxRrMOuo198T_hMZVlvYUfvqGR2eZK8A_QOkEznQD16NY7JwQnphmRd5w3sMwF0KQfBevlF0l9Sof-yUgoXHYk4z-m7Pi-3_G1IQ_ERZTxMDF4fkVw10o3_X-CS_hP80Vxa8rbqnu10ylKbaOPEaad4U?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "경춘철교 Handrail",
+      "description": "구성: Handrail",
+      "lat": 37.6310321,
+      "lng": 127.0659634,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6ng1ao36xRLg3GgYDLsATfJ17ojkl1wPAsNabqncrue3L4ggjuZIjr18p17cJ4x3JRznJBVj28DDmeP4zfEr2BjApQZ2Cc-Kc96Kb33iyqe6Ztjs4ie4RwhBNFLzSPLEh9y6oxHiiT8KPazUtwsbf4fGXZJz5AM2wZ_YBB7BnbwsA7j-1UQGEuox863DzFDgQiGJ1vbpRYeujUbg06lWrtUzW1XRXbWj_PtHRjc1etEysJQftCCNCTSDc?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "미아 동소문로",
+      "description": "구성: 월 / 렛지 / 키커",
+      "lat": 37.5955194,
+      "lng": 127.019923,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6NT8vfKazJtm237OkygiWQF5Gga0FyK0t1-6A6QjigXahF3RlGZ2ODXXeAuKq1K7BQnHBE64WcGXnBxikIPGAjNI35cDgWw_kjp0JySpYS3RbFjIprP-lm8lkkza05XKGsURh6rC34YYF8RwrCFAHvCBwWsaB4IupUXTaQoCe-lUZol4RKD0enbjZDp45Qxw0IDCyC2GoiUF2foJzBnzYHcT6stv_b77EMhIKeUHvehiHuFNiBmkbRrns?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "삼풍상가 Ledge",
+      "description": "구성: Ledge / Wall",
+      "lat": 37.5654139,
+      "lng": 126.9958797,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7N1d1ARwpAFeYHr5xgDSB-qGPnMrKv3ttl8GDWViovV59B5UDLfUFzH1WyTmHOoRCuNdDCaz2mJKeHuUfnAgeo2gmsJ_yJHuQ8IAi0COozOhNyMmAhNd4nSQZeQzkmDin9Yly4AhpuNiVLIlVltzyWnMeSwdY6g6iPydjgZHuLo2AnscXFHp0zkTiIiYrRu7vcqM1EIFcQikelmh8IdnyFUwsgD0pKWIvPapIpdpTJwGj6d6HGMPvQqTA?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "왕십리 기아자동차 Bump",
+      "description": "구성: Bump / Wallie",
+      "lat": 37.5649884,
+      "lng": 127.0275528,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4PS9rHORqJYeWc700gCfX6f1oymTzcdxGSXfUGoDJSz_umjILsUf9igg_PAtI7Hnfvf5l-heHZg50ItL_eRxms-9nGKnrgG6ZJgftIZwdYZOHOmh4lyKyleHkbJkBIE1SWh5C-mPVBEM8WrUe0DmbRaF8X4itmun8pTaShpxx6XHky_LKySKC0s3dfOudRPgSo_DzGJfuXcv71a_jR9oL-yOewPXjLcwpBbFpg1o0Ckg13MCHnWQq36eU?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "왕십리로 Ledge",
+      "description": "구성: Ledge Ledge Ledge",
+      "lat": 37.5659466,
+      "lng": 127.0257888,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7ZQKu5XKXmyV7323yUiitLgTEhUQksXAJGB7WU1U3A23SSsE7k2lw80OQaTFRIhnIkNUBIIhelahu8oM15ecHDFYcAfE5-rjCKExOqeZ-SedVM26nm9rkDKJ0QxuXEIzPnXrDMsetXiGqRc5rjk11ppRsF88_wkIVTQPS_qi59XgO800mZ5DtA9YL6xSBEraGWbYcFuDJCPlSmLVJxVDN6x0hYozOd-6AEJtEgebep5SQHBsEsemU1mNA?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "현대슈퍼빌 Ledge",
+      "description": "구성: Ledge / Manny Pad",
+      "lat": 37.4837064,
+      "lng": 127.0169085,
+      "types": [
+        "ledge",
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7pJcroatCuVMYfKgWyO81Czo7C34AHjXl9DhMwstvLePmhTQn1GlD6iIqaDK9XlByZpTPH33evkSdIRx4hpl5mkgaHKod-udwQO5rTsb-M13-s7_yhMoD1vLoHo1nxOJJvbb02JsaFMx6jeT0XUrjQ5r5N_XRstLzjz27mM0y5UtS57vIw6-hZxS1PPBj1U8Qsc1fp50EBJD_rkywa5cxM_Az1zIH-6PxY0WjkLg4_E_XlVBUenid-jKc?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "이마트 청계천 렛지/월",
+      "description": "구성: 렛지 / 아웃렛지 / 월",
+      "lat": 37.5707435,
+      "lng": 127.0231252,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4vtB25jNrPU_8AKLoueBXo1d6TxXn0nsaIXSlMBJU7CN20XOJNXE5esyA-F9w4lMFbl_NLkCt5L5YU544AIhDVs6ZYkuERmhMXz_i_uRMNB4SbTZv8eJvO5aSnbRL8rdsSOYR3HJR98BswLq4HhRdSzKsOsqdkkJWv9FtMBRHs99mo9hy8-FHh8PBTuFWv-Hdy6Vi8Ial-ROURjNeHJuj80cYFhfltxpZLG-UJ-acWH7-cmukDPqbgr34?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "한원미술관 Flat Bar",
+      "description": "구성: Flat Bar",
+      "lat": 37.4815916,
+      "lng": 127.0155279,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR42xUllh_s3lL3w8teYm1uqOMQY_EeMT_1AmktDREJY6rDqSRvZSrclS5xFtl3q5J9lfH7j2r3nqnt9W2tQM-tFzlpBCQKNBHUn9TzjCl3Y2rpGvjFjxxSXVFA0OobPS3N7zwjMnluVqo70SFLb_A6Px-zu-QbCCVbglKoWwtcKdBZ4jpxfUccPGHc2x9VrWjZHZt2NnVjk_2itVhkea5Gi35abmDvLn9XdPKCeWCYIkXcSXviSOiMH_LY?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "명달로 Flat Bar",
+      "description": "구성: Flat Bar",
+      "lat": 37.4801558,
+      "lng": 127.0058272,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4ziBqfvaZjgLn3QB_vbP_r1-8OOA7prPIzDukFbC66h36ZP1HFQ2hb1vFXNr40LAJ9ty-vooYGLJ_HzboZQ_eTDM_3x1WA_lh0Nn5wDyZ_rCQB97Jh2CWKV0-wF2brzPC-Dr2TdmGajT-PvTyv2A2Z7xcOFW-hmLalSqYkTpHpdjPW0nlKsHWu7M-v3tkyvtLlhbxQnL3RqhqmWMlEopz5SN2-f5BLvFgqi-F2haAjGtkBLRHH7J4cQK4?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "남부순환로 연속 갭",
+      "description": "구성: 갭",
+      "lat": 37.4814126,
+      "lng": 127.0149355,
+      "types": [
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4zXtE0Oa6E9XBT2tsXimkVlppdx2vRFAZsYzvn69ja13sVk2cKoJPFZGOVl7fxhlcnaXQic5Lrs5d5ZV0a2R_cTaehwjjVcvkbhMq0NEE6Wid-Kv_hyckZSO0X-zrihQ-znrWuhiHhtESaU6PDWc9lZWKNAeNjH0sYGFRsxLRpdE5DxtHEqehdQqef7BOWp8sZ30OS6wKgyoNWI6UrQOvdYir4zTNQ2-shqKLQi9wmUhJtTgBYC-KSQaw?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "반포효성빌딩",
+      "description": "구성: 아웃 렛지\n바닥:",
+      "lat": 37.500973,
+      "lng": 127.0033551,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR67Ij2aU9q8H4g9CJLKhYncy7PyM8die5y0w8GkbBqOWvsblXVgFq2EjJuHC7sWRfykmzm7qeAjLprR1pU0F-UfQS8OYWkj84ybB7ongVMUUSv9U0GxNkomoNAEa_S4bfSh-7VxKpYBB9xBRBqRRkGU9DnbMj235v797Y-FgWJ02Vso191PHZ7U649cm5Rh9tmZBPwIZHYIAmRF3F2_ClZ1eUNh2xIL_KOKbBKgCdiD-Utvz8SaAqWj10M?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "삼성SDS 드롭인",
+      "description": "구성: 뱅크 드롭",
+      "lat": 37.5011064,
+      "lng": 127.0393626,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7_JEkAGLJCnvSnJoTKNr-nRoz6OqOnGnU2mTajKq83lkEIw-6DLs3WIN25pQ2ms2ztva9vIf_cBD7oI5WFejuvGKv0KUP7abErVJOKdeNl40oefY6HfGX8lxDFUgInjEv0o3PpOpxtjzDMo4uhHrmYgGEix998yK1uKQ9dllYnn94BEk1ONpd16GrBJTJP8pm_8vqCq6EAWZ6MoKs_s8FVhUQCHXqk907f7cHpBOT5VHyt5hkc9-B1ChI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "신라스테이 렛지",
+      "description": "구성: 렛지\n바닥: 좋음\n킥아웃:",
+      "lat": 37.5052408,
+      "lng": 127.0412267,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Gw_rGBp6wl0Cyi4K52yIzlKH55uJZcPUz83Sxgvu2yM7wMxvUvpuJet6L_b7D3TBJzhVSnbx3wn8zUY-1vF2Vvpn33IwvgVpAU0OowD6RwvRBX_eINpgxjkpFOESQ7QmjWlxNwVWbCSYbHkdrbuplSXEVkDx8LZc7SpMHGNiBkPeEv0s5yX8kVU9AoQJerZ_m8I3bVTaSpgacQDIf66I8CGgWyAaQ9rLwbiz58hc2wEmV9CV04l2uct8?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "중화체육공원",
+      "description": "구성: 렛지",
+      "lat": 37.6031757,
+      "lng": 127.0735642,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7uAzV2J8OJQZuLp_v-irCKYWQbZWAjOvcIBGJmam9Rty6-Fo-RHpDM3kosdoaoVTkhsZctVm3fPtd4PokwEazaGcQzC7xSWz5WdyZuu7gmBpc7bAjarVjMbBpNFvITyabXFrbRcMRwa1ztSYeqBvIEg1sTAyAV0dwzVS-jM1ZSFEwqglU76-aa2W3Fyh-5OBUdAzWld6YvalTl21wBjLW39AxnDInbWkUVADQsqXIQyxU4i-qbbxZJZs0?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "광교저수지 Bank",
+      "description": "구성: Bank",
+      "lat": 37.3026314,
+      "lng": 127.0284008,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4jMCIoVa-30IC2kYn5mw-RjOEBdkMcS9MEZDEF-S4nthXmpiEOOqD8a697MT_m_3RTB7NUv1y11PHpM6dNDIzLiH6x4_gbgzFYY9TTB71Oq9UXuzZyQHQZRTJAhcSUzJAbqV6ETW3ViiS5kSvWVTgS2PSgOrxEy2viLdg8hp2bo6YePxxg3bTxhe9XDXnzoQSwY32z6a-DG6_DQVW2C-memg1XanjGHaL7uOtgjyWKWkkcHUAbaIMM_Yc?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "여의도 롯데캐슬 Handrail",
+      "description": "구성: Handrail",
+      "lat": 37.5206555,
+      "lng": 126.9264658,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5Ncs94pKEP3G4GzeeBEdVLEjhlabsFxpThva_Gc2q-g38S5SI9ylY2e32zrB_go79PhFBU0Ng17YB-BP9o5Z9V3oX8kEKdZgJQqdxZ6b-8N6efZgtmZTW0F4OHITYMKlwMRhJOy-FBnLttF1KIclZb31-i_j6GxwzbjMSMR_7lBi-ppeaE-ika6wzj5RU8W7MvMOWkwJskEjjVMrd5UqrM0OWBzmnj4GfPDccB4D731T8Z5Dkfy_FA-Ok?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "노원 BUMP TO BAR",
+      "description": "",
+      "lat": 37.6547465,
+      "lng": 127.0622163,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4kznanRqpsIz1S8diOCM0EU3dx5E7G4-mRP4M_wfXo7qFiClunTN6RSoIZxkPWR1snSECIELKQqBkfA9OsPzOrU1yVJ_WM5YDOQqLhWK-tUxRuJRYE3lTVNjqGiQOpfc226_OYY_wDS3Xe_EgA2kAWukflSjtmixYJ2QI66vd24NUdx5plThkBn8iOj2l8DoqMD3fKvRzUnl5qiJ7ajCmWegeCmJSssN0mOTpceKhup0WjapOjBwUAD94?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "압구정 한양아파트 핸드레일",
+      "description": "",
+      "lat": 37.529913,
+      "lng": 127.0371243,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4pdW5swLoj2mkURC6b03pvU8hNbF2PyGUVx56-F1AhBQ_Xw-QnB2gH7xzE4-eITkzvqcN-JR2I2V8_SY4B4b7UWZatot-oEh2vo7VNKsu9DZhYzCExr5XamPpErSqWf9_AjwTAtyHgyivQojifKQ1xdhyOaE-lHoP53_kXEqBW5WiMWta9bZOs9p_wwpG9wGDpSjqHmSpAKFLizlDR9U03N_qcgkozk1wJLOpjjnFl6obRvVU2ODnw6m4?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "선릉 BUMP GAP",
+      "description": "",
+      "lat": 37.5037549,
+      "lng": 127.0472055,
+      "types": [
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4UQCU3ufyh2KlYpUhb38UnKkEXqMdHIe2A7O9Ol_hOhvsaqeZlotsZ7vInXzQ2h2nyebSbWqhDJnTlviB6E-rBl3viy3m_siY2aKqBF7A_bIIHSX_0dqxD5AHltoTOt_VTOD0h2k5EmF44BCb9jGm1Mf4ToTPzGdKCDYWbNL9Midl-7_fnL7ZICxbfdeJ1pf8xoB7JKik3ykdYJrjPM3EtgGKvpaS7rEXvV8hz7Hkjl_OW6gNOnb69KRo?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "석계 매뉴얼/렛지/갭",
+      "description": "",
+      "lat": 37.6130882,
+      "lng": 127.0709428,
+      "types": [
+        "ledge",
+        "gap",
+        "manual_pad"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6YYOOSWS2QbGw-VvB0l2KKM_GyGu21P8BvB4ySy1FBFTqX68g5NhukBYeZs-bBtpdOMg63-Kv_8e4WBa0clgirdUPvL7ouqdxFegjfsO-0k02qVMVsQp1IdlfWhCkawxieLJprFRlZBMjiS4J3oEq-O2v8XdAvy-BnbkFwYpIup6cZExvwGqRsibMa6MS35zA4rPxfJgQlbina3wi6l8W5-zJx8-08Ypw1qxK0OD-9kVCvZ5yJwUAHzUE?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "배재공원 WALL",
+      "description": "",
+      "lat": 37.564122,
+      "lng": 126.9721558,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6_wey8qFToX_WOdpecihZUOlwvbpqwCNTpLCfmEvI_UVPVLkaO_RPT1F1-7tNrMh6pRHQD1bpq9xViZLgHsUR3BNvthQMVHCQP0I4r6uXvb6UAp21P4sS31CQDNvQwf46kamuH14xX2Ipwg9ec7Xm5-QtTzHo-7t7xbiVjbpuxeLVXJ72fh6N9D57noSSi6WD-3nqMGRotid1pobZzAPJlolhaYdmvY1TwbasaSLXoHxhErPYjiWtC7fE?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "한남 DOUBLE SET",
+      "description": "",
+      "lat": 37.5354114,
+      "lng": 127.0004606,
+      "types": [
+        "stair"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7Rmt4rgZkFMVqzHdOqzkM8P4oU7OYEs6rEu0bS7Y8SEg725wlPKcNdY4d7QnV61bzWUGVT8b4jOpCigdrlL5kxEPpTx_Vzi4qBD0Pp3hiSn47ZVMqsU0iNnZWAg-eZaCg5rTCQ1oIxjOl1tCPDiD7WmzcIjrPnBOqxpqSC_u2_GIs540Ed7pXEKCxpT4Ya5StSX8goM95KounJJsskKImewNF97vTRTHJZx5gzaIf2fbFLjiyVKgU51_A?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "신대호수 BANK",
+      "description": "",
+      "lat": 37.2845493,
+      "lng": 127.0774854,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR47USGXhp_5kU0T7P_enAhQZ95bf6nDsluUbafK9CcbXxEn2fM0n_Nsja1jHRAzCfcly31LAMUoI6evNEQx62renS25HcrjDl2oOrziJbE96P9jv58b2egrVph2pfewVtHIT-BcO4XwbRm1K-_QtcEGbUpFWOFN2thr6HCGGSJFPb_8PzcDRUWUlYqEtxHxmLLHS9mM6iWwg5NBEd5kNOXhNK1viBACpK_5IdhcM2avUdGzfs4u9ZoOjr4?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "광명 AK 플라자",
+      "description": "",
+      "lat": 37.4190624,
+      "lng": 126.8821567,
+      "types": [
+        "other"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5_SCLke6BpF9UZUXEcf5MvgUKPdxe12aeJ6DntwYtyf1Rw72WAH2EDr3SHpvN8ayQH4KOvZ5ehkdXEmzAEwErV2ISaChM2ICuLRzoG3gqOv3rsZTkN-VO6a5jNdtwgP7Yk6LE344CvjBMrRh6gBbfYcokHM3mPe4_mVUnT3opDi1e_QyL5StmgcJu-JFxLGvIlmDnMhs-mkMswGW5CWmFB9cz4v62XxLobXjo7A2Pfv_Wrf_RpvXaqLws?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "망원 BUMP to RAIL",
+      "description": "",
+      "lat": 37.5581183,
+      "lng": 126.9083613,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6PYTzUFCqkkAiD8Z1hIEiqnvJe8zQ2tvTzChvnQdUe3uSs3DupbO4LhAIkgUf1XT8US8ZAwOjzkLFOMTxmyHPklqC5LYtjVlWFYCLJQycHfpch1mMdaRgulFz8x71rJD_Ekkmg-vxl0t2yWptkJxE_jtvdePxjtajvVFLfxqDEpEb0sAwhWSxaFD1fL8qL1oe7HEXo1vFZn71NV7NjxYiMQj723UW1YnEldNMUnU16IIJ_3RQV4Bov_vM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "석계역 FLAT BAR",
+      "description": "",
+      "lat": 37.615473,
+      "lng": 127.065122,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5l9x9tM7GWmSt6uueUc3RcY3pohy7tQRaQ8BerwxCxDltmKcIu0mvTLVRIPP-0w4wctkHQAl9kKYxzbH_XWBxSXlja1LKfSNNDCCL-Ycs-naPyLjtPVTfPHHGLEKyj9QkqcSZRM9K6X7ds9W_fRzy_ajw7Qh_1LDXDc5CQnnabQL91i4-bNC5hPBV_eMRTaYgAMJiq-NBCNtOqChpKa8hvaC2blmhPVJut7VflTyu3zyu7LRFk9nLyqzg?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "한남 코오롱 BANK/WALLIE",
+      "description": "",
+      "lat": 37.5377175,
+      "lng": 127.0013219,
+      "types": [
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR43sgaIraLeN-8WtDlwODYpnj-HxiL3l0R7DFb0qyPXdU8K0ffRilncoxH3-bDgbblsVhRm3XjmastZYS5SxJUUUKrNTg50BUhSdf7bvB-ASiq2s_MmJQzVpBGy9xGawAzmQ7SKHD1fT8KuhpUeXHyWb5M1Iz30ztfJSsiPVPtcQVzsQn7q3tAtZlAfhBGtFgAOwo1DFkHg_6UvkmxRbyi5QqgvkDDS6Gfs0lemFJU4jkcF-muEaOyPmfw?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "한남 디젤 GAP TO LEDGE",
+      "description": "",
+      "lat": 37.537374,
+      "lng": 127.0010222,
+      "types": [
+        "ledge",
+        "gap"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6fcgybOPMZ7mXbOz1Nvl1y2xU55iYaTwmnWXwGq4dLVOo4LhRLG9mowMm371mHOkSGHa0VBBjinx7IweRQ_-yAM_fXjMbTGbGC1MMUGRi81qNcbKMLfBWUeaqBnXxkXbbbPyWQUCKhI37PU6b2TAlzSAK1v-vZjONLRJRwkU8Gm_CSpk0LXQUxcKLlmvx6xc3juFbjLlOLYr7T2jDEtH1j6qKKWKYdtYmJMFOHhKA42VxxQ8DIdmCyLyU?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "상봉터미널 FLATBAR",
+      "description": "",
+      "lat": 37.5969111,
+      "lng": 127.092596,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7luE_9nJp_dUhonUYj2XNjg6aDxrosi6AGo5I1tIhV8DG3v5ZXrUtez3nRFWX0TDfVwV9um-PySahcIbWGeMX3a1LhYX4FrYD2TTxINwNapXe1x-wGaiNQRhO0ArPHqGT-gxg20AnSfInbyH4rcVouwutAHPRjjbrTBeaubkKzcz6dHwkj2MzVjXr7sGcb136pDwWfWd59VDrM7pF1pZ9ck4HHG7SvSyMI-AUMOElHwLCh4L_7Se0x5SI?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "상봉터미널 FLATBAR & POLE JAM",
+      "description": "",
+      "lat": 37.5968378,
+      "lng": 127.0927677,
+      "types": [
+        "rail"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7ZXVUG_iUjdWJePiL89LEeXdS_BNckBwgfdxMxJJiJGtzAOWq602kDVr_fk0esQbg-uhZe8qoZxSGzq0lWwan3WEMoqPE1it51FxxEhN6LEkslIqsepVgWwTeEKfZ7Rf8WtKFxpHmdBQiHvtuTzKXbJaFvPtUcRD4hJRy-Z0eHayj_ruS49YE9GxHG3KwF2tztX0Hbp4UXwWB1E_y_CdIn2TRxbymaGctQy5aeGWovRCRLIeNcO_cu2y0?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "망우 BANK to RAIL",
+      "description": "",
+      "lat": 37.5978525,
+      "lng": 127.092199,
+      "types": [
+        "rail",
+        "bank"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR41pprkf-4ECc9frIc9oktn3qDoEZFIg0FQyPQNj9GNyHVtXJg1GJ8sIyO0io5_kZRLh1yGm6doYs1aQFWhU7LTCwX9iljkfcWf03TAaCow3w8hpag81UslwQACMzgKXtod_hVZsD-I_bdeY9DDoo96EYT9Fafq-jyqYW6X30YIJxqVsFP8o6sm_UqXCollo8bAkKF2DlGGaB_6XizCfBIGRcTpPJoZREIBjjfm92ggZbSQznn4YxoPvIU?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "한양대서울숲더샵 LEDGE",
+      "description": "",
+      "lat": 37.5575119,
+      "lng": 127.040364,
+      "types": [
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4cKtBuseeIQpfz75hOm-37pVPGZIHKg6tORK38YLGZEOCzyLKgQPVFkp1E1tP5iFM9gfj5aKMn1sygraYOaKpfqccmdqksGFAtB8vH7G89LYea6kbNEEdh9Y8QV1wwf8a8DUDWhwRDbqaJk5K5EdyEJQX42ldtr8K2-Eo2_YVkM83_xw5aI3lYuPNFh0F18c8VvXNuB3HI0mS87aijnKksRiJ0pRX7jUBQkXhn79Uhz0OJIW65_3iB3vM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "주시경마당 Stairs",
+      "description": "구성: 계단 / 월 / 렛지",
+      "lat": 37.5725077,
+      "lng": 126.9737508,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "STREET SPOTS",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4zfmjbvcSLCFc3CWJ_3yZl9ulNtLQvM0dCi6lXyrc0oPeY0hb66fNBxcOWfPW2ip8BkZfykZ443avI3WtSovHJM2pvrc2HeWx0Xmz-6TfZWPm04aL-rqlj2Mgnf6qOuvtai4veKpjZzUM-s76DUZMa-a53Xy5LS9x_MsplBbWOVI-zHCAvj4JZJpC1GBD3n4bm7aCxfXRJakGrv5EK0CfOxJdgept5hA_UhCXGZK8s52BfTRpEaaJdSls?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "대구 들샘공원",
+      "description": "구성: 렛지 / 월리\nhttps://www.instagram.com/p/CysNDhUrNow/",
+      "lat": 35.8961962,
+      "lng": 128.6173181,
+      "types": [
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": null,
+      "category": "plaza"
+    },
+    {
+      "name": "미성아파트 렛지",
+      "description": "구성: 렛지",
+      "lat": 37.5203697,
+      "lng": 126.9243931,
+      "types": [
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR41pGbZkAw7P8TMJbtiqTXiQPExV4GVBqypOAZ0ltXOU-NQon1VLKeh3dF3wOiMkIqP9evH4EtQN-SwKd9bY2TZiE8PUeCEZciw2J-wavnTp3_9hNpEu1W8DfD22W_hxYiN0vhcw34duj9UniIdL16CAqBjZplfbwq4RXDbff-E2ej0QiqjX6iGVN_x-92DEnzUlia7nY2IsSp1ZpWqi4aZ2ITNt4P5jpOnGfz-lod4WVTgKfuQo5bdG6A?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "신설동 월",
+      "description": "구성: 월",
+      "lat": 37.569925,
+      "lng": 127.0274033,
+      "types": [
+        "other"
+      ],
+      "layer": "사진 필요",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6woxCxhvfhxXqtbjqOay5_CXaIg0kEyrNfyl-Q2wea3OV842h00f0HcIdvxvWoJAVDgKHCLBjKSnNRGnsnlpadVvQvDBIbYOIoSqxkm5l-jbWWT8hVoWx-ShPr9C_lV4BWnNiOdeM-ToCLkGdhqgfmiYi2HliH2Ih_6XhT9LJvvyWLSnyt7yXw30VPnDS1nI-Q9gLQiZabSw30gtOz3Xkd3PKrUzW-8vqqTj8VNbNEbAC-5wyhsNVUd3w?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "용두공원",
+      "description": "구성: 렛지 등\n바닥: 중간\n킥아웃: 없음",
+      "lat": 37.5736804,
+      "lng": 127.0384384,
+      "types": [
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": null,
+      "category": "plaza"
+    },
+    {
+      "name": "서래공원",
+      "description": "구성: 렛지, 계단\n바닥:",
+      "lat": 37.5015518,
+      "lng": 127.0032452,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6xi8ziHFvtjECENUw1jZ53hjBzAa8yVN7VqjcJlweU8MOLE6ZuvhkSEGRQshxPiRY4lymjdpKin_4kWeLQPTsi-UqUyNb192JNliSuYl45-vJYXoLagSqkhUiG_GRnixtiINUYdTEdouyj5zWCm1ndSMWY2PqP66OJY3Aa1EFycKqXiRFFmbQy5j2p7X3-ANkrSElTUMhA1sJCnU_2_Zxm3K13zUOCuodoLqy7UwbrkKoWKQtMsmtbU5k?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "롯데캐슬 렛지",
+      "description": "구성: 렛지",
+      "lat": 37.5203154,
+      "lng": 126.9258093,
+      "types": [
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": null,
+      "category": "street_spot"
+    },
+    {
+      "name": "아차산배수지체육공원",
+      "description": "구성: 렛지\n바닥: 좋음\n킥아웃: 없음",
+      "lat": 37.5474794,
+      "lng": 127.0968235,
+      "types": [
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": null,
+      "category": "plaza"
+    },
+    {
+      "name": "서소문역사공원",
+      "description": "구성: 월, 렛지\n바닥: 좋음\n킥아웃 없음",
+      "lat": 37.5599844,
+      "lng": 126.9691079,
+      "types": [
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": null,
+      "category": "street_spot"
+    },
+    {
+      "name": "광나루한강공원 뱅크 패드",
+      "description": "구성: 뱅크, 매니패드\n바닥: 좋음\n킥아웃: 보통",
+      "lat": 37.5420376,
+      "lng": 127.1156646,
+      "types": [
+        "bank",
+        "manual_pad"
+      ],
+      "layer": "사진 필요",
+      "photo_url": null,
+      "category": "street_spot"
+    },
+    {
+      "name": "스테이션빌딩 월라이드",
+      "description": "구성: 월\n바닥: 보도블럭\n킥아웃: 50-50\nhttps://youtu.be/YU6OJSBm5-Y?t=7",
+      "lat": 37.6261988,
+      "lng": 127.0723659,
+      "types": [
+        "other"
+      ],
+      "layer": "사진 필요",
+      "photo_url": null,
+      "category": "street_spot"
+    },
+    {
+      "name": "아이스렛지",
+      "description": "구성: 렛지, 갭\n바닥: 좋음\n킥아웃: 높음\nhttps://youtu.be/rqtOXXzm8qw?t=153",
+      "lat": 37.5275568,
+      "lng": 126.9217755,
+      "types": [
+        "ledge",
+        "gap"
+      ],
+      "layer": "사진 필요",
+      "photo_url": null,
+      "category": "street_spot"
+    },
+    {
+      "name": "건영스파밸리 갭",
+      "description": "구성: 갭",
+      "lat": 37.6387157,
+      "lng": 127.0652039,
+      "types": [
+        "gap"
+      ],
+      "layer": "사진 필요",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6jvDB35K-pkFuUQDmMdHU77jkwGvEUp3NN6cHDdEgl5hIM0rEmIhsD-8VPrKc0A9lkWSVtBnHUuHRXQrQz5GUVqnQVEiLmPYqH1ictpHS37nx95sAuGAuAYx9HiJLD2PjhWFNdjzrP2wgE-xRDjPmuisLJtY3RJh2CVDtqVHsSQnxwWjpjg83LJHXD5-BWxjogkIzl34t4Cjr301ojKvv89ggGTGZlmv22oKIToC3FjKz2-nrPsuW_Qag?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "서소문로 더블셋",
+      "description": "구성: 더블셋, 아웃렛지\n바닥: 좋음\n킥아웃",
+      "lat": 37.5603331,
+      "lng": 126.9685607,
+      "types": [
+        "stair",
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": null,
+      "category": "street_spot"
+    },
+    {
+      "name": "한경아카데미",
+      "description": "구성: 조형물 등\n바닥: 좋음\n킥아웃:",
+      "lat": 37.5601551,
+      "lng": 126.9674975,
+      "types": [
+        "other"
+      ],
+      "layer": "사진 필요",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6YOBIMDelhu6ptCwDZesd-p-TwpWwv4cwYJvCiEt2g1S-i63BLzsLvGq0yI7NldwhNdln5iV7YbtJeOFI1GdtTEVBNaG0d8a_gJNo8M0XtDbt5u4ncSrhMyW4Ij6_8__oR_479gvJZo8OVJAPW5RsjnnnCD15jr6oa0g0WrdeIqUYwP439ShnXlUzTd1OaJsL_FUrkIFRmxpBBKRW0Gxld-OLqgexLkZaKbCNSlEYjNgcHSe9iBqUjpVY?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "사랑의 교회",
+      "description": "구성: 렛지, 핸드레일\n바닥: 좋음\n킥아웃:",
+      "lat": 37.4911384,
+      "lng": 127.0077747,
+      "types": [
+        "rail",
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR6TE4rjYhKCEZLXmvZj47sX7a6_v0K5_SswrLp1hqC8cMvGs3IWV9azUtRHKveG5YJuZqH3AmSy3Vih-Ah77UHQpFcmuY5QsaC5YAlQWZNZPxxnPzr4n4Z389AryinSqLhTjbD91N2h79MGlxvJwbLXNWSvV5La7EonhdcSUTz7yBE_5rpKSIn_ZYPd9ugBR7b0eSWagi8xjZYrGHOEE8n15B6FeryayhXBngWtp3Y6ZYo2Y4RFdAx-AaA?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "에이원빌라트 허바",
+      "description": "구성: 월에서 이어지는 허바\n바닥: 거침\n킥아웃: 높을 것으로 예상",
+      "lat": 37.6026123,
+      "lng": 126.9344065,
+      "types": [
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR4Bh5DtUAXp15O001RLZPRFggvsvpO0ui5Rb4JMpV2V8yYFpg60iDKfgFb7LAQPVDvHictgjdhR-mI1XZ4FA4DvVBhzwo05LfDUvh7R-v9g_RZId9iVAI_bXTVxmMyvUi1Jm_C_74h7CguNSiQ4sewNCWoNnud4trESOMSIx4geVpfGlW_MOaDvn93bKQXT8YtrvH3SU5jyuMpjVo2JaIhnrnDSygM1oHLABL8XLe8UgsRGbSCVhD2qhcQ?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "노루페인트 DIY",
+      "description": "구성: DIY 쿼터, 월\n바닥: 거침\n킥아웃:",
+      "lat": 37.6063743,
+      "lng": 126.9338461,
+      "types": [
+        "transition"
+      ],
+      "layer": "사진 필요",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR7ut_UK3-puaHIx7k600-UQ6h-4HLppp0tbG2_SAXHvtoFZFwFt-xAVNGt6vZ7URrlv6fhQmH0kCCDey0x9T9X7FxCp-nTKU1K9P_dGhPOnW4rRTYozbR0R-K9qNwQu2_hKMycLz7lcorJ8Pwmlgw9GPLoFTwP5c_BtHEY_28uEsV-MpHk5qW9kIlM7a6bsxC8pNQ3B7fZ_7vgIw7zo78JJlN7Nzd-Zw14bRXnzoPx24fa5OvAM1kq99xY?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "북한산푸르지오 핸드레일",
+      "description": "구성: 핸드레일\n바닥: 좋음\n킥아웃: 높을 것으로 예상",
+      "lat": 37.6056685,
+      "lng": 126.9355846,
+      "types": [
+        "rail"
+      ],
+      "layer": "사진 필요",
+      "photo_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3AAjQbR5T00QlqqDaHKFnvRBaDWM3hlYt_Eso5FxzlFeBd4QUys1pjpxZNFv06ZcMiNM430cTUrhbkHdA9yVC1E_5FmWaBXQghFGH-qWKUpuVYVL-Lmhd_5-9nxnfynWiy7p3Li-ATs8do1FaI4Y7ca8F7-HPLuptAW_ziXA1xwCLfEhisqxDqTMnLrjLSZT8RCDsrEhRc47wRZwcU3Vpcp-V88wJIXOxlymjjMaqbDUg-oANDesneVIz2i5KoDM?fife=s16383",
+      "category": "street_spot"
+    },
+    {
+      "name": "도원역 광장",
+      "description": "구성: 렛지\nhttps://youtu.be/45s4-eVjcDk?t=61",
+      "lat": 37.4673031,
+      "lng": 126.6424775,
+      "types": [
+        "ledge"
+      ],
+      "layer": "사진 필요",
+      "photo_url": null,
+      "category": "plaza"
+    }
+  ]
+}
