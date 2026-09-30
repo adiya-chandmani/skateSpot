@@ -1,6 +1,6 @@
 import { BUCKET, db, fail, removePhotos } from "@/lib/server";
 
-// Hourly (vercel.json). Idempotent: finishes deletions, drops stale drafts and orphan files (PRD §6.4, §7).
+// Daily 03:00 KST (vercel.json; Hobby plan allows daily crons only — PRD §7 wants ≤1h, go hourly on Pro). Idempotent: finishes deletions, drops stale drafts and orphan files (PRD §6.4, §7).
 export async function GET(req: Request) {
   if (req.headers.get("authorization") !== `Bearer ${process.env.CRON_SECRET}` || !process.env.CRON_SECRET)
     return fail(401, "unauthorized");
