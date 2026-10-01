@@ -410,24 +410,27 @@ function Directions({
 }) {
   const route = routes.car;
   const meters = me ? roadMeters(me, spot, routes.walk?.distance) : null;
-  const timeFor = (m: TravelMode) => {
-    if (m === "bus") return "카카오맵";
-    if (!me) return "–";
-    if (m === "car") return route === undefined ? "…" : route ? formatMinutes(Math.max(1, Math.round(route.duration / 60))) : "–";
-    if (routes.walk === undefined) return "…";
-    return `약 ${formatMinutes(estimateMinutes(m, meters!)!)}`;
+  const estimate = mode === "walk" || mode === "skate";
+  /** Minutes for a mode, or null while unknown / not estimable. */
+  const minutes = (m: TravelMode) => {
+    if (!me || m === "bus") return null;
+    if (m === "car") return route ? Math.max(1, Math.round(route.duration / 60)) : null;
+    return routes.walk === undefined ? null : estimateMinutes(m, meters!);
   };
-  const note =
+  const loading = !!me && (mode === "car" ? route === undefined : estimate && routes.walk === undefined);
+  const sel = TRAVEL_MODES.find((t) => t.value === mode)!;
+  const min = minutes(mode);
+  const detail =
     mode === "bus"
-      ? "버스·지하철 노선과 시간은 카카오맵에서 확인하세요."
+      ? "버스·지하철 노선은 지도 앱에서 안내해요"
       : mode === "car"
         ? route
-          ? `도로 ${formatDistance(route.distance)} · 카카오 길찾기 기준`
+          ? `자동차 · 도로 ${formatDistance(route.distance)}`
           : me && route === null
-            ? "경로를 불러오지 못했습니다. 카카오맵에서 확인하세요."
+            ? "경로를 불러오지 못했어요"
             : null
         : meters
-          ? `${routes.walk ? "도보 경로" : "직선거리 기준"} 약 ${formatDistance(meters)}${mode === "skate" ? " · 보드는 도보 경로로 안내" : ""} · 시간은 추정이며 실제와 다를 수 있습니다.`
+          ? `${sel.label} · ${routes.walk ? "도보 경로" : "직선 기준"} ${formatDistance(meters)}`
           : null;
   const links = routeLinks(mode, spot, me);
   const mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
@@ -436,41 +439,64 @@ function Directions({
       <h2 id="dir" className="group-header">
         길찾기
       </h2>
-      <div className="card flex flex-col gap-3">
-        <div className="grid grid-cols-4 gap-1.5" role="radiogroup" aria-label="이동 수단">
-          {TRAVEL_MODES.map((t) => (
-            <button
-              key={t.value}
-              role="radio"
-              aria-checked={mode === t.value}
-              onClick={() => setMode(t.value)}
-              className={`press flex min-h-[68px] flex-col items-center justify-center gap-0.5 rounded-xl px-1 ${mode === t.value ? "bg-tint text-white" : "bg-fill text-label"}`}
-            >
-              <span aria-hidden className="text-[22px] leading-none">{t.emoji}</span>
-              <span className="text-caption font-semibold">{t.label}</span>
-              <span className={`text-caption tabular-nums ${mode === t.value ? "text-white/80" : "text-label-2"}`}>{timeFor(t.value)}</span>
-            </button>
-          ))}
+      <div className="rounded-xl bg-bg p-5">
+        {/* iOS segmented control: one quiet track, the selected mode lifts out as a white pill */}
+        <div className="grid grid-cols-4 rounded-[12px] bg-fill p-1" role="radiogroup" aria-label="이동 수단">
+          {TRAVEL_MODES.map((t) => {
+            const on = mode === t.value;
+            const m = minutes(t.value);
+            return (
+              <button
+                key={t.value}
+                role="radio"
+                aria-checked={on}
+                aria-label={`${t.label}${m ? ` ${t.kmh ? "약 " : ""}${formatMinutes(m)}` : ""}`}
+                onClick={() => setMode(t.value)}
+                className={`flex min-h-[52px] flex-col items-center justify-center gap-0.5 rounded-[9px] transition-[background,box-shadow] duration-200 ${on ? "bg-bg shadow-[0_1px_4px_rgba(0,0,0,.14)]" : ""}`}
+              >
+                <span aria-hidden className="text-[20px] leading-none">{t.emoji}</span>
+                <span aria-hidden className={`text-caption tabular-nums ${on ? "font-semibold text-label" : "text-label-2"}`}>
+                  {m ? formatMinutes(m) : t.label}
+                </span>
+              </button>
+            );
+          })}
         </div>
-        {locErr ? (
-          <div role="alert" className="flex flex-col gap-1 text-subhead">
+
+        {/* the answer: one dominant number, then what it's based on */}
+        <div className="mt-6" aria-live="polite">
+          {mode === "bus" ? (
+            <p className="text-title2 font-bold">카카오맵에서 확인</p>
+          ) : min ? (
+            <p className="flex items-baseline gap-1.5">
+              {estimate && <span className="text-title3 font-semibold text-label-2">약</span>}
+              <span className="text-large-title font-bold tabular-nums tracking-tight">{formatMinutes(min)}</span>
+            </p>
+          ) : (
+            <p className="text-title2 font-bold text-label-2">{loading || !me ? "계산 중…" : "–"}</p>
+          )}
+          {detail && <p className="mt-1 text-subhead text-label-2">{detail}</p>}
+          {estimate && min && <p className="mt-1 text-footnote text-label-2">걷는 길 기준 추정 시간이에요. 보드도 도보 경로로 안내해요.</p>}
+        </div>
+
+        {locErr && (
+          <div role="alert" className="mt-4 rounded-[10px] bg-bg-grouped p-3 text-subhead">
             <p>{locErr}</p>
-            <p className="text-label-2">출발지는 지도 앱에서 현재 위치로 정해집니다.</p>
-            <button className="btn-plain self-start" onClick={onRetry}>
+            <p className="mt-0.5 text-footnote text-label-2">출발지는 지도 앱에서 현재 위치로 정해져요.</p>
+            <button className="btn-plain mt-1 min-h-9 text-subhead" onClick={onRetry}>
               위치 다시 확인
             </button>
           </div>
-        ) : (
-          !me && <p className="text-subhead text-label-2">현재 위치를 확인하는 중…</p>
         )}
-        {note && <p className="text-footnote text-label-2">{note}</p>}
-        <button className="btn-primary w-full" onClick={() => openRoute(links)}>
+
+        <button className="btn-primary mt-6 w-full" onClick={() => openRoute(links)}>
           <Icon name="route" className="h-5 w-5" />
           길안내 시작
         </button>
         {mobile && (
-          <a href={links.naverApp} className="btn-plain self-center text-subhead">
+          <a href={links.naverApp} className="press mt-1 flex min-h-11 items-center justify-center gap-0.5 text-subhead text-label-2">
             네이버지도로 열기
+            <Icon name="chevronRight" className="h-4 w-4" />
           </a>
         )}
       </div>
