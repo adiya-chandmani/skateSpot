@@ -394,14 +394,14 @@ export default function SpotPage() {
               </div>
             )}
             <div className="row">
-              <span className="text-subhead text-label-2">좌표</span>
+              <span className="shrink-0 text-subhead text-label-2">좌표</span>
               <span className="ml-auto text-subhead tabular-nums">
                 {spot.lat.toFixed(6)}, {spot.lng.toFixed(6)}
               </span>
               <CopyButton text={`${spot.lat.toFixed(6)}, ${spot.lng.toFixed(6)}`} label="좌표 복사" />
             </div>
             <div className="row">
-              <span className="text-subhead text-label-2">내 위치에서</span>
+              <span className="shrink-0 text-subhead text-label-2">내 위치에서</span>
               {me ? (
                 <span className="ml-auto text-subhead tabular-nums">직선 {formatDistance(distanceM(me, spot))}</span>
               ) : (
