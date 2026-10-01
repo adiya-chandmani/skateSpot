@@ -188,15 +188,16 @@ export default function SpotPage() {
           strokeStyle: mode === "car" ? "solid" : "shortdash",
         }),
       );
+    // Fit only when what's shown changes (first fix, directions, mode, route) — not on follow
+    // toggles or later position updates, so the user's zoom is kept.
+    const key = `${dirOpen}|${mode}|${showRoute ? route.path.length : 0}`;
+    const changed = fitted.current !== key;
+    fitted.current = key;
     if (follow) {
       map.panTo(LL(me.lat, me.lng));
       return;
     }
-    // Fit only when what's shown changes (first fix, directions, mode, route) — not on follow
-    // toggles or later position updates, so the user's zoom is kept.
-    const key = `${dirOpen}|${mode}|${showRoute ? route.path.length : 0}`;
-    if (fitted.current === key) return;
-    fitted.current = key;
+    if (!changed) return;
     // fit both points (and the route) unless they're far apart and we're just browsing
     if (!dirOpen && distanceM(me, spot) > 30000) return;
     const b = new kakao.maps.LatLngBounds();
