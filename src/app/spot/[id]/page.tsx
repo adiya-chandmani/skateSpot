@@ -52,7 +52,8 @@ export default function SpotPage() {
   const [locErr, setLocErr] = useState<string | null>(null);
   const [dirOpen, setDirOpen] = useState(false);
   const [mode, setMode] = useState<TravelMode>("skate");
-  const [route, setRoute] = useState<Route | null | undefined>(undefined); // undefined = not fetched yet
+  // undefined = not fetched yet, null = unavailable (fall back to estimates)
+  const [routes, setRoutes] = useState<{ car?: Route | null; walk?: Route | null }>({});
   const [mapReady, setMapReady] = useState(false);
   const mapRef = useRef<{ map: any; kakao: any; overlays: any[] } | null>(null);
 
@@ -77,17 +78,19 @@ export default function SpotPage() {
     if (!me) locate();
   }
 
-  // Car route (the only routable mode); walk/skate estimates reuse its road distance.
+  // Car route from Kakao; walking route (also used for skateboards) from the OSM foot router.
   useEffect(() => {
     if (!dirOpen || !me || !spot) return;
     let live = true;
-    api<{ route: Route | null }>(`/api/directions?from=${me.lat},${me.lng}&to=${spot.lat},${spot.lng}`)
-      .then((r) => live && setRoute(r.route))
-      .catch(() => live && setRoute(null));
+    for (const kind of ["car", "walk"] as const)
+      api<{ route: Route | null }>(`/api/directions?mode=${kind}&from=${me.lat},${me.lng}&to=${spot.lat},${spot.lng}`)
+        .then((r) => live && setRoutes((rs) => ({ ...rs, [kind]: r.route })))
+        .catch(() => live && setRoutes((rs) => ({ ...rs, [kind]: null })));
     return () => {
       live = false;
     };
   }, [dirOpen, me, spot]);
+  const route = mode === "car" ? routes.car : mode === "bus" ? null : routes.walk;
 
   const load = useCallback(() => {
     api<Spot>(`/api/spots/${id}`)
@@ -147,7 +150,7 @@ export default function SpotPage() {
           strokeWeight: 5,
           strokeColor: "#007aff",
           strokeOpacity: 0.85,
-          // walk/skate follow different paths than cars; dashed says "approximate"
+          // walking route is OSM-based and may differ from Kakao's; dashed says "approximate"
           strokeStyle: mode === "car" ? "solid" : "shortdash",
         }),
       );
@@ -313,7 +316,7 @@ export default function SpotPage() {
             onRetry={locate}
             mode={mode}
             setMode={setMode}
-            route={route}
+            routes={routes}
           />
         )}
 
@@ -395,7 +398,7 @@ function Directions({
   onRetry,
   mode,
   setMode,
-  route,
+  routes,
 }: {
   spot: Spot;
   me: GeoResult | null;
@@ -403,13 +406,15 @@ function Directions({
   onRetry: () => void;
   mode: TravelMode;
   setMode: (m: TravelMode) => void;
-  route: Route | null | undefined;
+  routes: { car?: Route | null; walk?: Route | null };
 }) {
-  const meters = me ? roadMeters(me, spot, route?.distance) : null;
+  const route = routes.car;
+  const meters = me ? roadMeters(me, spot, routes.walk?.distance) : null;
   const timeFor = (m: TravelMode) => {
     if (m === "bus") return "카카오맵";
     if (!me) return "–";
     if (m === "car") return route === undefined ? "…" : route ? formatMinutes(Math.max(1, Math.round(route.duration / 60))) : "–";
+    if (routes.walk === undefined) return "…";
     return `약 ${formatMinutes(estimateMinutes(m, meters!)!)}`;
   };
   const note =
@@ -422,7 +427,7 @@ function Directions({
             ? "경로를 불러오지 못했습니다. 카카오맵에서 확인하세요."
             : null
         : meters
-          ? `도로 약 ${formatDistance(meters)} 기준 추정${mode === "skate" ? " · 보드는 도보 경로로 안내" : ""}. 실제 길과 다를 수 있습니다.`
+          ? `${routes.walk ? "도보 경로" : "직선거리 기준"} 약 ${formatDistance(meters)}${mode === "skate" ? " · 보드는 도보 경로로 안내" : ""} · 시간은 추정이며 실제와 다를 수 있습니다.`
           : null;
   const links = routeLinks(mode, spot, me);
   const mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);

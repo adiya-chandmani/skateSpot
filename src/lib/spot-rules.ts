@@ -118,8 +118,8 @@ export const TRAVEL_MODES = [
 export type TravelMode = (typeof TRAVEL_MODES)[number]["value"];
 const modeOf = (m: TravelMode) => TRAVEL_MODES.find((t) => t.value === m)!;
 
-// ponytail: walk/skate distance = car road distance, else straight line × 1.3 (typical urban detour).
-export const roadMeters = (from: Coord, to: Coord, carMeters?: number | null) => carMeters ?? distanceM(from, to) * 1.3;
+// ponytail: walk/skate distance = walking route distance, else straight line × 1.3 (typical urban detour).
+export const roadMeters = (from: Coord, to: Coord, routeMeters?: number | null) => routeMeters ?? distanceM(from, to) * 1.3;
 
 /** Minutes at the mode's speed; null for modes we can't estimate (bus, car without API). */
 export function estimateMinutes(mode: TravelMode, meters: number) {
