@@ -74,6 +74,14 @@ function Home() {
   const reqId = useRef(0);
   const markers = useRef<any[]>([]);
   const meMarker = useRef<any>(null);
+  const [follow, setFollow] = useState(false);
+  const watchId = useRef<number | null>(null);
+  const stopFollow = useCallback(() => {
+    if (watchId.current != null) navigator.geolocation.clearWatch(watchId.current);
+    watchId.current = null;
+    setFollow(false);
+  }, []);
+  useEffect(() => stopFollow, [stopFollow]);
   const selectedRef = useRef(selected);
 
   const load = useCallback(() => {
@@ -142,13 +150,14 @@ function Home() {
         saveView({ lat: c.getLat(), lng: c.getLng(), level: map.getLevel(), selected: selectedRef.current });
         setViewTick((t) => t + 1);
       });
+      kakao.maps.event.addListener(map, "dragstart", stopFollow); // dragging the map releases the location lock
       kakao.maps.event.addListener(map, "click", () => {
         setSelected(null);
         setGroup(null);
         setDetent("peek");
       });
     },
-    [],
+    [stopFollow],
   );
 
   useEffect(() => {
@@ -215,7 +224,8 @@ function Home() {
     const proj = map.getProjection();
     const cells = new Map<string, SpotPin[]>();
     for (const s of visible) {
-      const p = proj.containerPointFromCoords(new kakao.maps.LatLng(s.lat, s.lng));
+      // absolute map pixels, not container pixels: the grid stays put while panning, so clusters don't reshuffle
+      const p = proj.pointFromCoords(new kakao.maps.LatLng(s.lat, s.lng));
       const cell = close ? 64 : 56; // emoji pins are bigger
       const key = s.id === selected ? s.id : `${Math.floor(p.x / cell)}:${Math.floor(p.y / cell)}`;
       cells.set(key, [...(cells.get(key) ?? []), s]);
@@ -267,10 +277,29 @@ function Home() {
       const p = await getLocation();
       setMe(p);
       setLoc({ busy: false, error: null });
-      if (mapRef.current) moveTo(p.lat, p.lng, LEVEL.area);
+      const map = mapRef.current;
+      if (map) moveTo(p.lat, p.lng, map.getLevel() > LEVEL.area ? LEVEL.area : undefined);
+      return true;
     } catch (e) {
       setLoc({ busy: false, error: (e as Error).message });
+      return false;
     }
+  }
+
+  /** Location lock: center on me and keep following until tapped again or the map is dragged. */
+  async function toggleFollow() {
+    if (follow) return stopFollow();
+    if (!(await myLocation())) return;
+    setFollow(true);
+    watchId.current = navigator.geolocation.watchPosition(
+      (p) => {
+        const g = { lat: p.coords.latitude, lng: p.coords.longitude, accuracy: p.coords.accuracy };
+        setMe(g);
+        moveTo(g.lat, g.lng, undefined, true);
+      },
+      stopFollow,
+      { enableHighAccuracy: true, maximumAge: 5000 },
+    );
   }
 
   const spots = result?.spots ?? [];
@@ -315,8 +344,14 @@ function Home() {
         </p>
         <div className="flex flex-col gap-2">
           <div className="glass pointer-events-auto flex flex-col overflow-hidden rounded-xl shadow-float">
-            <button className="icon-btn rounded-none text-link" onClick={myLocation} disabled={loc.busy} aria-label="내 위치로 이동">
-              <Icon name="location" className={`h-5 w-5 ${loc.busy ? "animate-pulse" : ""} ${me ? "" : "opacity-80"}`} />
+            <button
+              className={`icon-btn rounded-none ${follow ? "bg-location text-white" : "text-link"}`}
+              onClick={toggleFollow}
+              disabled={loc.busy}
+              aria-pressed={follow}
+              aria-label={follow ? "내 위치 고정 해제" : "내 위치 고정"}
+            >
+              <Icon name="location" className={`h-5 w-5 ${loc.busy ? "animate-pulse" : ""}`} />
             </button>
           </div>
           {/* phones pinch; desktop gets explicit zoom */}

@@ -382,9 +382,9 @@ export default function SpotPage() {
                 onClick={toggleFollow}
                 aria-pressed={follow}
                 aria-label={follow ? "내 위치 고정 해제" : "내 위치 고정"}
-                className={`icon-btn press absolute right-2 top-2 z-10 rounded-xl shadow-float ${follow ? "bg-location text-white" : "glass text-link"}`}
+                className={`press absolute right-2 top-2 z-10 flex h-9 w-9 items-center justify-center rounded-[10px] shadow-float ${follow ? "bg-location text-white" : "glass text-link"}`}
               >
-                <Icon name="location" className="h-5 w-5" />
+                <Icon name="location" className="h-4 w-4" />
               </button>
             </div>
             {address && (
