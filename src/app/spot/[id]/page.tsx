@@ -157,6 +157,7 @@ export default function SpotPage() {
     b.extend(LL(spot.lat, spot.lng));
     b.extend(LL(me.lat, me.lng));
     if (showRoute) route.path.forEach(([lat, lng]) => b.extend(LL(lat, lng)));
+    map.relayout(); // the map grows when directions open; fit to the new size
     map.setBounds(b, 40, 40, 40, 40);
   }, [me, route, mode, dirOpen, spot, mapReady]);
 
