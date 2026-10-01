@@ -60,6 +60,7 @@ export default function SpotPage() {
   const [routes, setRoutes] = useState<{ car?: Route | null; walk?: Route | null }>({});
   const [mapReady, setMapReady] = useState(false);
   const mapRef = useRef<{ map: any; kakao: any; overlays: any[] } | null>(null);
+  const fitted = useRef(""); // what the view was last fitted to; user zoom survives everything else
 
   const updateMe = useCallback((p: GeoResult) => {
     setMe(p);
@@ -191,6 +192,11 @@ export default function SpotPage() {
       map.panTo(LL(me.lat, me.lng));
       return;
     }
+    // Fit only when what's shown changes (first fix, directions, mode, route) — not on follow
+    // toggles or later position updates, so the user's zoom is kept.
+    const key = `${dirOpen}|${mode}|${showRoute ? route.path.length : 0}`;
+    if (fitted.current === key) return;
+    fitted.current = key;
     // fit both points (and the route) unless they're far apart and we're just browsing
     if (!dirOpen && distanceM(me, spot) > 30000) return;
     const b = new kakao.maps.LatLngBounds();
