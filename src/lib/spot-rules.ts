@@ -106,3 +106,37 @@ export function distanceM(a: Coord, b: Coord) {
 }
 
 export const formatDistance = (m: number) => (m < 1000 ? `${Math.round(m)}m` : `${(m / 1000).toFixed(1)}km`);
+
+// Directions. Skateboard follows walking routes (bike paths have stretches boards can't use);
+// only its time estimate uses board speed.
+export const TRAVEL_MODES = [
+  { value: "bus", label: "버스", emoji: "🚌", kakaoApp: "PUBLICTRANSIT", naver: "public", kakaoWeb: "traffic", kmh: 0 },
+  { value: "car", label: "자동차", emoji: "🚗", kakaoApp: "CAR", naver: "car", kakaoWeb: "car", kmh: 0 },
+  { value: "walk", label: "도보", emoji: "🚶", kakaoApp: "FOOT", naver: "walk", kakaoWeb: "walk", kmh: 4.5 },
+  { value: "skate", label: "스케이트보드", emoji: "🛹", kakaoApp: "FOOT", naver: "walk", kakaoWeb: "walk", kmh: 12 },
+] as const;
+export type TravelMode = (typeof TRAVEL_MODES)[number]["value"];
+const modeOf = (m: TravelMode) => TRAVEL_MODES.find((t) => t.value === m)!;
+
+// ponytail: walk/skate distance = car road distance, else straight line × 1.3 (typical urban detour).
+export const roadMeters = (from: Coord, to: Coord, carMeters?: number | null) => carMeters ?? distanceM(from, to) * 1.3;
+
+/** Minutes at the mode's speed; null for modes we can't estimate (bus, car without API). */
+export function estimateMinutes(mode: TravelMode, meters: number) {
+  const kmh = modeOf(mode).kmh;
+  return kmh ? Math.max(1, Math.round(meters / 1000 / kmh * 60)) : null;
+}
+
+export const formatMinutes = (min: number) => (min < 60 ? `${min}분` : `${Math.floor(min / 60)}시간${min % 60 ? ` ${min % 60}분` : ""}`);
+
+/** App and web links for a route; without `from` the apps use the device's current position. */
+export function routeLinks(mode: TravelMode, to: Coord & { name: string }, from?: Coord | null) {
+  const m = modeOf(mode);
+  const name = encodeURIComponent(to.name.replace(/,/g, " "));
+  const kakaoApp = `kakaomap://route?${from ? `sp=${from.lat},${from.lng}&` : ""}ep=${to.lat},${to.lng}&by=${m.kakaoApp}`;
+  const naverApp = `nmap://route/${m.naver}?${from ? `slat=${from.lat}&slng=${from.lng}&sname=${encodeURIComponent("내 위치")}&` : ""}dlat=${to.lat}&dlng=${to.lng}&dname=${name}&appname=skatespot.vercel.app`;
+  const kakaoWeb = from
+    ? `https://map.kakao.com/link/by/${m.kakaoWeb}/${encodeURIComponent("내 위치")},${from.lat},${from.lng}/${name},${to.lat},${to.lng}`
+    : `https://map.kakao.com/link/to/${name},${to.lat},${to.lng}`;
+  return { kakaoApp, naverApp, kakaoWeb };
+}

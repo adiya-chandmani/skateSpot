@@ -62,3 +62,32 @@ export function getLocation(): Promise<GeoResult> {
     );
   });
 }
+
+/**
+ * Open turn-by-turn in an app: Kakao Map app → Naver Map app → Kakao Map web.
+ * A web page can't see installed apps, so try a scheme and move on if the page is
+ * still visible after 1.5s. iOS Safari may flash "invalid address" before falling through.
+ */
+export function openRoute(links: { kakaoApp: string; naverApp: string; kakaoWeb: string }) {
+  const mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+  if (!mobile) {
+    window.open(links.kakaoWeb, "_blank", "noopener");
+    return;
+  }
+  const tries = [links.kakaoApp, links.naverApp];
+  const next = () => {
+    const url = tries.shift();
+    if (!url) {
+      window.location.href = links.kakaoWeb;
+      return;
+    }
+    const left = () => clearTimeout(timer);
+    const timer = setTimeout(() => {
+      document.removeEventListener("visibilitychange", left);
+      if (document.visibilityState === "visible") next();
+    }, 1500);
+    document.addEventListener("visibilitychange", left, { once: true });
+    window.location.href = url;
+  };
+  next();
+}

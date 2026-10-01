@@ -1,6 +1,6 @@
 // Run: npm test
 import assert from "node:assert/strict";
-import { coordError, validateSpot, len, spotEmoji, mixColor } from "./spot-rules.ts";
+import { coordError, validateSpot, len, spotEmoji, mixColor, estimateMinutes, formatMinutes, routeLinks, roadMeters } from "./spot-rules.ts";
 
 const base = {
   name: "  Seoul Forest Ledge ",
@@ -58,3 +58,15 @@ assert.equal(spotEmoji(["xgame_park"]), "🛹");
 const x = { types: ["xgame_park"] }, st = { types: ["street_spot"] };
 assert.equal(mixColor([x, x]), "#C2410C");
 assert.equal(mixColor([x, st, st]), "#983573");
+
+// directions: skate rides walking routes but at board speed
+assert.equal(estimateMinutes("walk", 4500), 60);
+assert.equal(estimateMinutes("skate", 4000), 20);
+assert.equal(estimateMinutes("bus", 4000), null);
+assert.equal(formatMinutes(75), "1시간 15분");
+assert.equal(Math.round(roadMeters({ lat: 37.5, lng: 127 }, { lat: 37.5, lng: 127 }, 1234)), 1234);
+const links = routeLinks("skate", { name: "수지, 스팟", lat: 37.3, lng: 127.1 }, { lat: 37.5, lng: 127 });
+assert.match(links.kakaoApp, /^kakaomap:\/\/route\?sp=37.5,127&ep=37.3,127.1&by=FOOT$/);
+assert.match(links.naverApp, /^nmap:\/\/route\/walk\?slat=37.5/);
+assert.match(links.kakaoWeb, /\/link\/by\/walk\/.+,37.5,127\/.+,37.3,127.1$/);
+assert.match(routeLinks("bus", { name: "x", lat: 37.3, lng: 127.1 }).kakaoWeb, /\/link\/to\/x,37.3,127.1$/);
