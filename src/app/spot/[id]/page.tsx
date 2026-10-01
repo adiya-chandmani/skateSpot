@@ -151,6 +151,7 @@ export default function SpotPage() {
         <img
           src={`/api/photos/${spot.id}`}
           alt={`${spot.name} 사진`}
+          fetchPriority="high"
           className="aspect-[4/3] max-h-[60dvh] w-full bg-fill object-cover md:mx-auto md:mt-4 md:max-w-2xl md:rounded-2xl lg:sticky lg:top-6 lg:mt-0 lg:max-h-[calc(100dvh-48px)] lg:max-w-none"
         />
       ) : (

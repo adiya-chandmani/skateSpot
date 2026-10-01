@@ -528,7 +528,7 @@ function PlaceCard({ spot, me, onClose }: { spot: SpotPin; me: GeoResult | null;
       <FavoriteButton spotId={spot.id} />
       <SpotMeta types={spot.types} />
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`/api/photos/${spot.id}`} alt={`${spot.name} 사진`} loading="lazy" className="aspect-[4/3] w-full rounded-xl bg-fill object-cover md:order-first" />
+      <img src={`/api/photos/${spot.id}`} alt={`${spot.name} 사진`} className="aspect-[4/3] w-full rounded-xl bg-fill object-cover md:order-first" />
     </article>
   );
 }
