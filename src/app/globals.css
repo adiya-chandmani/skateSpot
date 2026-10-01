@@ -16,6 +16,7 @@
   --color-tint-pressed: #3a3a3c;
   --color-link: #111111;
   --color-location: #007aff;
+  --color-directions: #006ee6; /* location blue, one step darker: white caption text at 4.8:1 */
   --color-danger: #d70015;
   --color-success: #248a3d;
 

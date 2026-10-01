@@ -47,6 +47,7 @@ The brand is black and white. The only other colors are functional and are alway
 | `--tint-pressed` | #3A3A3C | – | Pressed |
 | `--link` | #111111 | 18.9:1 white | Links and plain buttons: medium weight; inline links underlined |
 | `--location` | #007AFF | non-text | User location dot, focus ring (functional exception) |
+| `--directions` | #006EE6 | 4.8:1 with white | 길찾기 action tile (directions = location family; #007AFF is only 4.0:1 with white) |
 | `--danger` | #D70015 | 5.9:1 white | Destructive text |
 | `--success` | #248A3D | 4.6:1 white | Confirmed state |
 

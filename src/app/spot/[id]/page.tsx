@@ -263,8 +263,8 @@ export default function SpotPage() {
     );
 
   const hidden = spot.visibility === "hidden";
-  const actions: { icon: IconName; label: string; onClick?: () => void; href?: string; danger?: boolean }[] = [
-    { icon: "route", label: "길찾기", onClick: startDirections },
+  const actions: { icon: IconName; label: string; onClick?: () => void; href?: string; danger?: boolean; blue?: boolean }[] = [
+    { icon: "route", label: "길찾기", onClick: startDirections, blue: true },
     ...(spot.isOwner
       ? [
           ...(!hidden ? [{ icon: "pencil" as const, label: "수정", href: `/spot/${spot.id}/edit` }] : []),
@@ -309,7 +309,7 @@ export default function SpotPage() {
 
         <div className="grid auto-cols-fr grid-flow-col gap-2">
           {actions.map((a) => {
-            const cls = `press flex min-h-16 flex-col items-center justify-center gap-1 rounded-xl bg-bg text-caption font-semibold ${a.danger ? "text-danger" : "text-link"}`;
+            const cls = `press flex min-h-16 flex-col items-center justify-center gap-1 rounded-xl text-caption font-semibold ${a.blue ? "bg-directions text-white" : a.danger ? "bg-bg text-danger" : "bg-bg text-link"}`;
             return a.href ? (
               <Link key={a.label} href={a.href} className={cls}>
                 <Icon name={a.icon} className="h-6 w-6" />
