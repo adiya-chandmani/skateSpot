@@ -221,13 +221,20 @@ function Home() {
     };
 
     // ponytail: all pins fit in memory at current scale; use viewport tiles if the dataset becomes large.
+    // Grid in Kakao's fixed WCONGNAMUL coordinates (not screen pixels), so panning never shifts the
+    // grid and regroups pins; only zoom does. Pixels-per-unit is measured from two fixed points.
     const proj = map.getProjection();
+    const r0 = new kakao.maps.LatLng(37, 127);
+    const r1 = new kakao.maps.LatLng(38, 128);
+    const [p0, p1] = [r0, r1].map((r) => proj.containerPointFromCoords(r));
+    const [w0, w1] = [r0, r1].map((r) => r.toCoords());
+    const sx = Math.abs((p1.x - p0.x) / (w1.getX() - w0.getX()));
+    const sy = Math.abs((p1.y - p0.y) / (w1.getY() - w0.getY()));
     const cells = new Map<string, SpotPin[]>();
     for (const s of visible) {
-      // absolute map pixels, not container pixels: the grid stays put while panning, so clusters don't reshuffle
-      const p = proj.pointFromCoords(new kakao.maps.LatLng(s.lat, s.lng));
+      const w = new kakao.maps.LatLng(s.lat, s.lng).toCoords();
       const cell = close ? 64 : 56; // emoji pins are bigger
-      const key = s.id === selected ? s.id : `${Math.floor(p.x / cell)}:${Math.floor(p.y / cell)}`;
+      const key = s.id === selected ? s.id : `${Math.floor((w.getX() * sx) / cell)}:${Math.floor((w.getY() * sy) / cell)}`;
       cells.set(key, [...(cells.get(key) ?? []), s]);
     }
     for (const g of cells.values()) {
