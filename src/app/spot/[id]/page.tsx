@@ -49,6 +49,10 @@ export default function SpotPage() {
   const [panel, setPanel] = useState<"none" | "report" | "delete" | "login">("none");
   const [msg, setMsg] = useState<string | null>(null);
   const [me, setMe] = useState<GeoResult | null>(null);
+  // where routes were fetched from; only moves after 300m so following doesn't refetch every fix
+  const [origin, setOrigin] = useState<GeoResult | null>(null);
+  const [follow, setFollow] = useState(false);
+  const watchId = useRef<number | null>(null);
   const [locErr, setLocErr] = useState<string | null>(null);
   const [dirOpen, setDirOpen] = useState(false);
   const [mode, setMode] = useState<TravelMode>("skate");
@@ -57,10 +61,38 @@ export default function SpotPage() {
   const [mapReady, setMapReady] = useState(false);
   const mapRef = useRef<{ map: any; kakao: any; overlays: any[] } | null>(null);
 
+  const updateMe = useCallback((p: GeoResult) => {
+    setMe(p);
+    setOrigin((o) => (!o || distanceM(o, p) > 300 ? p : o));
+  }, []);
+
   const locate = useCallback(() => {
     setLocErr(null);
-    return getLocation().then(setMe, (e: Error) => setLocErr(e.message));
+    return getLocation().then(updateMe, (e: Error) => setLocErr(e.message));
+  }, [updateMe]);
+
+  const stopFollow = useCallback(() => {
+    if (watchId.current != null) navigator.geolocation.clearWatch(watchId.current);
+    watchId.current = null;
+    setFollow(false);
   }, []);
+
+  /** "내 위치 고정": keep the map on me and track movement until the map is dragged. */
+  function toggleFollow() {
+    if (follow) return stopFollow();
+    if (!("geolocation" in navigator)) return setLocErr("이 브라우저는 위치 기능을 지원하지 않습니다.");
+    setLocErr(null);
+    setFollow(true);
+    watchId.current = navigator.geolocation.watchPosition(
+      (p) => updateMe({ lat: p.coords.latitude, lng: p.coords.longitude, accuracy: p.coords.accuracy }),
+      () => {
+        stopFollow();
+        setLocErr("현재 위치를 확인할 수 없습니다. 위치 권한을 확인해 주세요.");
+      },
+      { enableHighAccuracy: true, maximumAge: 5000 },
+    );
+  }
+  useEffect(() => stopFollow, [stopFollow]);
 
   // Show my position without a prompt only if permission was already granted.
   useEffect(() => {
@@ -80,16 +112,16 @@ export default function SpotPage() {
 
   // Car route from Kakao; walking route (also used for skateboards) from the OSM foot router.
   useEffect(() => {
-    if (!dirOpen || !me || !spot) return;
+    if (!dirOpen || !origin || !spot) return;
     let live = true;
     for (const kind of ["car", "walk"] as const)
-      api<{ route: Route | null }>(`/api/directions?mode=${kind}&from=${me.lat},${me.lng}&to=${spot.lat},${spot.lng}`)
+      api<{ route: Route | null }>(`/api/directions?mode=${kind}&from=${origin.lat},${origin.lng}&to=${spot.lat},${spot.lng}`)
         .then((r) => live && setRoutes((rs) => ({ ...rs, [kind]: r.route })))
         .catch(() => live && setRoutes((rs) => ({ ...rs, [kind]: null })));
     return () => {
       live = false;
     };
-  }, [dirOpen, me, spot]);
+  }, [dirOpen, origin, spot]);
   const route = mode === "car" ? routes.car : mode === "bus" ? null : routes.walk;
 
   const load = useCallback(() => {
@@ -119,9 +151,10 @@ export default function SpotPage() {
           content: `<div style="width:30px;height:30px;border-radius:50%;background:${spotColor(spot.types)};border:2.5px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.25)" aria-hidden="true"></div>`,
         });
       mapRef.current = { map, kakao, overlays: [] };
+      kakao.maps.event.addListener(map, "dragstart", stopFollow); // moving the map by hand releases the lock
       setMapReady(true);
     },
-    [spot],
+    [spot, stopFollow],
   );
 
   // My position dot, route line, and a view that fits whatever is shown.
@@ -154,6 +187,10 @@ export default function SpotPage() {
           strokeStyle: mode === "car" ? "solid" : "shortdash",
         }),
       );
+    if (follow) {
+      map.panTo(LL(me.lat, me.lng));
+      return;
+    }
     // fit both points (and the route) unless they're far apart and we're just browsing
     if (!dirOpen && distanceM(me, spot) > 30000) return;
     const b = new kakao.maps.LatLngBounds();
@@ -162,7 +199,7 @@ export default function SpotPage() {
     if (showRoute) route.path.forEach(([lat, lng]) => b.extend(LL(lat, lng)));
     map.relayout(); // the map grows when directions open; fit to the new size
     map.setBounds(b, 40, 40, 40, 40);
-  }, [me, route, mode, dirOpen, spot, mapReady]);
+  }, [me, route, mode, dirOpen, spot, mapReady, follow]);
 
   async function remove() {
     try {
@@ -325,14 +362,24 @@ export default function SpotPage() {
             위치
           </h2>
           <div className="group-inset">
-            <KakaoMap
-              center={spot}
-              level={LEVEL.spot}
-              onReady={onMap}
-              className={`relative w-full ${dirOpen ? "h-72" : "h-44"}`}
-              label={`${spot.name} 위치 지도`}
-              fallbackHint="좌표는 아래에 표시됩니다."
-            />
+            <div className="relative">
+              <KakaoMap
+                center={spot}
+                level={LEVEL.spot}
+                onReady={onMap}
+                className={`relative w-full ${dirOpen ? "h-72" : "h-44"}`}
+                label={`${spot.name} 위치 지도`}
+                fallbackHint="좌표는 아래에 표시됩니다."
+              />
+              <button
+                onClick={toggleFollow}
+                aria-pressed={follow}
+                aria-label={follow ? "내 위치 고정 해제" : "내 위치 고정"}
+                className={`icon-btn press absolute right-2 top-2 z-10 rounded-xl shadow-float ${follow ? "bg-location text-white" : "glass text-link"}`}
+              >
+                <Icon name="location" className="h-5 w-5" />
+              </button>
+            </div>
             {address && (
               <div className="row">
                 <span className="flex-1 text-body">{address} 부근</span>
