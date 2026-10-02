@@ -2,13 +2,16 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { Suspense, useCallback, useEffect, useRef, useState, type ReactNode } from "react";
+import { Suspense, useCallback, useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from "react";
 import { FavoriteButton, useFavorites } from "@/components/Favorites";
 import BottomSheet, { type Detent } from "@/components/BottomSheet";
 import Icon from "@/components/Icon";
 import KakaoMap from "@/components/KakaoMap";
 import { Footer } from "@/components/Screen";
+import SearchResults from "@/components/SearchResults";
+import SpotDetail from "@/components/SpotDetail";
 import SpotMeta, { type SpotPin } from "@/components/SpotMeta";
+import { rememberPlace, type Place } from "@/lib/search-history";
 import { api, getLocation, useSession, type GeoResult } from "@/lib/client";
 import { distanceM, formatDistance, KOREA_CENTER, LEVEL, mixColor, SPOT_TYPES, spotColor, spotEmoji, typeLabel, type SpotType } from "@/lib/spot-rules";
 
@@ -43,6 +46,20 @@ function readView(params: URLSearchParams): View {
   return KOREA_CENTER;
 }
 
+/** md+ = the sheet is a docked side panel next to the map. */
+const DESKTOP = "(min-width: 768px)";
+function useDesktop() {
+  return useSyncExternalStore(
+    (cb) => {
+      const m = window.matchMedia(DESKTOP);
+      m.addEventListener("change", cb);
+      return () => m.removeEventListener("change", cb);
+    },
+    () => window.matchMedia(DESKTOP).matches,
+    () => false,
+  );
+}
+
 function saveView(v: View) {
   try {
     sessionStorage.setItem(VIEW_KEY, JSON.stringify(v));
@@ -59,11 +76,16 @@ function Home() {
   const [me, setMe] = useState<GeoResult | null>(null);
   const [loc, setLoc] = useState<{ busy: boolean; error: string | null }>({ busy: false, error: null });
   const [mapReady, setMapReady] = useState(false);
+  const [kmap, setKmap] = useState<{ map: any; kakao: any } | null>(null); // for the docked detail
   const [viewTick, setViewTick] = useState(0);
   const [detent, setDetent] = useState<Detent>("peek");
   const [kinds, setKinds] = useState<SpotType[]>([]); // empty = all kinds
   const [favOnly, setFavOnly] = useState(false);
   const [sort, setSort] = useState<Sort>("near");
+  const [q, setQ] = useState("");
+  const [searching, setSearching] = useState(false);
+  const searchRef = useRef<HTMLInputElement>(null);
+  const desktop = useDesktop();
   const session = useSession();
   const favorites = useFavorites();
   const favoriteIds = new Set(favorites.spots.map((s) => s.id));
@@ -98,6 +120,7 @@ function Home() {
   useEffect(() => { load(); }, [load]);
 
   const select = (id: string | null) => {
+    setSearching(false);
     setGroup(null);
     setSelected(id);
     if (id) setDetent("half");
@@ -145,6 +168,7 @@ function Home() {
       // keep Kakao attribution visible: sheet/panel sit bottom-left (PRD §10)
       map.setCopyrightPosition(kakao.maps.CopyrightPosition.BOTTOMRIGHT, true);
       setMapReady(true);
+      setKmap({ map, kakao });
       kakao.maps.event.addListener(map, "idle", () => {
         const c = map.getCenter();
         saveView({ lat: c.getLat(), lng: c.getLng(), level: map.getLevel(), selected: selectedRef.current });
@@ -341,6 +365,24 @@ function Home() {
     if (v === "near" && !me && !loc.busy) myLocation();
   };
 
+  const openSearch = () => {
+    setSearching(true);
+    setDetent("full");
+    searchRef.current?.focus();
+  };
+  const closeSearch = () => {
+    setSearching(false);
+    setQ("");
+    searchRef.current?.blur();
+  };
+  // picking a place remembers it and moves the map there; the panel goes back to the list
+  const pickPlace = (p: Place) => {
+    rememberPlace(p);
+    closeSearch();
+    setDetent("half");
+    moveTo(p.lat, p.lng, LEVEL.area);
+  };
+
   return (
     <div className="fixed inset-0 overflow-hidden bg-[#e9e6df]">
       <KakaoMap
@@ -397,13 +439,30 @@ function Home() {
             </div>
           </div>
           <div className="flex items-center gap-2 px-4 pb-3 pt-1">
-            <Link
-              href="/search"
-              className="press flex h-11 flex-1 items-center gap-2 rounded-[10px] bg-fill px-3 text-body text-label-2"
-            >
-              <Icon name="search" className="h-[18px] w-[18px]" />
-              지역 검색
-            </Link>
+            <label className="flex h-11 min-w-0 flex-1 items-center gap-2 rounded-[10px] bg-fill px-3 text-label-2">
+              <Icon name="search" className="h-[18px] w-[18px] shrink-0" />
+              <span className="sr-only">스팟·지역 검색</span>
+              <input
+                ref={searchRef}
+                type="search"
+                enterKeyHint="search"
+                value={q}
+                onChange={(e) => setQ(e.target.value)}
+                onFocus={() => {
+                  setSearching(true);
+                  setDetent("full");
+                }}
+                onKeyDown={(e) => e.key === "Escape" && closeSearch()}
+                placeholder="스팟·지역 검색"
+                className="h-full w-full min-w-0 bg-transparent text-body text-label outline-none placeholder:text-label-2"
+              />
+            </label>
+            {searching ? (
+              <button className="btn-plain shrink-0" onClick={closeSearch}>
+                취소
+              </button>
+            ) : (
+            <>
             <Link href="/add" className="icon-btn bg-tint text-white" aria-label="스팟 등록">
               <Icon name="plus" className="h-6 w-6" />
             </Link>
@@ -418,11 +477,17 @@ function Home() {
                 <Icon name="person" className="h-6 w-6" />
               )}
             </Link>
+            </>
+            )}
           </div>
           </>
         }
       >
-        {sel ? (
+        {searching ? (
+          <SearchResults q={q} spots={spots.filter(shown)} onPlace={pickPlace} onSpot={(s) => { closeSearch(); focus(s); }} />
+        ) : sel && desktop && kmap ? (
+          <SpotDetail key={sel.id} id={sel.id} docked={{ ...kmap, onClose: () => select(null) }} />
+        ) : sel ? (
           <PlaceCard spot={sel} me={me} onClose={() => select(null)} />
         ) : group ? (
           <GroupList spots={group} onClose={() => setGroup(null)} onPick={(id) => focus(group.find((g) => g.id === id)!)} />
@@ -484,9 +549,9 @@ function Home() {
                   <button className="btn-plain" onClick={myLocation}>
                     다시 시도
                   </button>
-                  <Link className="btn-plain" href="/search">
+                  <button className="btn-plain" onClick={openSearch}>
                     지역 검색
-                  </Link>
+                  </button>
                 </div>
               </div>
             )}
@@ -495,9 +560,9 @@ function Home() {
               <div className="flex flex-col items-center gap-3 py-6 text-center">
                 <p className="text-subhead text-label-2">등록된 스팟이 없습니다.</p>
                 <div className="flex gap-2">
-                  <Link className="btn" href="/search">
+                  <button className="btn" onClick={openSearch}>
                     다른 지역 찾기
-                  </Link>
+                  </button>
                   <Link className="btn-primary min-h-11" href="/add">
                     스팟 등록
                   </Link>
