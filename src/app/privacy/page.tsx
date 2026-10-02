@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Screen from "@/components/Screen";
 
-export const metadata: Metadata = { title: "개인정보처리방침 — SKATESPOT" };
+export const metadata: Metadata = { title: "개인정보처리방침 — SK8KR" };
 
 const CONTACT = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
 

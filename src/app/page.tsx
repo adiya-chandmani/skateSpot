@@ -397,7 +397,7 @@ function Home() {
       {/* floating chrome over the map */}
       <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between gap-2 px-3 pt-[max(12px,env(safe-area-inset-top))] md:left-[416px]">
         <p className="glass pointer-events-auto rounded-full px-3 py-1.5 text-footnote font-bold tracking-tight shadow-float md:invisible">
-          SKATE<span className="ml-0.5 rounded-full bg-label px-1.5 py-0.5 text-white">SPOT</span>
+          SK8<span className="ml-0.5 rounded-full bg-label px-1.5 py-0.5 text-white">KR</span>
         </p>
         <div className="flex flex-col gap-2">
           <div className="glass pointer-events-auto flex flex-col overflow-hidden rounded-xl shadow-float">
@@ -435,7 +435,7 @@ function Home() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/icon.svg" alt="" className="h-9 w-9 rounded-[9px] ring-1 ring-white/25" />
             <div className="min-w-0 flex-1 leading-tight">
-              <p className="text-headline font-bold tracking-tight">SKATESPOT</p>
+              <p className="text-headline font-bold tracking-tight">SK8KR</p>
               <p className="truncate text-footnote text-white/70">한국 스케이트 스팟 지도</p>
             </div>
             <Link href="/add" className="press inline-flex h-9 items-center gap-1 rounded-full bg-white px-3.5 text-subhead font-semibold text-label" aria-label="스팟 등록">

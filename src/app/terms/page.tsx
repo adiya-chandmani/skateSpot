@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import Screen from "@/components/Screen";
 
-export const metadata: Metadata = { title: "이용약관 — SKATESPOT" };
+export const metadata: Metadata = { title: "이용약관 — SK8KR" };
 
 // ponytail: draft text. Legal review required before public launch (PRD §15).
 export default function Terms() {
   return (
     <Screen title="이용약관 (초안)" backLabel="뒤로">
       <article className="card flex flex-col gap-3 text-subhead leading-relaxed">
-      <p>SKATESPOT은 스케이터가 스팟 정보를 공유하는 커뮤니티 지도입니다.</p>
+      <p>SK8KR은 스케이터가 스팟 정보를 공유하는 커뮤니티 지도입니다.</p>
       <h2 className="pt-2 text-headline font-semibold">가입</h2>
       <p>만 14세 이상만 가입할 수 있습니다. 지도·검색·상세 보기는 가입 없이 이용할 수 있습니다.</p>
       <h2 className="pt-2 text-headline font-semibold">등록 콘텐츠</h2>
