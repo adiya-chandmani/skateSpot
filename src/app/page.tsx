@@ -397,7 +397,7 @@ function Home() {
       {/* floating chrome over the map */}
       <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between gap-2 px-3 pt-[max(12px,env(safe-area-inset-top))] md:left-[376px]">
         <p className="glass pointer-events-auto rounded-full px-3 py-1.5 text-footnote font-bold tracking-tight shadow-float md:invisible">
-          SPOT<span className="ml-0.5 rounded-full bg-label px-1.5 py-0.5 text-white">K8</span>
+          SPOT<span className="ml-0.5 rounded-full bg-label px-1.5 py-0.5 text-white">SK8r</span>
         </p>
         <div className="flex flex-col gap-2">
           <div className="glass pointer-events-auto flex flex-col overflow-hidden rounded-xl shadow-float">
@@ -436,7 +436,7 @@ function Home() {
             <img src="/icon.svg" alt="" className="h-8 w-8" />
             <p className="min-w-0 flex-1 leading-tight">
               <span className="block text-subhead font-bold tracking-tight">
-                SPOT<span className="text-label-2">K8</span>
+                SPOT<span className="text-label-2">SK8r</span>
               </span>
               <span className="block truncate text-caption text-label-2">한국 스케이트 스팟 지도</span>
             </p>
@@ -549,8 +549,7 @@ function Home() {
 
             </div>
             {/* Kakao Map–style section break between controls and results */}
-            <div aria-hidden className="-mx-4 hidden h-px bg-separator md:block" />
-
+  
             {status === "ok" && filtered && listed.length === 0 && (
               <div className="flex flex-col items-center gap-3 py-6 text-center">
                 <p className="text-subhead text-label-2">조건에 맞는 스팟이 없습니다.</p>

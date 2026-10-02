@@ -29,7 +29,7 @@ export async function POST(req: Request) {
   // Priority alert: link only, no reporter identity or text (PRD §8)
   if (PRIORITY_REASONS.includes(reason)) {
     const origin = process.env.NEXT_PUBLIC_SITE_URL ?? new URL(req.url).origin;
-    await notifyOperators(`[SPOTK8] 우선 신고 접수 — ${origin}/admin`);
+    await notifyOperators(`[SPOTSK8r] 우선 신고 접수 — ${origin}/admin`);
   }
   return Response.json({ ok: true });
 }

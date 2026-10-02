@@ -95,7 +95,7 @@ export default function BottomSheet({
       }
     >
       <div
-        className="glass shrink-0 touch-none rounded-t-2xl md:rounded-none md:bg-transparent md:backdrop-blur-none md:shadow-[inset_0_-0.5px_0_var(--color-separator)]"
+        className="glass shrink-0 touch-none rounded-t-2xl md:rounded-none md:bg-transparent md:backdrop-blur-none"
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
