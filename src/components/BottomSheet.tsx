@@ -121,7 +121,7 @@ export default function BottomSheet({
         </button>
         {header}
       </div>
-      <div className={`min-h-0 flex-1 overscroll-contain px-4 pb-[max(16px,env(safe-area-inset-bottom))] ${detent === "peek" && !size.desktop ? "overflow-hidden" : "overflow-y-auto"}`}>
+      <div className={`min-h-0 flex-1 overscroll-contain px-4 md:px-5 md:pt-5 pb-[max(16px,env(safe-area-inset-bottom))] ${detent === "peek" && !size.desktop ? "overflow-hidden" : "overflow-y-auto"}`}>
         {children}
       </div>
     </section>

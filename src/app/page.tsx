@@ -436,7 +436,7 @@ function Home() {
             <img src="/icon.svg" alt="" className="h-9 w-9 rounded-[9px] ring-1 ring-white/25" />
             <div className="min-w-0 flex-1 leading-tight">
               <p className="text-headline font-bold tracking-tight">SKATESPOT</p>
-              <p className="text-footnote text-white/70">한국 스트리트 스케이트 스팟 지도</p>
+              <p className="truncate text-footnote text-white/70">스트리트 스팟 지도</p>
             </div>
             <Link href="/add" className="press inline-flex h-9 items-center gap-1 rounded-full bg-white px-3.5 text-subhead font-semibold text-label" aria-label="스팟 등록">
               <Icon name="plus" className="h-4 w-4" />
