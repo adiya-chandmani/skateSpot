@@ -22,6 +22,11 @@ function clerkMessage(err: unknown, fallback: string) {
       return "올바른 이메일 주소를 입력해 주세요. 예: name@example.com";
     case "form_identifier_exists":
       return "이미 가입된 이메일입니다. 다시 시도해 주세요.";
+    // Cloudflare Turnstile behind Clerk bot protection; fails in DevTools device emulation (spoofed UA)
+    case "captcha_invalid":
+    case "captcha_unavailable":
+    case "captcha_missing_token":
+      return "보안 확인에 실패했습니다. 페이지를 새로고침한 뒤 다시 시도해 주세요.";
     default:
       return fallback;
   }
