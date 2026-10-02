@@ -83,7 +83,7 @@ export default function BottomSheet({
     <section
       ref={sheet}
       aria-label={label}
-      className="fixed inset-x-0 bottom-0 z-20 flex h-[calc(100dvh-56px-env(safe-area-inset-top))] flex-col rounded-t-2xl bg-bg shadow-sheet md:inset-x-auto md:bottom-4 md:left-4 md:top-4 md:h-auto md:w-[380px] md:rounded-2xl"
+      className="fixed inset-x-0 bottom-0 z-20 flex h-[calc(100dvh-56px-env(safe-area-inset-top))] flex-col rounded-t-2xl bg-bg shadow-sheet md:inset-x-auto md:bottom-4 md:left-4 md:top-4 md:h-auto md:w-[380px] md:overflow-hidden md:rounded-2xl"
       style={
         size.desktop
           ? undefined
@@ -95,7 +95,7 @@ export default function BottomSheet({
       }
     >
       <div
-        className="glass shrink-0 touch-none rounded-t-2xl md:bg-bg"
+        className="glass shrink-0 touch-none rounded-t-2xl md:rounded-none md:bg-bg md:shadow-[inset_0_-0.5px_0_var(--color-separator)]"
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}

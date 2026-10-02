@@ -430,16 +430,28 @@ function Home() {
         label="스팟 목록"
         header={
           <>
-          <div className="hidden items-center gap-3 px-4 pb-2 pt-4 md:flex">
+          {/* desktop: Kakao Map–style brand band (griptape black) holding the account actions */}
+          <div className="hidden items-center gap-3 bg-tint px-5 py-4 text-white md:flex">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/icon.svg" alt="" className="h-9 w-9" />
-            <div className="leading-tight">
+            <img src="/icon.svg" alt="" className="h-9 w-9 rounded-[9px] ring-1 ring-white/25" />
+            <div className="min-w-0 flex-1 leading-tight">
               <p className="text-headline font-bold tracking-tight">SKATESPOT</p>
-              <p className="text-footnote text-label-2">한국 스트리트 스케이트 스팟 지도</p>
+              <p className="text-footnote text-white/70">한국 스트리트 스케이트 스팟 지도</p>
             </div>
+            <Link href="/add" className="press inline-flex h-9 items-center gap-1 rounded-full bg-white px-3.5 text-subhead font-semibold text-label" aria-label="스팟 등록">
+              <Icon name="plus" className="h-4 w-4" />
+              등록
+            </Link>
+            <Link href="/account" className="press flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white hover:bg-white/25" aria-label={session ? "내 계정" : "로그인"}>
+              {session?.user.email ? (
+                <span className="text-subhead font-semibold uppercase">{session.user.email[0]}</span>
+              ) : (
+                <Icon name="person" className="h-5 w-5" />
+              )}
+            </Link>
           </div>
-          <div className="flex items-center gap-2 px-4 pb-3 pt-1">
-            <label className="flex h-11 min-w-0 flex-1 items-center gap-2 rounded-[10px] bg-fill px-3 text-label-2">
+          <div className="flex items-center gap-2 px-4 pb-3 pt-1 md:pb-4 md:pt-4">
+            <label className="flex h-11 min-w-0 flex-1 items-center gap-2 rounded-[10px] bg-fill px-3 text-label-2 md:h-12 md:bg-bg md:ring-1 md:ring-separator md:focus-within:ring-2 md:focus-within:ring-label">
               <Icon name="search" className="h-[18px] w-[18px] shrink-0" />
               <span className="sr-only">스팟·지역 검색</span>
               <input
@@ -462,7 +474,7 @@ function Home() {
                 취소
               </button>
             ) : (
-            <>
+            <div className="flex items-center gap-2 md:hidden">
             <Link href="/add" className="icon-btn bg-tint text-white" aria-label="스팟 등록">
               <Icon name="plus" className="h-6 w-6" />
             </Link>
@@ -477,7 +489,7 @@ function Home() {
                 <Icon name="person" className="h-6 w-6" />
               )}
             </Link>
-            </>
+            </div>
             )}
           </div>
           </>
