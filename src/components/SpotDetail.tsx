@@ -230,8 +230,8 @@ export default function SpotDetail({ id, docked }: { id: string; docked?: Docked
     b.extend(LL(me.lat, me.lng));
     if (showRoute) route.path.forEach(([lat, lng]) => b.extend(LL(lat, lng)));
     map.relayout(); // the map grows when directions open; fit to the new size
-    // docked on desktop the panel (16 + 380px) covers the map's left edge
-    const left = docked && window.matchMedia("(min-width: 768px)").matches ? 440 : 40;
+    // docked on desktop the panel (16 + 400px) covers the map's left edge
+    const left = docked && window.matchMedia("(min-width: 768px)").matches ? 460 : 40;
     map.setBounds(b, 60, 60, 60, left);
   }, [me, route, mode, dirOpen, spot, mapReady, follow, docked]);
 

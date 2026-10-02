@@ -83,7 +83,7 @@ export default function BottomSheet({
     <section
       ref={sheet}
       aria-label={label}
-      className="fixed inset-x-0 bottom-0 z-20 flex h-[calc(100dvh-56px-env(safe-area-inset-top))] flex-col rounded-t-2xl bg-bg shadow-sheet md:inset-x-auto md:bottom-4 md:left-4 md:top-4 md:h-auto md:w-[380px] md:overflow-hidden md:rounded-2xl"
+      className="fixed inset-x-0 bottom-0 z-20 flex h-[calc(100dvh-56px-env(safe-area-inset-top))] flex-col rounded-t-2xl bg-bg shadow-sheet md:inset-x-auto md:bottom-4 md:left-4 md:top-4 md:h-auto md:w-[400px] md:overflow-hidden md:rounded-2xl"
       style={
         size.desktop
           ? undefined
@@ -121,7 +121,7 @@ export default function BottomSheet({
         </button>
         {header}
       </div>
-      <div className={`min-h-0 flex-1 overscroll-contain px-4 md:px-5 md:pt-5 pb-[max(16px,env(safe-area-inset-bottom))] ${detent === "peek" && !size.desktop ? "overflow-hidden" : "overflow-y-auto"}`}>
+      <div className={`min-h-0 flex-1 overscroll-contain px-4 md:px-6 pb-[max(16px,env(safe-area-inset-bottom))] ${detent === "peek" && !size.desktop ? "overflow-hidden" : "overflow-y-auto"}`}>
         {children}
       </div>
     </section>

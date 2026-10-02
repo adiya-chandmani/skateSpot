@@ -135,7 +135,7 @@ function Home() {
     const kakao = kakaoRef.current;
     if (!map) return;
     if (level) map.setLevel(level);
-    const offset = window.matchMedia("(min-width: 768px)").matches ? 198 : 0;
+    const offset = window.matchMedia("(min-width: 768px)").matches ? 208 : 0;
     const proj = map.getProjection();
     const p = proj.containerPointFromCoords(new kakao.maps.LatLng(lat, lng));
     const c = proj.coordsFromContainerPoint(new kakao.maps.Point(p.x - offset, p.y));
@@ -395,7 +395,7 @@ function Home() {
       />
 
       {/* floating chrome over the map */}
-      <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between gap-2 px-3 pt-[max(12px,env(safe-area-inset-top))] md:left-[396px]">
+      <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between gap-2 px-3 pt-[max(12px,env(safe-area-inset-top))] md:left-[416px]">
         <p className="glass pointer-events-auto rounded-full px-3 py-1.5 text-footnote font-bold tracking-tight shadow-float md:invisible">
           SKATE<span className="ml-0.5 rounded-full bg-label px-1.5 py-0.5 text-white">SPOT</span>
         </p>
@@ -436,7 +436,7 @@ function Home() {
             <img src="/icon.svg" alt="" className="h-9 w-9 rounded-[9px] ring-1 ring-white/25" />
             <div className="min-w-0 flex-1 leading-tight">
               <p className="text-headline font-bold tracking-tight">SKATESPOT</p>
-              <p className="truncate text-footnote text-white/70">스트리트 스팟 지도</p>
+              <p className="truncate text-footnote text-white/70">한국 스케이트 스팟 지도</p>
             </div>
             <Link href="/add" className="press inline-flex h-9 items-center gap-1 rounded-full bg-white px-3.5 text-subhead font-semibold text-label" aria-label="스팟 등록">
               <Icon name="plus" className="h-4 w-4" />
@@ -496,15 +496,16 @@ function Home() {
         }
       >
         {searching ? (
-          <SearchResults q={q} spots={spots.filter(shown)} onPlace={pickPlace} onSpot={(s) => { closeSearch(); focus(s); }} />
+          <div className="md:pt-5"><SearchResults q={q} spots={spots.filter(shown)} onPlace={pickPlace} onSpot={(s) => { closeSearch(); focus(s); }} /></div>
         ) : sel && desktop && kmap ? (
-          <SpotDetail key={sel.id} id={sel.id} docked={{ ...kmap, onClose: () => select(null) }} />
+          <div className="md:pt-4"><SpotDetail key={sel.id} id={sel.id} docked={{ ...kmap, onClose: () => select(null) }} /></div>
         ) : sel ? (
           <PlaceCard spot={sel} me={me} onClose={() => select(null)} />
         ) : group ? (
           <GroupList spots={group} onClose={() => setGroup(null)} onPick={(id) => focus(group.find((g) => g.id === id)!)} />
         ) : (
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 md:gap-0">
+            <div className="flex flex-col gap-4 md:py-6">
             <div className="flex items-baseline justify-between" aria-live="polite">
               <h1 className="text-title3 font-semibold">{summary}</h1>
               {status === "error" && (
@@ -515,8 +516,8 @@ function Home() {
             </div>
 
             {status === "ok" && (result?.total ?? 0) > 0 && (
-              <div className="-mx-4 flex flex-col gap-2">
-                <div className="flex gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:flex-wrap md:overflow-visible" role="group" aria-label="스팟 종류 필터">
+              <div className="-mx-4 flex flex-col gap-2 md:mx-0 md:gap-4">
+                <div className="flex gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:flex-wrap md:overflow-visible md:px-0" role="group" aria-label="스팟 종류 필터">
                   <FilterChip on={!kinds.length} onClick={() => setKinds([])}>전체</FilterChip>
                   {SPOT_TYPES.map((t) => (
                     <FilterChip key={t.value} on={kinds.includes(t.value)} onClick={() => toggleKind(t.value)}>
@@ -529,7 +530,7 @@ function Home() {
                     즐겨찾기
                   </FilterChip>
                 </div>
-                <div className="mx-4 flex rounded-[9px] bg-fill p-0.5" role="radiogroup" aria-label="정렬">
+                <div className="mx-4 flex rounded-[9px] bg-fill p-0.5 md:mx-0" role="radiogroup" aria-label="정렬">
                   {SORTS.map((o) => (
                     <button
                       key={o.value}
@@ -544,6 +545,10 @@ function Home() {
                 </div>
               </div>
             )}
+
+            </div>
+            {/* Kakao Map–style section break between controls and results */}
+            <div aria-hidden className="-mx-6 hidden h-2 bg-bg-grouped md:mb-2 md:block" />
 
             {status === "ok" && filtered && listed.length === 0 && (
               <div className="flex flex-col items-center gap-3 py-6 text-center">
@@ -583,7 +588,7 @@ function Home() {
             )}
 
             {listed.length > 0 && (
-              <ul className="group-inset bg-bg-grouped md:rounded-none md:bg-transparent">
+              <ul className="group-inset bg-bg-grouped md:-mx-2 md:rounded-none md:bg-transparent">
                 {listed.map((s) => (
                   <li key={s.id}>
                     <button
