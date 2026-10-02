@@ -83,7 +83,7 @@ export default function BottomSheet({
     <section
       ref={sheet}
       aria-label={label}
-      className="fixed inset-x-0 bottom-0 z-20 flex h-[calc(100dvh-56px-env(safe-area-inset-top))] flex-col rounded-t-2xl bg-bg shadow-sheet md:bg-white/[.86] md:backdrop-blur-xl md:backdrop-saturate-150 md:inset-x-auto md:bottom-4 md:left-4 md:top-4 md:h-auto md:w-[360px] md:overflow-hidden md:rounded-[20px] md:shadow-[0_4px_24px_rgba(0,0,0,.12)]"
+      className="fixed inset-x-0 bottom-0 z-20 flex h-[calc(100dvh-56px-env(safe-area-inset-top))] flex-col rounded-t-2xl bg-white/[.86] shadow-sheet backdrop-blur-xl backdrop-saturate-150 md:inset-x-auto md:bottom-4 md:left-4 md:top-4 md:h-auto md:w-[360px] md:overflow-hidden md:rounded-[20px] md:shadow-[0_4px_24px_rgba(0,0,0,.12)]"
       style={
         size.desktop
           ? undefined
@@ -95,7 +95,7 @@ export default function BottomSheet({
       }
     >
       <div
-        className="glass shrink-0 touch-none rounded-t-2xl md:rounded-none md:bg-transparent md:backdrop-blur-none"
+        className="shrink-0 touch-none rounded-t-2xl md:rounded-none"
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}

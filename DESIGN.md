@@ -55,7 +55,7 @@ Shadows are hue-neutral and low: `0 2px 12px rgba(0,0,0,.12)` for floating contr
 
 ## Material
 
-Glass (`rgba(255,255,255,.78)` + `backdrop-filter: blur(20px) saturate(180%)`) is allowed **only on chrome that floats over the map**: map controls, the "이 지역 검색" pill, the sheet header, and the nav bar over the hero photo. There it keeps map context visible while the controls stay legible, so it does real work and isn't decoration (ai-tells: decorative glass). Text content inside sheets sits on solid white.
+Glass (`rgba(255,255,255,.78)` + `backdrop-filter: blur(20px) saturate(180%)`) is allowed **only on chrome that floats over the map**. The map sheet/panel itself (phone sheet and desktop panel alike) is a lighter frost: white 86% + blur(24px) saturate(150%), just enough to hint the map underneath while text stays fully legible. Other glass: map controls, the "이 지역 검색" pill, the sheet header, and the nav bar over the hero photo. There it keeps map context visible while the controls stay legible, so it does real work and isn't decoration (ai-tells: decorative glass). Text content inside sheets sits on solid white.
 
 ## Shape and space
 
