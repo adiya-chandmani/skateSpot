@@ -32,9 +32,12 @@ function BackButton({ onPhoto }: { onPhoto: boolean }) {
     <button
       onClick={() => (window.history.length > 1 ? router.back() : router.push("/"))}
       aria-label="뒤로"
-      className={`icon-btn press fixed left-3 top-[max(12px,env(safe-area-inset-top))] z-30 shadow-float ${onPhoto ? "glass" : "bg-bg"}`}
+      className={`icon-btn press fixed left-3 top-[max(12px,env(safe-area-inset-top))] z-30 shadow-float lg:left-6 lg:top-6 lg:w-auto lg:gap-0.5 lg:bg-bg lg:pl-2 lg:pr-4 ${onPhoto ? "glass" : "bg-bg"}`}
     >
       <Icon name="chevronLeft" className="h-6 w-6 text-label" />
+      <span aria-hidden className="hidden text-headline font-semibold text-label lg:inline">
+        지도
+      </span>
     </button>
   );
 }
@@ -277,20 +280,20 @@ export default function SpotPage() {
     <div className="min-h-dvh bg-bg-grouped pb-[max(24px,env(safe-area-inset-bottom))]">
       <BackButton onPhoto={!hidden} />
       {/* lg+: photo column stays in view on the left, details scroll on the right */}
-      <div className="lg:mx-auto lg:grid lg:max-w-6xl lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:items-start lg:gap-10 lg:px-20 lg:pt-6">
+      <div className="lg:mx-auto lg:grid lg:max-w-6xl lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:grid-rows-[auto_1fr] lg:items-start lg:gap-x-10 lg:px-20 lg:pt-24">
       {!hidden ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={`/api/photos/${spot.id}`}
           alt={`${spot.name} 사진`}
           fetchPriority="high"
-          className="aspect-[4/3] max-h-[60dvh] w-full bg-fill object-cover md:mx-auto md:mt-4 md:max-w-2xl md:rounded-2xl lg:sticky lg:top-6 lg:mt-0 lg:max-h-[calc(100dvh-48px)] lg:max-w-none"
+          className="aspect-[4/3] max-h-[60dvh] w-full bg-fill object-cover md:mx-auto md:mt-4 md:max-w-2xl md:rounded-2xl lg:col-start-1 lg:row-start-1 lg:mt-0 lg:max-w-none"
         />
       ) : (
-        <div className="h-[calc(64px+env(safe-area-inset-top))]" />
+        <div className="h-[calc(64px+env(safe-area-inset-top))] lg:hidden" />
       )}
 
-      <article className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 pt-4 lg:px-0 lg:pt-0">
+      <article className="mx-auto flex w-full max-w-2xl flex-col gap-5 px-4 pt-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:px-0 lg:pt-0">
         {hidden && (
           <p className="card text-subhead" role="status">
             운영 검토로 숨김 처리된 스팟입니다. 다른 사용자에게 보이지 않습니다. 정정 요청은{" "}
@@ -305,11 +308,13 @@ export default function SpotPage() {
           <h1 className="text-large-title font-bold tracking-tight">{spot.name}</h1>
           <SpotMeta types={spot.types} />
         </header>
-        {!hidden && <FavoriteButton spotId={spot.id} />}
+        {/* phones: favorite bar + big tiles; desktop: one compact row (tiles first, favorite last) */}
+        <div className="flex flex-col gap-5 lg:flex-row-reverse lg:gap-2">
+        {!hidden && <div className="lg:w-40 lg:shrink-0"><FavoriteButton spotId={spot.id} /></div>}
 
-        <div className="grid auto-cols-fr grid-flow-col gap-2">
+        <div className="grid auto-cols-fr grid-flow-col gap-2 lg:flex-1">
           {actions.map((a) => {
-            const cls = `press flex min-h-16 flex-col items-center justify-center gap-1 rounded-xl text-caption font-semibold ${a.blue ? "bg-directions text-white" : a.danger ? "bg-bg text-danger" : "bg-bg text-link"}`;
+            const cls = `press flex min-h-16 flex-col items-center justify-center gap-1 rounded-xl text-caption lg:min-h-11 lg:flex-row lg:gap-1.5 lg:rounded-[10px] lg:text-headline font-semibold ${a.blue ? "bg-directions text-white" : a.danger ? "bg-bg text-danger" : "bg-bg text-link"}`;
             return a.href ? (
               <Link key={a.label} href={a.href} className={cls}>
                 <Icon name={a.icon} className="h-6 w-6" />
@@ -322,6 +327,7 @@ export default function SpotPage() {
               </button>
             );
           })}
+        </div>
         </div>
 
         {msg && (
@@ -349,7 +355,7 @@ export default function SpotPage() {
           <h2 id="about" className="group-header">
             설명
           </h2>
-          <p className="card whitespace-pre-wrap break-words text-body">{spot.description}</p>
+          <p className="card whitespace-pre-wrap break-words text-body">{linkify(spot.description)}</p>
         </section>
 
         {dirOpen && (
@@ -364,6 +370,8 @@ export default function SpotPage() {
           />
         )}
 
+      </article>
+      <div className="mx-auto w-full max-w-2xl px-4 pt-5 lg:col-start-1 lg:row-start-2 lg:px-0 lg:pt-8">
         <section aria-labelledby="where">
           <h2 id="where" className="group-header">
             위치
@@ -416,7 +424,7 @@ export default function SpotPage() {
             최종 수정 {new Date(spot.updated_at).toLocaleDateString("ko-KR")} · ‘공개됨’은 안전하거나 스케이트가 허용된 장소임을 뜻하지 않습니다.
           </p>
         </section>
-      </article>
+      </div>
       </div>
 
       {panel === "login" && <LoginModal onDone={() => setPanel("report")} onCancel={() => setPanel("none")} />}
@@ -556,4 +564,20 @@ function Directions({
       </div>
     </section>
   );
+}
+
+/** Raw source URLs in descriptions read as noise; show them as short host links. */
+function linkify(text: string) {
+  return text.split(/(https?:\/\/[^\s]+)/g).map((part, i) => {
+    if (i % 2 === 0) return part;
+    let host = part;
+    try {
+      host = new URL(part).hostname.replace(/^www\./, "");
+    } catch {}
+    return (
+      <a key={i} href={part} target="_blank" rel="noopener noreferrer" className="text-link underline underline-offset-2">
+        {host} 링크 ↗
+      </a>
+    );
+  });
 }

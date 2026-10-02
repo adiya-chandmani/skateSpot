@@ -226,13 +226,26 @@ function Home() {
     // (measured; exact at every level). Measuring it per render drifted with pixel rounding.
     const px = 3.2 / 2 ** map.getLevel();
     const cells = new Map<string, SpotPin[]>();
+    const at = new Map<string, [number, number]>(); // spot id → map px (pan-invariant)
     for (const s of visible) {
       const w = new kakao.maps.LatLng(s.lat, s.lng).toCoords();
+      at.set(s.id, [w.getX() * px, w.getY() * px]);
       const cell = close ? 64 : 56; // emoji pins are bigger
       const key = s.id === selected ? s.id : `${Math.floor((w.getX() * px) / cell)}:${Math.floor((w.getY() * px) / cell)}`;
       cells.set(key, [...(cells.get(key) ?? []), s]);
     }
-    for (const g of cells.values()) {
+    // Neighbouring cells can put their bubbles a few px apart; merge groups whose centres are
+    // closer than one pin so markers never overlap. Distances don't change when panning.
+    const centre = (g: SpotPin[]) => g.reduce((a, s) => [a[0] + at.get(s.id)![0] / g.length, a[1] + at.get(s.id)![1] / g.length], [0, 0]);
+    const groups: SpotPin[][] = [];
+    for (const key of [...cells.keys()].sort()) {
+      const g = cells.get(key)!;
+      const c = centre(g);
+      const near = key === selected ? undefined : groups.find((h) => h[0].id !== selected && Math.hypot(centre(h)[0] - c[0], centre(h)[1] - c[1]) < (close ? 48 : 40));
+      if (near) near.push(...g);
+      else groups.push([...g]);
+    }
+    for (const g of groups) {
       if (g.length === 1) {
         const s = g[0];
         const on = s.id === selected;
@@ -493,7 +506,7 @@ function Home() {
             )}
 
             {listed.length > 0 && (
-              <ul className="group-inset bg-bg-grouped">
+              <ul className="group-inset bg-bg-grouped md:rounded-none md:bg-transparent">
                 {listed.map((s) => (
                   <li key={s.id}>
                     <button
