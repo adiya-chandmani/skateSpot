@@ -4,9 +4,9 @@ import "./globals.css";
 import { FavoritesProvider } from "@/components/Favorites";
 
 export const metadata: Metadata = {
-  title: "SK8KR — 한국 스케이트 스팟 지도",
+  title: "SPOTK8 — 한국 스케이트 스팟 지도",
   description: "스케이터가 함께 만드는 한국 스케이트 스팟 지도",
-  appleWebApp: { capable: true, title: "SK8KR", statusBarStyle: "default" },
+  appleWebApp: { capable: true, title: "SPOTK8", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {

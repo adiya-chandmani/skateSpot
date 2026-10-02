@@ -135,7 +135,7 @@ function Home() {
     const kakao = kakaoRef.current;
     if (!map) return;
     if (level) map.setLevel(level);
-    const offset = window.matchMedia("(min-width: 768px)").matches ? 208 : 0;
+    const offset = window.matchMedia("(min-width: 768px)").matches ? 188 : 0;
     const proj = map.getProjection();
     const p = proj.containerPointFromCoords(new kakao.maps.LatLng(lat, lng));
     const c = proj.coordsFromContainerPoint(new kakao.maps.Point(p.x - offset, p.y));
@@ -395,9 +395,9 @@ function Home() {
       />
 
       {/* floating chrome over the map */}
-      <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between gap-2 px-3 pt-[max(12px,env(safe-area-inset-top))] md:left-[416px]">
+      <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between gap-2 px-3 pt-[max(12px,env(safe-area-inset-top))] md:left-[376px]">
         <p className="glass pointer-events-auto rounded-full px-3 py-1.5 text-footnote font-bold tracking-tight shadow-float md:invisible">
-          SK8<span className="ml-0.5 rounded-full bg-label px-1.5 py-0.5 text-white">KR</span>
+          SPOT<span className="ml-0.5 rounded-full bg-label px-1.5 py-0.5 text-white">K8</span>
         </p>
         <div className="flex flex-col gap-2">
           <div className="glass pointer-events-auto flex flex-col overflow-hidden rounded-xl shadow-float">
@@ -430,28 +430,29 @@ function Home() {
         label="스팟 목록"
         header={
           <>
-          {/* desktop: Kakao Map–style brand band (griptape black) holding the account actions */}
-          <div className="hidden items-center gap-3 bg-tint px-5 py-4 text-white md:flex">
+          {/* desktop: compact brand row on the same glass as the map controls */}
+          <div className="hidden items-center gap-2.5 px-4 pb-1 pt-3.5 md:flex">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/icon.svg" alt="" className="h-9 w-9 rounded-[9px] ring-1 ring-white/25" />
-            <div className="min-w-0 flex-1 leading-tight">
-              <p className="text-headline font-bold tracking-tight">SK8KR</p>
-              <p className="truncate text-footnote text-white/70">한국 스케이트 스팟 지도</p>
-            </div>
-            <Link href="/add" className="press inline-flex h-9 items-center gap-1 rounded-full bg-white px-3.5 text-subhead font-semibold text-label" aria-label="스팟 등록">
-              <Icon name="plus" className="h-4 w-4" />
-              등록
+            <img src="/icon.svg" alt="" className="h-8 w-8" />
+            <p className="min-w-0 flex-1 leading-tight">
+              <span className="block text-subhead font-bold tracking-tight">
+                SPOT<span className="text-label-2">K8</span>
+              </span>
+              <span className="block truncate text-caption text-label-2">한국 스케이트 스팟 지도</span>
+            </p>
+            <Link href="/add" className="press flex h-9 w-9 items-center justify-center rounded-full bg-tint text-white" aria-label="스팟 등록">
+              <Icon name="plus" className="h-5 w-5" />
             </Link>
-            <Link href="/account" className="press flex h-9 w-9 items-center justify-center rounded-full bg-white/15 text-white hover:bg-white/25" aria-label={session ? "내 계정" : "로그인"}>
+            <Link href="/account" className="press flex h-9 w-9 items-center justify-center rounded-full bg-fill text-label-2" aria-label={session ? "내 계정" : "로그인"}>
               {session?.user.email ? (
-                <span className="text-subhead font-semibold uppercase">{session.user.email[0]}</span>
+                <span className="text-subhead font-semibold uppercase text-label">{session.user.email[0]}</span>
               ) : (
                 <Icon name="person" className="h-5 w-5" />
               )}
             </Link>
           </div>
-          <div className="flex items-center gap-2 px-4 pb-3 pt-1 md:pb-4 md:pt-4">
-            <label className="flex h-11 min-w-0 flex-1 items-center gap-2 rounded-[10px] bg-fill px-3 text-label-2 md:h-12 md:bg-bg md:ring-1 md:ring-separator md:focus-within:ring-2 md:focus-within:ring-label">
+          <div className="flex items-center gap-2 px-4 pb-3 pt-1 md:pt-2.5">
+            <label className="flex h-11 min-w-0 flex-1 items-center gap-2 rounded-[10px] bg-fill px-3 text-label-2 md:h-10 md:rounded-xl md:focus-within:ring-2 md:focus-within:ring-label">
               <Icon name="search" className="h-[18px] w-[18px] shrink-0" />
               <span className="sr-only">스팟·지역 검색</span>
               <input
@@ -505,9 +506,9 @@ function Home() {
           <GroupList spots={group} onClose={() => setGroup(null)} onPick={(id) => focus(group.find((g) => g.id === id)!)} />
         ) : (
           <div className="flex flex-col gap-4 md:gap-0">
-            <div className="flex flex-col gap-4 md:py-6">
+            <div className="flex flex-col gap-3 md:pb-3 md:pt-4">
             <div className="flex items-baseline justify-between" aria-live="polite">
-              <h1 className="text-title3 font-semibold">{summary}</h1>
+              <h1 className="text-title3 font-semibold md:text-headline">{summary}</h1>
               {status === "error" && (
                 <button className="btn-plain" onClick={() => { setStatus("loading"); load(); }}>
                   다시 시도
@@ -516,7 +517,7 @@ function Home() {
             </div>
 
             {status === "ok" && (result?.total ?? 0) > 0 && (
-              <div className="-mx-4 flex flex-col gap-2 md:mx-0 md:gap-4">
+              <div className="-mx-4 flex flex-col gap-2 md:mx-0 md:gap-3">
                 <div className="flex gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:flex-wrap md:overflow-visible md:px-0" role="group" aria-label="스팟 종류 필터">
                   <FilterChip on={!kinds.length} onClick={() => setKinds([])}>전체</FilterChip>
                   {SPOT_TYPES.map((t) => (
@@ -530,14 +531,14 @@ function Home() {
                     즐겨찾기
                   </FilterChip>
                 </div>
-                <div className="mx-4 flex rounded-[9px] bg-fill p-0.5 md:mx-0" role="radiogroup" aria-label="정렬">
+                <div className="mx-4 flex rounded-[9px] bg-fill p-0.5 md:mx-0 md:self-start md:rounded-lg" role="radiogroup" aria-label="정렬">
                   {SORTS.map((o) => (
                     <button
                       key={o.value}
                       role="radio"
                       aria-checked={sort === o.value}
                       onClick={() => chooseSort(o.value)}
-                      className={`press min-h-9 flex-1 rounded-[7px] text-footnote font-semibold ${sort === o.value ? "bg-bg shadow-[0_1px_4px_rgba(0,0,0,.12)]" : "text-label-2"}`}
+                      className={`press min-h-9 flex-1 rounded-[7px] text-footnote font-semibold md:min-h-7 md:flex-none md:rounded-md md:px-3 md:text-caption ${sort === o.value ? "bg-bg shadow-[0_1px_4px_rgba(0,0,0,.12)]" : "text-label-2"}`}
                     >
                       {o.label}
                     </button>
@@ -548,7 +549,7 @@ function Home() {
 
             </div>
             {/* Kakao Map–style section break between controls and results */}
-            <div aria-hidden className="-mx-6 hidden h-2 bg-bg-grouped md:mb-2 md:block" />
+            <div aria-hidden className="-mx-4 hidden h-px bg-separator md:block" />
 
             {status === "ok" && filtered && listed.length === 0 && (
               <div className="flex flex-col items-center gap-3 py-6 text-center">
@@ -592,7 +593,7 @@ function Home() {
                 {listed.map((s) => (
                   <li key={s.id}>
                     <button
-                      className="row press w-full text-left hover:bg-black/[.03]"
+                      className="row press w-full text-left hover:bg-black/[.03] md:min-h-0 md:py-2"
                       onClick={() => {
                         focus(s);
                       }}
@@ -601,12 +602,12 @@ function Home() {
                       onFocus={() => highlight(s.id, true)}
                       onBlur={() => highlight(s.id, false)}
                     >
-                      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-bg text-[22px] leading-none" style={{ boxShadow: `inset 0 0 0 2px ${spotColor(s.types)}` }} aria-hidden>
+                      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-bg text-[22px] leading-none md:h-8 md:w-8 md:text-[17px]" style={{ boxShadow: `inset 0 0 0 2px ${spotColor(s.types)}` }} aria-hidden>
                         {spotEmoji(s.types)}
                       </span>
                       <span className="min-w-0 flex-1">
-                        <span className="block truncate text-headline font-semibold">{s.name}</span>
-                        <span className="block truncate text-subhead text-label-2">
+                        <span className="block truncate text-headline font-semibold md:text-subhead">{s.name}</span>
+                        <span className="block truncate text-subhead text-label-2 md:text-footnote">
                           {s.types.map(typeLabel).join(" · ")}
                           {me && ` · ${formatDistance(distanceM(me, s))}`}
                         </span>
@@ -631,7 +632,7 @@ function FilterChip({ on, onClick, children }: { on: boolean; onClick: () => voi
     <button
       aria-pressed={on}
       onClick={onClick}
-      className={`press inline-flex min-h-9 shrink-0 items-center gap-1.5 rounded-full px-3.5 text-footnote font-semibold ${on ? "bg-tint text-white" : "bg-fill text-label"}`}
+      className={`press inline-flex min-h-9 shrink-0 items-center gap-1.5 rounded-full px-3.5 text-footnote font-semibold md:min-h-7 md:gap-1 md:px-2.5 md:text-caption ${on ? "bg-tint text-white" : "bg-fill text-label"}`}
     >
       {children}
     </button>
