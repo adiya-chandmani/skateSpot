@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useEffect, useId, useState } from "react";
 import { useSignIn, useSignUp } from "@clerk/nextjs";
 import { isClerkAPIResponseError } from "@clerk/nextjs/errors";
-import Icon from "@/components/Icon";
 
 const RESEND_WAIT = 60;
 
