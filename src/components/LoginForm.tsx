@@ -119,9 +119,8 @@ export default function LoginForm({ onDone, onCancel }: { onDone: () => void; on
   return (
     <div className="flex flex-col gap-5">
       <div className="flex flex-col items-center gap-2 pt-2 text-center">
-        <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-pin text-white" aria-hidden>
-          <Icon name="skate" className="h-8 w-8" />
-        </span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/icon.svg" alt="" className="h-14 w-14" />
         <h2 className="text-title2 font-bold">{step === "email" ? "로그인" : "코드 입력"}</h2>
         <p className="text-subhead text-label-2">
           {step === "email" ? (
